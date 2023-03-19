@@ -1,0 +1,10 @@
+// Genetix Studio
+draw_set_font(font_large_hud)
+draw_set_alpha(image_alpha)
+draw_set_color(c_yellow)
+draw_text(162,y-42,"Phoenix")
+draw_set_color(c_black)
+draw_text(122,y-12,myText)
+draw_set_color(c_lime)
+draw_text(120,y-10,myText)
+draw_set_alpha(1)

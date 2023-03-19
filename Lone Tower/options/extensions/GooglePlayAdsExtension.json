@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "GooglePlayAdsExtension",
+    "path": "extensions/GooglePlayAdsExtension/GooglePlayAdsExtension.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}
