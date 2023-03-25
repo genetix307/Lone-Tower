@@ -1,6 +1,6 @@
 // Genetix Studio
 if hud.paused=0 and hud.gameover=0 {
-audio_play_sound(sfx_pop,1,false)
+if makeSound=1 { audio_play_sound(sfx_pop,1,false)}
 //if myType="Green" {hud.xp +=hud.player_xp_gain}
 hud.xp +=1
 //if myType="Purple" {hud.xp +=hud.player_xp_gain*3}

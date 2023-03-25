@@ -150,5 +150,12 @@ if store.fate = 17 {store.current_wave = 10 enemy_level = 10}
 if store.fate = 21 {attack_damage +=2 attack_speed +=.25 knockback +=1}
 if store.fate = 22 {supplydrop_chance +=2}
 
+//Level Upgrades
+perk_lvl_brawn=0
+perk_lvl_toughskin=0
+perk_lvl_swift=0
+perk_lvl_mended=0
+
+
 //Other
 if store.start_max_speed = 1 {store.game_speed = max_gamespeed} else {store.game_speed = 1}

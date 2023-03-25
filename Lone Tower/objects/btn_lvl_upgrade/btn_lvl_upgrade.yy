@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "btn_lvl_upgrade",
   "spriteId": {
-    "name": "btn_xlarge_tab",
-    "path": "sprites/btn_xlarge_tab/btn_xlarge_tab.yy",
+    "name": "btn_large_tab",
+    "path": "sprites/btn_large_tab/btn_large_tab.yy",
   },
   "solid": false,
   "visible": true,
