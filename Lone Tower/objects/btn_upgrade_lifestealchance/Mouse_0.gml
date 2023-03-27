@@ -9,7 +9,7 @@ if hud.free_upgrade_chance >= random(100)
 else {store.gold -= hud.cost_lifesteal_chance}
 hud.lifesteal_chance += .5
 hud.lvl_lifesteal_chance +=1
-hud.cost_lifesteal_chance += 4 +(hud.lvl_lifesteal_chance*2) 
+hud.cost_lifesteal_chance += 5 +(hud.lvl_lifesteal_chance*2) 
 if hud.lvl_lifesteal_chance > 10 {hud.cost_lifesteal_chance += 25}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)

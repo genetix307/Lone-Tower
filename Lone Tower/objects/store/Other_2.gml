@@ -7,7 +7,7 @@ current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.41"
+version = "1.42"
 devMode = 1
 
 //Settings
@@ -224,4 +224,5 @@ code_heart = 0
 code_booster = 0
 code_genetix = 0
 code_yum = 0
+code_levelup=0
 

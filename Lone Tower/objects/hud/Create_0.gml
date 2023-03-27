@@ -3,7 +3,7 @@ if store.tier=2 {instance_create_depth(x,y,100,waveGen_tier2)}
 instance_create_depth(room_width/2,room_height/2,depth-1000,transistion_keyhole)
 ad_load_interstitial()
 repeat 150 instance_create_depth(x,y,85,grass)
-repeat 10 instance_create_depth(x,y,84,mushrooms)
+repeat 4 instance_create_depth(x,y,84,mushrooms)
 depth = -2000
 alarm[0] = 60 //Regen
 audio_stop_all()
@@ -155,7 +155,19 @@ perk_lvl_brawn=0
 perk_lvl_toughskin=0
 perk_lvl_swift=0
 perk_lvl_mended=0
-
+perk_lvl_ironwalls=0
+perk_lvl_sharpshooter=0
+perk_lvl_miner=0
+perk_lvl_heavyhitter=0
+perk_lvl_snakeeyes=0
+perk_lvl_merchant=0
+perk_lvl_wideaim=0
+perk_lvl_farmer=0
+perk_lvl_bomb=0
+perk_lvl_ice=0
+perk_lvl_smoke=0
+perk_lvl_heavy=0
+perk_lvl_wisdom=0
 
 //Other
 if store.start_max_speed = 1 {store.game_speed = max_gamespeed} else {store.game_speed = 1}

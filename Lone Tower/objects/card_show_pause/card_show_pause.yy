@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "show_levelup",
-  "spriteId": null,
+  "name": "card_show_pause",
+  "spriteId": {
+    "name": "spr_card",
+    "path": "sprites/spr_card/spr_card.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -28,12 +31,11 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "InGame",
-    "path": "folders/Objects/Menu/InGame.yy",
+    "name": "Paused",
+    "path": "folders/Objects/Menu/InGame/Paused.yy",
   },
 }

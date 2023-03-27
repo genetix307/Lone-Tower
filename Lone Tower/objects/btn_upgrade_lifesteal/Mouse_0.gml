@@ -10,8 +10,8 @@ else {store.gold -= hud.cost_lifesteal_amount}
 hud.lifesteal_amount +=1
 hud.lvl_lifesteal_amount +=1
 hud.cost_lifesteal_amount += 12 +(hud.lvl_lifesteal_amount*2) 
-if hud.lvl_lifesteal_amount > 3 {hud.cost_lifesteal_amount+=25}
-if hud.lvl_lifesteal_amount > 5 {hud.cost_lifesteal_amount+=50}
+if hud.lvl_lifesteal_amount > 2 {hud.cost_lifesteal_amount+=25}
+if hud.lvl_lifesteal_amount > 4 {hud.cost_lifesteal_amount+=50}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Lifesteal Amount")

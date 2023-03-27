@@ -189,4 +189,5 @@ store.code_heart = 0
 store.code_booster = 0
 store.code_genetix = 0
 store.code_yum = 0
+store.code_levelup=0
 }

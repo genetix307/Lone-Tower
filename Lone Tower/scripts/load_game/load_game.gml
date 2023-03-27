@@ -181,6 +181,7 @@ function load_game() {
 	store.code_booster = ini_read_real( "save1", "code_booster",store.code_booster);
 	store.code_genetix = ini_read_real( "save1", "code_genetix",store.code_genetix);
 	store.code_yum = ini_read_real( "save1", "code_yum",store.code_yum);
+	store.code_levelup = ini_read_real( "save1", "code_levelup",store.code_levelup);
 	
 	//show_message("Game Loaded")
 	ini_close();

@@ -23,11 +23,11 @@ store.gems += hud.daily_gem
 store.gems_earned += hud.daily_gem
 hud.gems_earned += hud.daily_gem
 tower.last_hit = 0
-if store.current_wave%5 == 0 and store.total_battles > 1 and instance_number(chest_coins) <= 0 {instance_create_depth(430,624,hud.depth,chest_coins)}
+if store.current_wave%5 == 0 and store.total_battles > 1 and instance_number(chest_coins) <= 0 {instance_create_depth(430,608,hud.depth,chest_coins)}
 if instance_number(mineshaft) > 0 {mineshaft.dig_gems+=1}
 if instance_number(crop_coin) > 0 {with crop_coin grow_days -=1}
 with mushrooms {if 2>random(15) {instance_destroy()}}
-repeat 2 instance_create_depth(x,y,84,mushrooms)
+instance_create_depth(x,y,84,mushrooms)
 
 if tier < 24 {tier +=2} else {tier = 0 tier_level +=10}
 hud.enemy_level = store.current_wave+tier_level 
