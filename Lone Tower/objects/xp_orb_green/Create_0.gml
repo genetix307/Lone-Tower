@@ -2,6 +2,7 @@
 depth =-y+20
 blackhole_used=0
 alarm[0]=60
+//alarm[0]=100
 makeSound=0
 
 //myType="Green"

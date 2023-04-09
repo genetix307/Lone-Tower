@@ -25,3 +25,5 @@ if reward_item_name = "Heavy Arrows" {reward_items = round(25+random(100))}
 reward_gold=round(reward_gold*(store.card_lvl_supplydrop+1))
 reward_gems=round(reward_gems*(store.card_lvl_supplydrop+1))
 reward_items=round(reward_items*(store.card_lvl_supplydrop+1))
+
+if store.auto_crate=1 {alarm[1]=60}

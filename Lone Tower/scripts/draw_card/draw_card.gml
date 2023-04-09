@@ -109,7 +109,7 @@ draw_sprite(spr_card_art,7,x,y-28)
 draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_wind),15,86)
 draw_set_color(c_white)
-draw_text_ext(x-43,y+8,"Slow down enemies inside of attack range by "+string((store.card_lvl_wind*2)+13)+"%",14,88)
+draw_text_ext(x-43,y+8,"Slow down enemies inside of attack range by "+string((store.card_lvl_wind*1)+14)+"%",14,88)
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_wind)) 
 }

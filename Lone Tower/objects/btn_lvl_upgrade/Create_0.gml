@@ -7,7 +7,6 @@ myHeader=""
 myInfo=""
 myLevel=""
 isNew=0
+image_alpha=.01
 
-
-
-
+if store.auto_perk=1 {alarm[1]=30+random(30)}

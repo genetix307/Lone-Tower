@@ -17,6 +17,8 @@ function load_game() {
 	store.show_healthbars = ini_read_real( "save1", "show_healthbars",store.show_healthbars);
 	store.slow_mode = ini_read_real( "save1", "slow_mode",store.slow_mode);
 	store.minigames = ini_read_real( "save1", "minigames",store.minigames);
+	store.auto_crate = ini_read_real( "save1", "auto_crate",store.auto_crate);
+	store.auto_perk = ini_read_real( "save1", "auto_perk",store.auto_perk);
 	
 	//Challenges
 	store.challenge_a = ini_read_real( "save1", "challenge_a",store.challenge_a);
