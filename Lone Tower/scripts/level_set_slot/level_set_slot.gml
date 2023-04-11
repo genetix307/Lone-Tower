@@ -107,5 +107,11 @@ myInfo="Orbs worth +1 XP"
 myLevel="Level "+string(hud.perk_lvl_wisdom)+">"+string(hud.perk_lvl_wisdom+1)
 if hud.perk_lvl_wisdom=0 {isNew=1}
 }
+if my_id=18 {
+myHeader="Guardian Shiva"
+myInfo=string(hud.perk_lvl_shiva*3+3)+"% to summon Shiva per day"
+myLevel="Level "+string(hud.perk_lvl_shiva)+">"+string(hud.perk_lvl_shiva+1)
+if hud.perk_lvl_shiva=0 {isNew=1}
+}
 
 }

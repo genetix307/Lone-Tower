@@ -69,5 +69,10 @@ if my_id=17 {
 hud.perk_lvl_wisdom+=1
 //Orbs +1 XP
 }
+if my_id=18 {
+hud.perk_lvl_shiva+=1
+instance_create_depth(tower.x,tower.y,depth,guardian_shiva)
+//Chance each day to summon Shiva
+}
 
 }

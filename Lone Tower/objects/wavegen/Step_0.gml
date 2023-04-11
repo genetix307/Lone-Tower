@@ -51,6 +51,9 @@ if (store.challenge_a=3 or store.challenge_b=3 or store.challenge_c=3) and store
 //Fates
 if store.fate = 18 and hud.tower_hp >= hud.tower_maxhp {store.gold +=store.current_wave*3 store.gold_earned+=store.current_wave*3}
 
+//Perks
+if (hud.perk_lvl_shiva*3)>random(100) {instance_create_depth(tower.x,tower.y+90,depth,guardian_shiva)}
+
 //Tier 2 Unlock Notify
 if store.best_day_tier1=101 and store.current_wave=101 {instance_create_depth(x,y-8,depth,show_use_item).myMessage = "  Tier 2 Unlocked!"}
 

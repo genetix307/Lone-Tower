@@ -52,6 +52,9 @@ if hud.perk_lvl_heavy>=999 {return false}
 if slot=17 {
 if hud.perk_lvl_wisdom>=1 {return false}
 }
+if slot=18 {
+if hud.perk_lvl_shiva>=7 {return false}
+}
 
 return true
 }

@@ -51,6 +51,9 @@ if (store.challenge_a=3 or store.challenge_b=3 or store.challenge_c=3) and store
 //Fates
 if store.fate = 18 and hud.tower_hp >= hud.tower_maxhp {store.gold +=store.current_wave*3 store.gold_earned+=store.current_wave*3}
 
+//Perks
+if (hud.perk_lvl_shiva*3)>random(100) {instance_create_depth(tower.x,tower.y+90,depth,guardian_shiva)}
+
 //Set Wind Speed
 hud.wind_speed=round(3+random(22))
 if hud.winter>0 {hud.wind_speed+=round(random(35))}
