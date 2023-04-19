@@ -183,6 +183,7 @@
 	ini_write_real( "save1", "code_genetix", store.code_genetix);
 	ini_write_real( "save1", "code_yum", store.code_yum);
 	ini_write_real( "save1", "code_levelup", store.code_levelup);
+	ini_write_real( "save1", "code_popcorn", store.code_popcorn);
 	
 	//show_message("Game Saved")
 	ini_close();
