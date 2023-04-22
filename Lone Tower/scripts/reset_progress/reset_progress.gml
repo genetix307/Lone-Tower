@@ -69,6 +69,7 @@ store.tentacles_slain = 0
 store.darkones_slain = 0
 store.reapers_slain = 0
 store.carbuncles_slain = 0
+store.archers_slain=0
 store.gems_earned = 0
 store.gold_earned = 0
 store.total_upgrades = 0

@@ -63,11 +63,17 @@ mySlain=store.carbuncles_slain
 sprite_index=spr_carbuncle
 }
 if my_id=10 {
+myName="Name: Skeleton Archer\nType: Uncommon - Ground"
+myDesc="Skull & Bows, long range attack from the grave."
+mySlain=store.archers_slain
+sprite_index=spr_archer_attack
+}
+if my_id=11 {
 myName="Name: Dark One\nType: Boss - Ground"
 myDesc="The Summoner of Chaos"
 mySlain=store.darkones_slain
 sprite_index=spr_wizard_run
 }
 
-total_ids=10 //Total number of enemies
+total_ids=11 //Total number of enemies
 }

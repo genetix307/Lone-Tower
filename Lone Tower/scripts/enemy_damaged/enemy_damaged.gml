@@ -47,6 +47,7 @@ if log_name = "DarkOne" {instance_create_depth(x,y,depth-1,darkone_death) store.
 if log_name = "Reaper" {instance_create_depth(x,y,depth-1,reaper_death) store.reapers_slain +=1 make_arcade()}
 if log_name = "Bee" {instance_create_depth(x,y,depth-1,bee_death) store.bees_slain +=1 if (store.challenge_a=12 or store.challenge_b=12 or store.challenge_c=12) and store.goal_pest<25 {store.goal_pest+=1}}
 if log_name = "Carbuncle" {instance_create_depth(x,y,depth-1,carbuncle_death) store.carbuncles_slain +=1}
+if log_name = "Archer" {instance_create_depth(x,y,depth-1,archer_death) store.archers_slain +=1}
 instance_destroy()
 }
 

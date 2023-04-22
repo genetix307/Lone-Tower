@@ -94,7 +94,15 @@ var spawnCarbuncles = round(random(1))+round(store.current_wave/33)
 repeat(spawnCarbuncles) {
     var dir = random_range(0, 359);
     var distance = random_range(400, 300+distanceCarbuncles);
-    if store.current_wave >=30 {instance_create_depth(x + lengthdir_x(distance, dir), y + lengthdir_y(distance, dir),0,enemy_carbuncle);}
+    if store.current_wave >=101 {instance_create_depth(x + lengthdir_x(distance, dir), y + lengthdir_y(distance, dir),0,enemy_carbuncle);}
+}
+//Gen Archer
+var distanceArchers = 1350
+var spawnArchers = round(random(1))+round(store.current_wave/16)
+repeat(spawnArchers) {
+    var dir = random_range(0, 359);
+    var distance = random_range(400, 300+distanceArchers);
+    if store.current_wave >=30 {instance_create_depth(x + lengthdir_x(distance, dir), y + lengthdir_y(distance, dir),0,enemy_archer);}
 }
 
 //Gen Event Wagon ----------------------------

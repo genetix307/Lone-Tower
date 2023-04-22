@@ -35,7 +35,7 @@ if slot=11 {
 if hud.perk_lvl_wideaim>=5 {return false}
 }
 if slot=12 {
-if hud.perk_lvl_farmer>=999 {return false}
+if hud.perk_lvl_farmer>=5 {return false}
 }
 if slot=13 {
 if hud.perk_lvl_bomb>=999 {return false}
@@ -50,10 +50,13 @@ if slot=16 {
 if hud.perk_lvl_heavy>=999 {return false}
 }
 if slot=17 {
-if hud.perk_lvl_wisdom>=1 {return false}
+if hud.perk_lvl_wisdom>=2 {return false}
 }
 if slot=18 {
 if hud.perk_lvl_shiva>=7 {return false}
+}
+if slot=19 {
+if hud.perk_lvl_funguy>=5 {return false}
 }
 
 return true

@@ -6,8 +6,8 @@ baseSpeed = 1
 mySpeed = 0
 myAttack = round(3+(store.current_wave/5))
 myDrop = 1 + hud.drop_bonus
-if store.tier=1 {myHP = 10+store.current_wave+waveGen.tier_level}
-if store.tier=2 {myHP = 15+store.current_wave+waveGen_tier2.tier_level}
+if store.tier=1 {myHP = 30+store.current_wave+waveGen.tier_level}
+if store.tier=2 {myHP = 90+store.current_wave+waveGen_tier2.tier_level}
 maxHP = myHP
 atk_speed = 125
 

@@ -2,12 +2,12 @@
 if hud.paused = 0 {
 audio_play_sound(sfx_harvest,1,false)
 store.mushrooms_harvested +=1
-store.gold += 5
-store.gold_earned += 5
+store.gold += 5+(hud.perk_lvl_funguy*5)
+store.gold_earned += 5+(hud.perk_lvl_funguy*5)
 if store.card_slot_1 = 5 or store.card_slot_2 = 5 or store.card_slot_3 = 5 or store.card_slot_4 = 5 
 {
-store.gold += (store.card_lvl_farming)
-store.gold_earned += (store.card_lvl_farming)
+store.gold += (store.card_lvl_farming*3)
+store.gold_earned += (store.card_lvl_farming*3)
 }
 instance_create_depth(x-24,y+20,depth-1000,show_mushroom_harvest)
 instance_create_depth(x,y-2,depth-1000,effect_harvest)

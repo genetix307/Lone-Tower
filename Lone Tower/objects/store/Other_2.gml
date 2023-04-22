@@ -79,6 +79,7 @@ tentacles_slain = 0
 darkones_slain = 0
 reapers_slain = 0
 carbuncles_slain = 0
+archers_slain=0
 gems_earned = 0
 gold_earned = 0
 total_upgrades = 0

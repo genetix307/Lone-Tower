@@ -2,8 +2,8 @@
 if image_index = 1 and hud.paused = 0 {
 audio_play_sound(sfx_harvest,1,false)
 store.crops_harvested +=1
-store.gold += 10+(hud.perk_lvl_farmer*3)
-store.gold_earned += (hud.perk_lvl_farmer*3)
+store.gold += 10+(hud.perk_lvl_farmer*5)
+store.gold_earned += (hud.perk_lvl_farmer*5)
 if store.card_slot_1 = 5 or store.card_slot_2 = 5 or store.card_slot_3 = 5 or store.card_slot_4 = 5 
 {
 store.gold += (store.card_lvl_farming*15)

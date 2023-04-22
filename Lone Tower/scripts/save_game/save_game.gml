@@ -67,6 +67,7 @@
 	ini_write_real( "save1", "darkones_slain", store.darkones_slain);
 	ini_write_real( "save1", "reapers_slain", store.reapers_slain);
 	ini_write_real( "save1", "carbuncles_slain", store.carbuncles_slain);
+	ini_write_real( "save1", "archers_slain", store.archers_slain);
 	ini_write_real( "save1", "gems_earned", store.gems_earned);
 	ini_write_real( "save1", "gold_earned", store.gold_earned);
 	ini_write_real( "save1", "total_upgrades", store.total_upgrades);

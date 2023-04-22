@@ -52,7 +52,7 @@ draw_sprite(spr_card_art,3,x,y-28)
 draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_farming),15,86)
 draw_set_color(c_white)
-draw_text_ext(x-43,y+8,"Crops are worth +"+string(store.card_lvl_farming*15)+" Gold. Mushrooms +"+string(store.card_lvl_farming)+" Gold.",14,88)
+draw_text_ext(x-43,y+8,"Crops are worth +"+string(store.card_lvl_farming*15)+" Gold. Mushrooms +"+string(store.card_lvl_farming*3)+" Gold.",14,88)
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_farming)) 
 }

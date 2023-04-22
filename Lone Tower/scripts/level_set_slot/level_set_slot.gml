@@ -73,7 +73,7 @@ if hud.perk_lvl_wideaim=0 {isNew=1}
 }
 if my_id=12 {
 myHeader="Farmer"
-myInfo="Crops Worth +3 Gold"
+myInfo="Crops Worth +5 Gold"
 myLevel="Level "+string(hud.perk_lvl_farmer)+">"+string(hud.perk_lvl_farmer+1)
 if hud.perk_lvl_farmer=0 {isNew=1}
 }
@@ -112,6 +112,12 @@ myHeader="Guardian Shiva"
 myInfo=string(hud.perk_lvl_shiva*3+3)+"% to summon Shiva per day"
 myLevel="Level "+string(hud.perk_lvl_shiva)+">"+string(hud.perk_lvl_shiva+1)
 if hud.perk_lvl_shiva=0 {isNew=1}
+}
+if my_id=19 {
+myHeader="Funguy"
+myInfo="Mushrooms Worth +5 Gold"
+myLevel="Level "+string(hud.perk_lvl_funguy)+">"+string(hud.perk_lvl_funguy+1)
+if hud.perk_lvl_funguy=0 {isNew=1}
 }
 
 }

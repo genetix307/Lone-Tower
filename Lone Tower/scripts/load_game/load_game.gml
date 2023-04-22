@@ -68,6 +68,7 @@ function load_game() {
 	store.darkones_slain = ini_read_real( "save1", "darkones_slain",store.darkones_slain);
 	store.reapers_slain = ini_read_real( "save1", "reapers_slain",store.reapers_slain);
 	store.carbuncles_slain = ini_read_real( "save1", "carbuncles_slain",store.carbuncles_slain);
+	store.archers_slain = ini_read_real( "save1", "archers_slain",store.archers_slain);
 	store.gems_earned = ini_read_real( "save1", "gems_earned",store.gems_earned);
 	store.gold_earned = ini_read_real( "save1", "gold_earned",store.gold_earned);
 	store.total_upgrades = ini_read_real( "save1", "total_upgrades",store.total_upgrades);

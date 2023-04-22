@@ -30,6 +30,7 @@ with mushrooms {if 2>random(15) {instance_destroy()}}
 instance_create_depth(x,y,84,mushrooms)
 
 if tier < 19 {tier +=1} else {tier = 0 tier_level +=5}
+if store.current_wave>=105 {tier_level+=1}
 hud.enemy_level = store.current_wave+tier_level 
 if wagon_buffer > 0 {wagon_buffer -=1}
 hud.shockwave_used = 0
