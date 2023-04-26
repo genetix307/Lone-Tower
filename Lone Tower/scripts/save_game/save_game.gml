@@ -19,6 +19,7 @@
 	ini_write_real( "save1", "minigames", store.minigames);
 	ini_write_real( "save1", "auto_crate", store.auto_crate);
 	ini_write_real( "save1", "auto_perk", store.auto_perk);
+	ini_write_real( "save1", "fast_mode", store.fast_mode);
 	
 	//Challenges
 	ini_write_real( "save1", "challenge_a", store.challenge_a);

@@ -120,3 +120,10 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
+
+///ENDLESS USE CODES
+if myResult = "blood" and store.code_blood =0
+{
+store.code_blood = 1
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Blood Mode Active!"
+}

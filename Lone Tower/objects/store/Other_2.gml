@@ -7,7 +7,7 @@ current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.44"
+version = "1.45"
 devMode = 1
 
 //Settings
@@ -19,6 +19,7 @@ slow_mode=0
 minigames=1
 auto_crate=0
 auto_perk=0
+fast_mode=0
 
 //Challenges
 challenge_a = 1
@@ -229,4 +230,7 @@ code_genetix = 0
 code_yum = 0
 code_levelup=0
 code_popcorn=0
+
+//Endless Use Codes
+code_blood=0
 

@@ -142,24 +142,25 @@ if gameover = 1 {
 
 //Paused
 if paused = 1 {
-	draw_set_alpha(.8)
+	draw_set_alpha(.9)
 	draw_set_color(c_black)
 	draw_rectangle(0,0,room_width,room_height,false)
 	draw_set_alpha(1)
 	
 	if instance_number(show_levelup)<=0 { //If not leveled up show pause menu
-	draw_sprite(spr_menu_crystal,0,240,110)
+	draw_sprite(spr_menu_crystal,0,240,100)
+	draw_line_color(135,138,355,138,c_white,c_silver)
 	draw_set_font(font_large_hud)
 	draw_set_color(c_black)
-	draw_text(cx+142,cy+122,"Game Paused")
-	draw_text_color(cx+140,cy+120,"Game Paused",c_lime,c_lime,c_green,c_green,1)
+	draw_text(cx+142,cy+142,"Game Paused")
+	draw_text_color(cx+140,cy+140,"Game Paused",c_lime,c_lime,c_green,c_green,1)
 	draw_set_font(font_upgrades)
 	if store.tier = 1 {
-	draw_text_color(cx+160,cy+200,"Lonely Woods",c_white,c_white,c_silver,c_silver,1)
+	draw_text_color(cx+147,cy+200,"Tier 1: Lonely Woods",c_white,c_white,c_silver,c_silver,1)
 	draw_text_color(cx+160,cy+225,"Best Day: "+string(store.best_day_tier1),c_white,c_white,c_silver,c_silver,1)
 	}
 	if store.tier = 2 {
-	draw_text_color(cx+160,cy+200,"Desolate Desert",c_white,c_white,c_silver,c_silver,1)
+	draw_text_color(cx+147,cy+200,"Tier 2: Desolate Desert",c_white,c_white,c_silver,c_silver,1)
 	draw_text_color(cx+160,cy+225,"Best Day: "+string(store.best_day_tier2),c_white,c_white,c_silver,c_silver,1)
 	}
 	draw_text_color(cx+160,cy+275,"Day: "+string(store.current_wave),c_white,c_white,c_silver,c_silver,1)

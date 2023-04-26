@@ -379,6 +379,7 @@
     {"id":{"name":"btn_defense_upgrades","path":"objects/btn_defense_upgrades/btn_defense_upgrades.yy",},"order":1,},
     {"id":{"name":"load_game","path":"scripts/load_game/load_game.yy",},"order":2,},
     {"id":{"name":"btn_upgrade_criticalmultiplier","path":"objects/btn_upgrade_criticalmultiplier/btn_upgrade_criticalmultiplier.yy",},"order":2,},
+    {"id":{"name":"btn_set_fastmode","path":"objects/btn_set_fastmode/btn_set_fastmode.yy",},"order":22,},
     {"id":{"name":"spr_item_focuspill","path":"sprites/spr_item_focuspill/spr_item_focuspill.yy",},"order":11,},
     {"id":{"name":"card_slot","path":"objects/card_slot/card_slot.yy",},"order":4,},
     {"id":{"name":"guardian_shiva","path":"objects/guardian_shiva/guardian_shiva.yy",},"order":0,},

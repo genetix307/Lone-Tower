@@ -15,4 +15,4 @@ show_damaged = 0
 stun = 0
 flying = 1
 
-alarm[4]=900/store.game_speed
+alarm[4]=600/store.game_speed

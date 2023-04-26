@@ -8,7 +8,7 @@ if room = rm_choose_fate
 
 if my_id = 1 {myName="Brawler" myEffect="Born to deal more damage\nExtra starting Attack Damage" image_index = 0}
 if my_id = 2 {myName="Defender" myEffect="Able to take a hit\nExtra starting Defense" image_index = 0}
-if my_id = 3 {myName="Quickshot" myEffect="Fast and Agile\nExtra staring Attack Speed" image_index = 0}
+if my_id = 3 {myName="Quickshot" myEffect="Fast and Agile\nExtra starting Attack Speed" image_index = 0}
 if my_id = 4 {myName="Healer" myEffect="A natural healer\nStart with extra Regen" image_index = 0}
 if my_id = 5 {myName="Architect" myEffect="Builds a strong foundation\nStart with extra Max Tower HP" image_index = 0}
 if my_id = 6 {myName="Eagle Eyes" myEffect="Precision is perfection\nStart with extra Critical Chance" image_index = 0}

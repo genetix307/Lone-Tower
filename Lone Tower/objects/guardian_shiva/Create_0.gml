@@ -1,4 +1,6 @@
 // Genetix Studio
+if instance_number(guardian_shiva)>1 {instance_destroy()}
+
 speed = 1+store.game_speed
 direction=random(360)
 image_alpha = 0

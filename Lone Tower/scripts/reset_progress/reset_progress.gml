@@ -22,6 +22,7 @@ store.slow_mode=0
 store.minigames=1
 store.auto_crate=0
 store.auto_perk=0
+store.fast_mode=0
 
 //Challenges
 store.challenge_a = 1

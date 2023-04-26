@@ -20,4 +20,4 @@ stun = 0
 frozen = 0
 flying = 0
 
-alarm[4]=900/store.game_speed
+alarm[4]=800/store.game_speed
