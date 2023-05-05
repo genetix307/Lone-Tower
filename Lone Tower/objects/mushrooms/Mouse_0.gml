@@ -11,6 +11,7 @@ store.gold_earned += (store.card_lvl_farming*3)
 }
 instance_create_depth(x-24,y+20,depth-1000,show_mushroom_harvest)
 instance_create_depth(x,y-2,depth-1000,effect_harvest)
+instance_create_depth(x,y,depth,xp_orb_green)
 
 //Shroomer Quick Challenge
 if (store.challenge_a=10 or store.challenge_b=10 or store.challenge_c=10) and store.goal_mushroom <30

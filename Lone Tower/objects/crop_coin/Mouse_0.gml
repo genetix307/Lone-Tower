@@ -11,6 +11,7 @@ store.gold_earned += (store.card_lvl_farming*15)
 }
 instance_create_depth(x-24,y+20,depth-1000,show_crops_harvest)
 instance_create_depth(x,y-2,depth-1000,effect_harvest)
+instance_create_depth(x,y,depth,xp_orb_green)
 image_index = 0
 grow_days = 9+round(random(5))
 if store.fate = 9 {grow_days-=3}
