@@ -4,4 +4,4 @@ image_speed = 0
 image_alpha = .8
 
 myName = "Potion x"+string(store.potion)
-myDesc = "Restore 25 HP"
+myDesc = "Restores "+string(round(.25*hud.tower_maxhp))+" HP"

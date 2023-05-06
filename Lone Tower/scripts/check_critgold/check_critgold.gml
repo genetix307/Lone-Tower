@@ -5,8 +5,8 @@ function check_critgold(){
 	{
 		if myHP <= 0 
 		{
-		store.gold += (store.card_lvl_critgold*3)+2
-		store.gold_earned += (store.card_lvl_critgold*3)+2
+		store.gold += (store.card_lvl_critgold*2)+3
+		store.gold_earned += (store.card_lvl_critgold*2)+3
 		}
 	}
 	

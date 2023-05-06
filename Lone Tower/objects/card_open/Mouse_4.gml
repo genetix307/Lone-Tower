@@ -6,8 +6,9 @@ var max_cards = 11.99 //Increment this when adding new card
 instance_create_depth(x,y,depth-1000,show_open_card)
 my_id = floor(random(max_cards))+2 
 //Reduce chance on game breaking cards
-if my_id = 9 and store.card_lvl_wind >10 and 5>random(10) {my_id = floor(random(max_cards))+2}
-if my_id = 12 and store.card_lvl_supplydrop >10 and 5>random(10) {my_id = floor(random(max_cards))+2}
+if my_id = 9 and store.card_lvl_wind >5 and 6>random(10) {my_id = floor(random(max_cards))+2}
+if my_id = 12 and store.card_lvl_supplydrop >5 and 6>random(10) {my_id = floor(random(max_cards))+2}
+if my_id = 8 and store.card_lvl_critgold >5 and 6>random(10) {my_id = floor(random(max_cards))+2}
 
 alarm[0] = 120
 
