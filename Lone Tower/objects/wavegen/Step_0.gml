@@ -34,7 +34,7 @@ if store.current_wave>=105 {tier_level+=1}
 hud.enemy_level = store.current_wave+tier_level 
 if wagon_buffer > 0 {wagon_buffer -=1}
 hud.shockwave_used = 0
-if hud.lure > 0 {hud.lure-=1}
+if hud.lure >0 {hud.lure-=1}
 if hud.focus >0 {hud.focus-=1}
 season_change()
 repeat 5 instance_create_depth(random_range(-800,-360),random(560),hud.depth,bird) //Create some birds

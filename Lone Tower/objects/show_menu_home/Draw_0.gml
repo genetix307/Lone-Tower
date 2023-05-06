@@ -21,7 +21,7 @@ draw_text(406,1,"Version "+string(store.version))
 
 draw_set_color(c_white)
 draw_set_font(font_med_hud)
-draw_text(236,795,string(store.gems))
-draw_sprite(spr_show_gem,0,221,805)
+draw_text(231,795,string(store.gems))
+draw_sprite(spr_show_gem,0,216,805)
 
 

@@ -119,5 +119,11 @@ myInfo="Mushrooms Worth +5 Gold"
 myLevel="Level "+string(hud.perk_lvl_funguy)+">"+string(hud.perk_lvl_funguy+1)
 if hud.perk_lvl_funguy=0 {isNew=1}
 }
+if my_id=20 {
+myHeader="Big Bombs"
+myInfo="Increase Bomb Size & Damage"
+myLevel="Level "+string(hud.perk_lvl_bigbombs)+">"+string(hud.perk_lvl_bigbombs+1)
+if hud.perk_lvl_bigbombs=0 {isNew=1}
+}
 
 }

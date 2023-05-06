@@ -10,7 +10,7 @@ if my_id = 9 and store.card_lvl_wind >5 and 6>random(10) {my_id = floor(random(m
 if my_id = 12 and store.card_lvl_supplydrop >5 and 6>random(10) {my_id = floor(random(max_cards))+2}
 if my_id = 8 and store.card_lvl_critgold >5 and 6>random(10) {my_id = floor(random(max_cards))+2}
 
-alarm[0] = 120
+//alarm[0] = 120
 
 if my_id = 2 {store.card_inheritance +=1}
 if my_id = 3 {store.card_heartpiece +=1}
@@ -29,4 +29,4 @@ save_game()
 exit
 }
 
-if opened = 1 {room = rm_menu_cards}
+//if opened = 1 {room = rm_menu_cards}

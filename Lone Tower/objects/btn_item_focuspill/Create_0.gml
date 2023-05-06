@@ -4,4 +4,4 @@ image_speed = 0
 image_alpha = .8
 
 myName = "Focus Pill x"+string(store.focuspill)
-myDesc = "Extra Critical % x3 Days"
+myDesc = "+15% Temp Critical"

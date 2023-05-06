@@ -18,6 +18,9 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_39041402","properties":[],"isDnd":false,"objectId":{"name":"card_open","path":"objects/card_open/card_open.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":248.0,"y":464.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18FDD4BB","properties":[],"isDnd":false,"objectId":{"name":"btn_card_buy","path":"objects/btn_card_buy/btn_card_buy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":864.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C0602EC","properties":[],"isDnd":false,"objectId":{"name":"btn_card_done","path":"objects/btn_card_done/btn_card_done.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":864.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3DA523B3","properties":[],"isDnd":false,"objectId":{"name":"show_menu_opencard","path":"objects/show_menu_opencard/show_menu_opencard.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":40.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_1","visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_vignette","properties":[
         {"type":0,"name":"g_VignetteEdges","value":"0.1",},
@@ -32,6 +35,9 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_39041402","path":"rooms/rm_open_card/rm_open_card.yy",},
+    {"name":"inst_18FDD4BB","path":"rooms/rm_open_card/rm_open_card.yy",},
+    {"name":"inst_7C0602EC","path":"rooms/rm_open_card/rm_open_card.yy",},
+    {"name":"inst_3DA523B3","path":"rooms/rm_open_card/rm_open_card.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

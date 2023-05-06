@@ -58,6 +58,9 @@ if hud.perk_lvl_shiva>=7 {return false}
 if slot=19 {
 if hud.perk_lvl_funguy>=5 {return false}
 }
+if slot=20 {
+if hud.perk_lvl_bigbombs>=5 {return false}
+}
 
 return true
 }

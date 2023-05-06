@@ -77,5 +77,8 @@ instance_create_depth(tower.x,tower.y,depth,guardian_shiva)
 if my_id=19 {
 hud.perk_lvl_funguy+=1
 }
+if my_id=20 {
+hud.perk_lvl_bigbombs+=1
+}
 
 }
