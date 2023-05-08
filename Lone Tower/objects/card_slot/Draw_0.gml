@@ -63,3 +63,8 @@ if my_id = 13 //Flying Axes
 if store.card_axes = 0 {image_index = 1}
 if store.card_axes > 0 {image_index = 2 draw_card()}
 }
+if my_id = 14 //Evil Creed
+{
+if store.card_evilcreed = 0 {image_index = 1}
+if store.card_evilcreed > 0 {image_index = 2 draw_card()}
+}

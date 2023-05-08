@@ -1,3 +1,4 @@
+enemy_level = 1
 if store.tier=1 {instance_create_depth(x,y,100,waveGen)}
 if store.tier=2 {instance_create_depth(x,y,100,waveGen_tier2)}
 instance_create_depth(room_width/2,room_height/2,depth-1000,transistion_keyhole)
@@ -42,7 +43,7 @@ show_detail = 0
 show_promote_info = 0
 gameover = 0
 enemies_slain = 0
-enemy_level = 1
+
 if store.tier=2 {enemy_level=10}
 chest_coin_cooldown = 0
 store.gold = 0

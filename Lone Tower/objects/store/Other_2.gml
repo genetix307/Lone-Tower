@@ -214,6 +214,8 @@ card_supplydrop = 0
 card_lvl_supplydrop = 1
 card_axes = 0
 card_lvl_axes = 1
+card_evilcreed=0
+card_lvl_evilcreed=1
 
 //Bonus Codes
 code_payday = 0

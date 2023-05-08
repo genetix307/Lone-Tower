@@ -2,7 +2,7 @@
 if opened = 0 
 {
 opened = 1
-var max_cards = 11.99 //Increment this when adding new card
+var max_cards = 12.99 //Increment this when adding new card
 instance_create_depth(x,y,depth-1000,show_open_card)
 my_id = floor(random(max_cards))+2 
 //Reduce chance on game breaking cards
@@ -24,6 +24,7 @@ if my_id = 10 {store.card_rage +=1}
 if my_id = 11 {store.card_shockwave +=1}
 if my_id = 12 {store.card_supplydrop +=1}
 if my_id = 13 {store.card_axes +=1}
+if my_id = 14 {store.card_evilcreed +=1}
 
 save_game()
 exit

@@ -172,6 +172,8 @@ function load_game() {
 	store.card_lvl_supplydrop = ini_read_real( "save1", "card_lvl_supplydrop",store.card_lvl_supplydrop);
 	store.card_axes = ini_read_real( "save1", "card_axes",store.card_axes);
 	store.card_lvl_axes = ini_read_real( "save1", "card_lvl_axes",store.card_lvl_axes);
+	store.card_evilcreed = ini_read_real( "save1", "card_evilcreed",store.card_evilcreed);
+	store.card_lvl_evilcreed = ini_read_real( "save1", "card_lvl_evilcreed",store.card_lvl_evilcreed);
 	
 	//Bonus Codes
 	store.code_payday = ini_read_real( "save1", "code_payday",store.code_payday);

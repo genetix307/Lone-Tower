@@ -170,5 +170,19 @@ draw_set_font(font_stats)
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_axes)) 
 }
+if my_id = 14 //Evil Creed
+{
+draw_set_font(font_stats)
+draw_set_color(c_aqua)
+draw_text(x-40,y-65,"Evil Creed") 
+draw_sprite(spr_card_art,12,x,y-28)
+draw_set_color(c_yellow)
+draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_evilcreed),15,86)
+draw_set_color(c_white)
+draw_text_ext(x-43,y+8,"+"+string(store.card_lvl_evilcreed+2)+" Gems daily, +"+string((store.card_lvl_evilcreed*5)+5)+" Enemy Level",11,88)
+draw_set_font(font_stats)
+draw_set_color(c_yellow)
+draw_text(x+24,y+50,"x"+string(store.card_lvl_evilcreed)) 
+}
 
 }

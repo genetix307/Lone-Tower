@@ -180,6 +180,8 @@ store.card_supplydrop = 0
 store.card_lvl_supplydrop = 1
 store.card_axes = 0
 store.card_lvl_axes = 1
+store.card_evilcreed=0
+store.card_lvl_evilcreed=1
 
 //Bonus Codes
 store.code_payday = 0
