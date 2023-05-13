@@ -36,7 +36,7 @@ save_game()
 
 if myResult = "santa" and store.code_santa = 0
 {
-reward = 250
+reward = 150
 store.code_santa = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
@@ -116,6 +116,14 @@ if myResult = "popcorn" and store.code_popcorn = 0
 {
 reward = 222
 store.code_popcorn = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
+if myResult = "midgar" and store.code_midgar = 0
+{
+reward = 300
+store.code_midgar = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()

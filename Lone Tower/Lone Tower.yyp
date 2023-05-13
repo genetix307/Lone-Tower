@@ -296,6 +296,7 @@
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},"order":2,},
     {"id":{"name":"spr_mushrooms","path":"sprites/spr_mushrooms/spr_mushrooms.yy",},"order":20,},
     {"id":{"name":"spr_gore","path":"sprites/spr_gore/spr_gore.yy",},"order":2,},
+    {"id":{"name":"dirtpatch","path":"objects/dirtpatch/dirtpatch.yy",},"order":25,},
     {"id":{"name":"pong_wall","path":"objects/pong_wall/pong_wall.yy",},"order":3,},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},"order":0,},
     {"id":{"name":"show_use_item","path":"objects/show_use_item/show_use_item.yy",},"order":25,},

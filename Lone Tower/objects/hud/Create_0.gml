@@ -124,7 +124,7 @@ store.gold += 15+(store.card_lvl_inheritance*10)
 
 if store.card_slot_1 = 3 or store.card_slot_2 = 3 or store.card_slot_3 = 3 or store.card_slot_4 = 3 //Heartpiece
 {
-hud.tower_maxhp += round(((store.card_lvl_heartpiece*5+20)/100)*hud.tower_maxhp) hud.tower_hp = hud.tower_maxhp hud.regen +=store.card_lvl_heartpiece*.5
+hud.tower_maxhp += round(((store.card_lvl_heartpiece*5+20)/100)*hud.tower_maxhp) hud.tower_hp = hud.tower_maxhp hud.regen +=store.card_lvl_heartpiece*.1
 }
 
 if store.card_slot_1 = 8 or store.card_slot_2 = 8 or store.card_slot_3 = 8 or store.card_slot_4 = 8 //Critical Gold
@@ -147,7 +147,8 @@ if store.fate = 13 {multishot_chance +=2}
 if store.fate = 14 {free_upgrade_chance +=1}
 if store.fate = 15 {wagon_boost = 5}
 if store.fate = 16 {revive = 1}
-if store.fate = 17 {store.current_wave = 10 enemy_level = 10}
+//if store.fate = 17 {store.current_wave = 10 enemy_level = 10}
+if store.fate =17 {max_gamespeed+=1}
 if store.fate = 21 {attack_damage +=2 attack_speed +=.25 knockback +=1}
 if store.fate = 22 {supplydrop_chance +=2}
 

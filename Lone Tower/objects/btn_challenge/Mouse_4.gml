@@ -4,7 +4,7 @@ if image_index = 0 and checking = 0
 store.gems+=myReward
 instance_create_depth(x-13,y-16,depth-10,effect_challenge)
 alarm[0]=5
-checking=3
+checking=5
 if my_id =0 {store.goal_dragon=0}
 if my_id =1 {store.goal_skeleton=0}
 if my_id =2 {store.goal_collector=0}

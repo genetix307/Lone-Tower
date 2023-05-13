@@ -22,7 +22,7 @@ if my_id = 13 and store.best_day_tier1 >=10 {myName="Splitshot" myEffect="The mo
 if my_id = 14 and store.best_day_tier1 >=20 {myName="Gambler" myEffect="Knows when to fold em\nExtra starting Free Upgrade Chance" image_index = 0}
 if my_id = 15 and store.best_day_tier1 >=30 {myName="Trader" myEffect="Open doors are the way\nWagons show up more often" image_index = 0}
 if my_id = 16 and store.best_day_tier1 >=40 {myName="Phoenix" myEffect="A 2nd chance at life\nOne time at death revive tower" image_index = 0}
-if my_id = 17 and store.best_day_tier1 >=50 {myName="Time Hopper" myEffect="Time is an illusion\nStart game at a later date" image_index = 0}
+if my_id = 17 and store.best_day_tier1 >=50 {myName="Time Hopper" myEffect="Time is an illusion\nStart with higher Max speed" image_index = 0}
 if my_id = 18 and store.best_day_tier1 >=60 {myName="Upholder" myEffect="Keep things tidy\nExtra Gold each day if Health at Max" image_index = 0}
 if my_id = 19 and store.best_day_tier1 >=70 {myName="Insured" myEffect="No pain, no gain\nEarn Gold when Tower Damaged" image_index = 0}
 if my_id = 20 and store.best_day_tier1 >=80 {myName="Skyshot" myEffect="Fall down Foul Beasts\nExtra Damage to Flying Enemies" image_index = 0}

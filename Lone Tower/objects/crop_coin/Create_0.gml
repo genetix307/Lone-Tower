@@ -10,5 +10,6 @@ image_index = 0
 depth = -y-2
 grow_days = 7+round(random(7))
 if store.fate = 9 {grow_days-=3}
+instance_create_depth(x,y,depth+10,dirtpatch)
 
 if store.crop_seeds <= 0 {instance_destroy()} else {store.crop_seeds -=1}

@@ -24,7 +24,7 @@ draw_sprite(spr_card_art,1,x,y-28)
 draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_heartpiece),15,86)
 draw_set_color(c_white)
-draw_text_ext(x-43,y+8,"Increases Max Health by "+string((store.card_lvl_heartpiece*5)+20)+"%. Regen +"+string(store.card_lvl_heartpiece*.5),14,88)
+draw_text_ext(x-43,y+8,"Increases Max Health by "+string((store.card_lvl_heartpiece*5)+20)+"%. Regen +"+string(store.card_lvl_heartpiece*.1),14,88)
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_heartpiece)) 
 }

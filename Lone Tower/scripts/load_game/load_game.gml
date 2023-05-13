@@ -189,6 +189,7 @@ function load_game() {
 	store.code_yum = ini_read_real( "save1", "code_yum",store.code_yum);
 	store.code_levelup = ini_read_real( "save1", "code_levelup",store.code_levelup);
 	store.code_popcorn = ini_read_real( "save1", "code_popcorn",store.code_popcorn);
+	store.code_midgar = ini_read_real( "save1", "code_midgar",store.code_midgar);
 	
 	//show_message("Game Loaded")
 	ini_close();

@@ -1,7 +1,7 @@
 // Genetix Studio
 audio_play_sound(sfx_click,1,false)
 
-if hud.paused = 0 and hud.gameover=0 {
+if hud.paused = 0 and hud.gameover=0 and instance_number(btn_event_no)=0 {
 hud.paused = 1
 with default_ingame_tab {instance_destroy()}
 

@@ -55,7 +55,7 @@ show_snow_tier2=0
 bomb_arrows = 100
 ice_arrows = 100
 smoke_arrows = 100
-crop_seeds = 100
+crop_seeds = 200
 poison_arrows = 0
 potion = 1
 megapotion = 0
@@ -232,6 +232,7 @@ code_genetix = 0
 code_yum = 0
 code_levelup=0
 code_popcorn=0
+code_midgar=0
 
 //Endless Use Codes
 code_blood=0
