@@ -34,6 +34,7 @@ draw_text(140,400,"Mushrooms Harvested: "+string(store.mushrooms_harvested))
 draw_text(140,430,"Challenges Completed: "+string(store.challenges))
 draw_text(140,460,"Fates Unlocked: "+string(min(22,12+floor(store.best_day_tier1/10)))+" of 22")
 draw_text(140,490,"Secrets Found: "+string(store.secrets))
+draw_text(140,520,"Gem Catcher Hi-Score: "+string(store.gemcatcher_score))
 
 //draw_set_color(c_orange)
 //draw_text(160,520,"Version "+string(store.version))

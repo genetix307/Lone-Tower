@@ -8,7 +8,8 @@ draw_roundrect_color(cx+20,cy+4,cx+460,cy+720,c_blue,c_purple,false)
 draw_set_font(font_large_hud)
 draw_text_color(cx+139,cy+8,"Gem Catcher",c_white,c_white,c_silver,c_silver,1)
 draw_set_font(font_upgrades)
-draw_text_color(cx+170,cy+42,"Gem Earned: "+string(gems_earned),c_yellow,c_yellow,c_orange,c_orange,1)
+draw_text_color(cx+20,cy+842,"Gems Earned: "+string(gems_earned),c_yellow,c_yellow,c_orange,c_orange,1)
+draw_text_color(cx+20,cy+872,"Hi-Score: "+string(store.gemcatcher_score),c_white,c_white,c_silver,c_silver,1)
 
 if gameover=1 {
 draw_set_font(font_large_hud)

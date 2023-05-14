@@ -90,6 +90,7 @@ crops_harvested = 0
 mushrooms_harvested = 0
 secrets=0
 crates_opened=0
+gemcatcher_score=0
 
 //Base Stats
 base_attack_speed = 2.5
