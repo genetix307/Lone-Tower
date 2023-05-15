@@ -91,8 +91,10 @@ draw_text_ext(150,8,"       Lone Tower\nRoguelite Defense",18,466)
 if show_msg_alpha>0 
 {
 draw_set_font(font_med_hud)
-draw_set_color(c_white)
 draw_set_alpha(show_msg_alpha)
+draw_set_color(c_black)
+draw_text_ext(92,192,show_msg,20,320)
+draw_set_color(c_white)
 draw_text_ext(90,190,show_msg,20,320) 
 draw_set_alpha(1)
 }
