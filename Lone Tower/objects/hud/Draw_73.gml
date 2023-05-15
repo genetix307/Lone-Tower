@@ -23,9 +23,9 @@ if nightfade >=1 {
 draw_set_alpha(show_dark+.3)
 draw_set_font(font_med_hud)
 draw_set_color(c_black)
-draw_text(cx+214,cy+186,"Day "+string(store.current_wave))              
+draw_text(cx+214,cy+166,"Day "+string(store.current_wave))              
 draw_set_color(c_white)
-draw_text(cx+212,cy+185,"Day "+string(store.current_wave))
+draw_text(cx+212,cy+165,"Day "+string(store.current_wave))
 draw_set_alpha(1)
 }
 
@@ -85,6 +85,16 @@ if show_promote_info =1
 draw_set_font(font_med_hud)
 draw_set_color(c_white)
 draw_text_ext(150,8,"       Lone Tower\nRoguelite Defense",18,466)              
+}
+
+//Show Message
+if show_msg_alpha>0 
+{
+draw_set_font(font_med_hud)
+draw_set_color(c_white)
+draw_set_alpha(show_msg_alpha)
+draw_text_ext(90,190,show_msg,20,320) 
+draw_set_alpha(1)
 }
 
 //Show Logs

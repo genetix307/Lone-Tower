@@ -13,7 +13,10 @@ instance_create_depth(x-24,y+20,depth-1000,show_crops_harvest)
 instance_create_depth(x,y-2,depth-1000,effect_harvest)
 instance_create_depth(x,y,depth,xp_orb_green)
 
-if store.crop_seeds <= 0 {instance_destroy()} else {
+if store.crop_seeds <= 0 {
+hud.show_msg="          All out of Crop Seeds..."
+hud.show_msg_alpha=3
+instance_destroy()} else {
 store.crop_seeds -=1
 image_index = 0
 grow_days = 9+round(random(5))

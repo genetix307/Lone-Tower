@@ -12,4 +12,8 @@ grow_days = 7+round(random(7))
 if store.fate = 9 {grow_days-=3}
 instance_create_depth(x,y,depth+10,dirtpatch)
 
-if store.crop_seeds <= 0 {instance_destroy()} else {store.crop_seeds -=1}
+if store.crop_seeds <= 0 {
+hud.show_msg="          All out of Crop Seeds..."
+hud.show_msg_alpha=3
+instance_destroy()
+} else {store.crop_seeds -=1}

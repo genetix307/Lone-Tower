@@ -43,6 +43,9 @@ show_detail = 0
 show_promote_info = 0
 gameover = 0
 enemies_slain = 0
+show_msg=""
+show_msg_alpha=0
+day_damage_check=0
 
 if store.tier=2 {enemy_level=10}
 chest_coin_cooldown = 0
@@ -176,3 +179,4 @@ perk_lvl_bigbombs=0
 
 //Other
 if store.start_max_speed = 1 {store.game_speed = max_gamespeed} else {store.game_speed = 1}
+

@@ -11,6 +11,8 @@ store.gold += round(store.gold*(hud.daily_interest/100))
 store.gold_earned += round(store.gold*(hud.daily_interest/100))
 store.gold += hud.daily_gold
 store.gold_earned += hud.daily_gold
+if hud.day_damage_check<=0 {flawless_day()}
+hud.day_damage_check=0
 
 //Inheritance Card
 if store.card_slot_1 = 2 or store.card_slot_2 = 2 or store.card_slot_3 = 2 or store.card_slot_4 = 2 //Inheritance

@@ -5,6 +5,7 @@ instance_create_depth(x,y-8,depth,show_tower_damage).myDamage = myAttack-(myAtta
 log_rotate(c_red,"Tower Damaged")
 tower.last_hit = 0
 hud.fury_meter +=1
+hud.day_damage_check=1
 set_shockwave()
 fate_insured()
 instance_destroy()

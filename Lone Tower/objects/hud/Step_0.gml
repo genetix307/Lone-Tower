@@ -21,6 +21,7 @@ if store.gold < 0 {store.gold = 0}
 if log_alpha > 0 {log_alpha -= .025}
 if fury_meter > 20 {fury_meter = 20}
 if fury_active > 0 {fury_active -=round(1*store.game_speed) fury_meter = 0}
+if show_msg_alpha>0 {show_msg_alpha-=.01*store.game_speed}
 
 //Day Cycle
 if instance_number(default_enemy) >= day_enemy_count/2.75 {day_cycle = 1}
