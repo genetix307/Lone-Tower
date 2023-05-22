@@ -122,8 +122,17 @@ save_game()
 }
 if myResult = "midgar" and store.code_midgar = 0
 {
-reward = 300
+reward = 200
 store.code_midgar = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
+
+if myResult = "jackpot" and store.code_jackpot = 0
+{
+reward = 1500
+store.code_jackpot = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()

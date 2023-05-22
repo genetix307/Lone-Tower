@@ -83,6 +83,7 @@
     {"id":{"name":"rm_menu_fates","path":"rooms/rm_menu_fates/rm_menu_fates.yy",},"order":9,},
     {"id":{"name":"btn_sound","path":"objects/btn_sound/btn_sound.yy",},"order":2,},
     {"id":{"name":"endround_backdrop","path":"sprites/endround_backdrop/endround_backdrop.yy",},"order":4,},
+    {"id":{"name":"spr_show_cardup","path":"sprites/spr_show_cardup/spr_show_cardup.yy",},"order":2,},
     {"id":{"name":"spr_blood_splatter","path":"sprites/spr_blood_splatter/spr_blood_splatter.yy",},"order":0,},
     {"id":{"name":"flawless_day","path":"scripts/flawless_day/flawless_day.yy",},"order":25,},
     {"id":{"name":"btn_large_tab","path":"sprites/btn_large_tab/btn_large_tab.yy",},"order":13,},
