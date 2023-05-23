@@ -6,8 +6,8 @@ shiny = 0
 
 depth = -y
 
-reward_gold = round(20+random(store.current_wave))+1
-reward_gems = round(random(9))+1
+reward_gold = round(10+random(store.current_wave))+1
+reward_gems = round(random(4))+1
 
 reward_item_name = choose("Bomb Arrows", "Crop Seeds", "Crop Seeds", "Ice Arrows","Potion","Potion","Smoke Arrows","Monster Lure","Shockwave Bomb","Shockwave Bomb","Focus Pill","Heavy Arrows")
 
