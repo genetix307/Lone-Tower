@@ -70,7 +70,7 @@ draw_sprite(spr_card_art,4,x,y-28)
 draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_barrier),15,86)
 draw_set_color(c_white)
-draw_text_ext(x-43,y+8,"Creates spike barrier with "+string(store.card_lvl_barrier*5)+" damage.",14,88)
+draw_text_ext(x-43,y+8,"Creates spike barrier with "+string(store.card_lvl_barrier*6)+" damage",14,88)
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_barrier))
 if instance_number(btn_card_upgrade)>0 {if store.gems>=btn_card_upgrade.upgradeCost and store.card_barrier>=4{draw_sprite(spr_show_cardup,0,x+26,y-36)}}

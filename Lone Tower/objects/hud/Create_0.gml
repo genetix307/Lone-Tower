@@ -1,6 +1,6 @@
 enemy_level = 1
 if store.tier=1 {instance_create_depth(x,y,100,waveGen)}
-if store.tier=2 {instance_create_depth(x,y,100,waveGen_tier2)}
+if store.tier=2 {enemy_level=10 instance_create_depth(x,y,100,waveGen_tier2)}
 instance_create_depth(room_width/2,room_height/2,depth-1000,transistion_keyhole)
 ad_load_interstitial()
 repeat 150 instance_create_depth(x,y,85,grass)
@@ -47,7 +47,6 @@ show_msg=""
 show_msg_alpha=0
 day_damage_check=0
 
-if store.tier=2 {enemy_level=10}
 chest_coin_cooldown = 0
 store.gold = 0
 store.total_battles +=1 //Statistics
