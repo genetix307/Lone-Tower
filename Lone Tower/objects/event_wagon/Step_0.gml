@@ -11,7 +11,7 @@ if x >= tower.x and show_event = 0
 
 if x < tower.x and instance_number(default_enemy) <= 0 and hud.paused = 0
 {
-	x+=2
+	x+=2*store.game_speed
 }
 
 if hud.gameover > 0 {instance_destroy()}
