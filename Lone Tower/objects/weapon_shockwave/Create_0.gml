@@ -8,5 +8,5 @@
 stun = 0
 image_alpha = .9
 audio_play_sound(sfx_earthquake,1,false)
-hud.shockwave_used = 1
+hud.shockwave_used +=180
 completed = 20

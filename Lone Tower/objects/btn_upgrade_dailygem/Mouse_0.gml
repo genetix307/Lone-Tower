@@ -1,7 +1,7 @@
 // Genetix Studio
 hold+=1
 
-if hold<=1 or hold %15==0 {
+if hold<=1 or hold %10==0 {
 if store.gold >= hud.cost_daily_gem and hud.paused = 0 and maxxed=0
 {
 if hud.free_upgrade_chance >= random(100) 
