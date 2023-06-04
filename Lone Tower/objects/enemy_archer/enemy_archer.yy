@@ -40,6 +40,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"weapon_ice_arrow","path":"objects/weapon_ice_arrow/weapon_ice_arrow.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"weapon_axe","path":"objects/weapon_axe/weapon_axe.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"smoke","path":"objects/smoke/smoke.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"weapon_shockwave","path":"objects/weapon_shockwave/weapon_shockwave.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

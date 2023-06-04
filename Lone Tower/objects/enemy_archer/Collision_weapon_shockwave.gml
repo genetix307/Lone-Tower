@@ -15,13 +15,15 @@ instance_create_depth(x,y,depth-10,gore)
 store.gold += myDrop +hud.kill_gold
 store.gold_earned += myDrop +hud.kill_gold
 hud.enemies_slain +=1
-store.spiders_slain +=1
-log_rotate(c_yellow,"Killed Spider with Shockwave") 
-instance_create_depth(x,y,depth-1,spider_death)
+store.armored_skeletons_slain +=1
+log_rotate(c_yellow,"Killed Skeleton Archer with Shockwave") 
+instance_create_depth(x,y,depth-1,spr_archer_death)
 audio_play_sound(sfx_enemy_die,1,false)
 instance_destroy()
 }
 }
+
+
 
 
 

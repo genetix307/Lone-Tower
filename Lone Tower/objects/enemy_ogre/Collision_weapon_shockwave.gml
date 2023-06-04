@@ -7,7 +7,7 @@ show_damaged = 1
 
 myHP -= store.card_lvl_shockwave*10
 instance_create_depth(x,y-8,depth,show_damage).myDamage = store.card_lvl_shockwave*8
-mp_potential_step_object(tower.x,tower.y,-90,default_solid)
+mp_potential_step_object(tower.x,tower.y,-100,default_solid)
 
 //Check Death
 if myHP <= 0 {
