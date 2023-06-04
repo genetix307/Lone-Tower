@@ -146,7 +146,7 @@ if gameover = 1 {
 	draw_text(cx+146,cy+315,"Kills: "+string(enemies_slain))
 	draw_set_color(c_yellow)
 	draw_text(cx+259,cy+290,"+"+string(store.current_wave*store.tier)+" Gems")
-	draw_text(cx+259,cy+315,"+"+string(round(hud.enemies_slain/100))+" Gems")
+	draw_text(cx+259,cy+315,"+"+string(round(hud.enemies_slain/100)*store.tier)+" Gems")
 	draw_text(cx+160,cy+347,"Gems Earned: "+string(gems_earned))
 	draw_set_color(c_lime)
 	draw_text(cx+102,cy+382,"The battle may have been lost,\nbut the war is not yet over!")

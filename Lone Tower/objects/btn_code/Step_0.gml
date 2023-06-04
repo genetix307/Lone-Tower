@@ -9,7 +9,7 @@ save_game()
 
 if myResult = "buggy" and store.code_buggy = 0
 {
-reward = 150
+reward = 100
 store.code_buggy = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
@@ -27,7 +27,7 @@ save_game()
 
 if myResult = "incorrect" and store.code_incorrect = 0
 {
-reward = 250
+reward = 200
 store.code_incorrect = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
@@ -71,7 +71,7 @@ save_game()
 
 if myResult = "heart" and store.code_heart = 0
 {
-reward = 200
+reward = 100
 store.code_heart = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
@@ -80,7 +80,7 @@ save_game()
 
 if myResult = "booster" and store.code_booster = 0
 {
-reward = 300
+reward = 250
 store.code_booster = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
@@ -98,7 +98,7 @@ save_game()
 
 if myResult = "yum" and store.code_yum = 0
 {
-reward = 250
+reward = 150
 store.code_yum = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
@@ -122,13 +122,12 @@ save_game()
 }
 if myResult = "midgar" and store.code_midgar = 0
 {
-reward = 200
+reward = 160
 store.code_midgar = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
-
 if myResult = "jackpot" and store.code_jackpot = 0
 {
 reward = 1500
@@ -137,7 +136,14 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
-
+if myResult = "gummy" and store.code_gummy = 0
+{
+reward = 420
+store.code_gummy = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
 ///ENDLESS USE CODES
 if myResult = "blood" and store.code_blood =0
 {

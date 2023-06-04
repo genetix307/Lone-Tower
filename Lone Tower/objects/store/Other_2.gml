@@ -235,6 +235,7 @@ code_levelup=0
 code_popcorn=0
 code_midgar=0
 code_jackpot=0
+code_gummy=0
 
 //Endless Use Codes
 code_blood=0

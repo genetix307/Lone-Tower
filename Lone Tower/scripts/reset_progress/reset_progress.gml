@@ -200,4 +200,5 @@ store.code_levelup=0
 store.code_popcorn=0
 store.code_midgar=0
 store.code_jackpot=0
+store.code_gummy=0
 }
