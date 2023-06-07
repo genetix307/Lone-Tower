@@ -40,7 +40,8 @@ instance_create_depth(x,y,84,mushrooms)
 
 //Tier Up every 20 days
 if tier < 19 {tier +=2} else {tier = 0 tier_level +=10+creed}
-if store.current_wave>=105 {tier_level+=1}
+tier_level+=1
+if store.current_wave>=105 {tier_level+=2}
 hud.enemy_level = store.current_wave+tier_level 
 if wagon_buffer > 0 {wagon_buffer -=1}
 hud.shockwave_used = 0
