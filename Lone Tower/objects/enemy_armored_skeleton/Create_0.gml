@@ -12,7 +12,7 @@ myHP = store.current_wave*3+waveGen.tier_level
 }
 if store.tier=2 {
 myAttack = round(2+(store.current_wave/4)) +tower.difficulty_boost +waveGen_tier2.tier_level
-myHP = store.current_wave*5+waveGen_tier2.tier_level
+myHP = store.current_wave*6+waveGen_tier2.tier_level
 }
 maxHP = myHP
 

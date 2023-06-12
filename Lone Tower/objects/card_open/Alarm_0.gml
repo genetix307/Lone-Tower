@@ -6,9 +6,9 @@ var max_cards = 12.99 //Increment this when adding new card
 instance_create_depth(x,y,depth-1000,show_open_card)
 my_id = floor(random(max_cards))+2 
 //Make some cards more Rare
+if my_id = 8 and 5>random(10) {my_id = floor(random(max_cards))+2}
 if my_id = 9 and 5>random(10) {my_id = floor(random(max_cards))+2}
 if my_id = 12 and 5>random(10) {my_id = floor(random(max_cards))+2}
-if my_id = 8 and 5>random(10) {my_id = floor(random(max_cards))+2}
 if my_id = 14 and 5>random(10) {my_id = floor(random(max_cards))+2}
 
 //alarm[0] = 120

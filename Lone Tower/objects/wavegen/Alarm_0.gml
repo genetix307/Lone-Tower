@@ -6,7 +6,7 @@ waveWait = 1
 var distanceSkeleton = max(2000-tier_level,1600)
 if store.current_wave <6 {distanceSkeleton = 2500}
 if tower.difficulty_boost > 0 {distanceSkeleton = 1200}
-var spawnSkeleton = 20 + tier +(10*hud.lure)
+var spawnSkeleton = 20 + tier +(7*hud.lure)
 repeat(spawnSkeleton) {
     var dir = random_range(0, 359);
     var distance = random_range(300, 300+distanceSkeleton);
@@ -16,7 +16,7 @@ repeat(spawnSkeleton) {
 //Gen Armored Skeleton
 var distanceArmorSkeleton = max(2000-tier_level,1600)
 if tower.difficulty_boost > 0 {distanceArmorSkeleton = 1200}
-var spawnArmorSkeleton = 1 + round(tier/5) +(4*hud.lure)
+var spawnArmorSkeleton = 1 + round(tier/5) +(7*hud.lure)
 repeat(spawnArmorSkeleton) {
     var dir = random_range(0, 359);
     var distance = random_range(300, 300+distanceArmorSkeleton);

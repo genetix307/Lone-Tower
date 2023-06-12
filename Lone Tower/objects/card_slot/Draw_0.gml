@@ -36,12 +36,12 @@ if store.card_orb > 0 {image_index = 2 draw_card()}
 if my_id = 8 //Critical Gold
 {
 if store.card_critgold = 0 {image_index = 1}
-if store.card_critgold > 0 {image_index = 2 draw_card()}
+if store.card_critgold > 0 {image_index = 3 draw_card()}
 }
 if my_id = 9 //Favored Winds
 {
 if store.card_wind = 0 {image_index = 1}
-if store.card_wind > 0 {image_index = 2 draw_card()}
+if store.card_wind > 0 {image_index = 3 draw_card()}
 }
 if my_id = 10 //Raging Fury
 {
@@ -56,7 +56,7 @@ if store.card_shockwave > 0 {image_index = 2 draw_card()}
 if my_id = 12 //Supplydrop
 {
 if store.card_supplydrop = 0 {image_index = 1}
-if store.card_supplydrop > 0 {image_index = 2 draw_card()}
+if store.card_supplydrop > 0 {image_index = 3 draw_card()}
 }
 if my_id = 13 //Flying Axes
 {
@@ -66,5 +66,5 @@ if store.card_axes > 0 {image_index = 2 draw_card()}
 if my_id = 14 //Evil Creed
 {
 if store.card_evilcreed = 0 {image_index = 1}
-if store.card_evilcreed > 0 {image_index = 2 draw_card()}
+if store.card_evilcreed > 0 {image_index = 3 draw_card()}
 }
