@@ -1,0 +1,1 @@
+speed = 2+(store.game_speed*2)

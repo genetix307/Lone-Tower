@@ -7,4 +7,4 @@ stat_cap = 5
 maxxed = 0
 hold=0
 
-if store.fast_mode=1 {stat_cap=10}
+if store.fast_mode=1 {stat_cap=12}

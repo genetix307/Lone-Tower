@@ -144,6 +144,23 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "frozen" and store.code_frozen = 0
+{
+reward = 777
+store.code_frozen = 1
+store.ice_arrows += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Ice Arrows!"
+save_game()
+}
+if myResult = "lotto" and store.code_lotto = 0
+{
+reward = ceil(random(1500))
+store.code_lotto = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
+
 ///ENDLESS USE CODES
 if myResult = "blood" and store.code_blood =0
 {

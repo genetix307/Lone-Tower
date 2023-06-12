@@ -4,3 +4,4 @@ image_angle = direction
 multishot = 0
 alarm[1] = 3
 image_alpha = 0
+alarm[2]=5

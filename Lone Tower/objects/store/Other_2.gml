@@ -7,7 +7,7 @@ current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.48"
+version = "1.49"
 devMode = 1
 
 //Settings
@@ -52,17 +52,17 @@ show_secret_tails = 0
 show_snow_tier2=0
 
 //Items
-bomb_arrows = 100
-ice_arrows = 100
-smoke_arrows = 100
-crop_seeds = 200
+bomb_arrows = 200
+ice_arrows = 200
+smoke_arrows = 200
+crop_seeds = 250
 poison_arrows = 0
-potion = 1
+potion = 2
 megapotion = 0
 monsterlure = 0
 shockwave_bomb = 0
 focuspill = 0
-heavy_arrows=100
+heavy_arrows=200
 
 //Statistics
 best_day = 0 //Legacy var 
@@ -236,6 +236,8 @@ code_popcorn=0
 code_midgar=0
 code_jackpot=0
 code_gummy=0
+code_frozen=0
+code_lotto=0
 
 //Endless Use Codes
 code_blood=0

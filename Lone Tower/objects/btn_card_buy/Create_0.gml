@@ -3,6 +3,6 @@
 image_speed = 0
 
 myName = "Buy Card"
-if store.card_cost > 300 {store.card_cost = 300}
+if store.card_cost > 500 {store.card_cost = 500}
 save_game()
 

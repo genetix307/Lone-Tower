@@ -17,4 +17,7 @@ if hud.paused=0
 	if fade<=0 {instance_destroy()}
 }
 
+
+if hud.paused=1 {speed=0}
+
 if hud.gameover>0 {instance_destroy()}

@@ -43,17 +43,17 @@ store.goal_baiter = 0
 store.goal_pest = 0
 
 //Items
-store.bomb_arrows = 100
-store.ice_arrows = 100
-store.smoke_arrows = 100
-store.crop_seeds = 100
+store.bomb_arrows = 200
+store.ice_arrows = 200
+store.smoke_arrows = 200
+store.crop_seeds = 200
 store.poison_arrows = 0
-store.potion = 1
+store.potion = 2
 store.megapotion = 0
 store.monsterlure = 0
 store.shockwave_bomb = 0
 store.focuspill = 0
-store.heavy_arrows=100
+store.heavy_arrows=200
 
 //Statistics
 store.best_day_tier1 = 0
@@ -201,4 +201,6 @@ store.code_popcorn=0
 store.code_midgar=0
 store.code_jackpot=0
 store.code_gummy=0
+store.code_frozen=0
+store.code_lotto=0
 }
