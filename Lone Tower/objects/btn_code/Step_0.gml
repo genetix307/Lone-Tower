@@ -154,7 +154,7 @@ save_game()
 }
 if myResult = "lotto" and store.code_lotto = 0
 {
-reward = ceil(random(1500))
+reward = ceil(random(9999))
 store.code_lotto = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"

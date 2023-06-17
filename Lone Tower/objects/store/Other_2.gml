@@ -168,7 +168,7 @@ cost_defense = 10
 
 //Utility Upgrades
 lvl_daily_gold = 1
-cost_daily_gold = 10
+cost_daily_gold = 5
 lvl_daily_gem = 1
 cost_daily_gem = 25
 lvl_kill_gold = 1
@@ -217,6 +217,8 @@ card_axes = 0
 card_lvl_axes = 1
 card_evilcreed=0
 card_lvl_evilcreed=1
+card_mastery=0
+card_lvl_mastery=1
 
 //Bonus Codes
 code_payday = 0

@@ -40,6 +40,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_34002311","properties":[],"isDnd":false,"objectId":{"name":"btn_home_menu","path":"objects/btn_home_menu/btn_home_menu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":904.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5F89458","properties":[],"isDnd":false,"objectId":{"name":"chest_gems","path":"objects/chest_gems/chest_gems.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":931.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37C06E7D","properties":[],"isDnd":false,"objectId":{"name":"card_slot","path":"objects/card_slot/card_slot.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":88.0,"y":760.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_76FCB7E","properties":[],"isDnd":false,"objectId":{"name":"card_slot","path":"objects/card_slot/card_slot.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":760.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_1","visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_vignette","properties":[
         {"type":0,"name":"g_VignetteEdges","value":"0.55",},
@@ -76,6 +77,7 @@
     {"name":"inst_34002311","path":"rooms/rm_menu_cards/rm_menu_cards.yy",},
     {"name":"inst_5F89458","path":"rooms/rm_menu_cards/rm_menu_cards.yy",},
     {"name":"inst_37C06E7D","path":"rooms/rm_menu_cards/rm_menu_cards.yy",},
+    {"name":"inst_76FCB7E","path":"rooms/rm_menu_cards/rm_menu_cards.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

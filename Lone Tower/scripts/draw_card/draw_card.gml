@@ -197,5 +197,20 @@ draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_evilcreed)) 
 if instance_number(btn_card_upgrade)>0 {if store.gems>=btn_card_upgrade.upgradeCost and store.card_evilcreed>=4{draw_sprite(spr_show_cardup,0,x+26,y-36)}}
 }
+if my_id = 15 //Mastery
+{
+draw_set_font(font_stats)
+draw_set_color(c_aqua)
+draw_text(x-40,y-65,"Mastery") 
+draw_sprite(spr_card_art,13,x,y-28)
+draw_set_color(c_yellow)
+draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_mastery),15,86)
+draw_set_color(c_white)
+draw_text_ext(x-43,y+8,string((store.card_lvl_mastery*.25)+9.75)+"% chance enemies drop up to 3 extra XP Orbs.",11,88)
+draw_set_font(font_stats)
+draw_set_color(c_yellow)
+draw_text(x+24,y+50,"x"+string(store.card_mastery)) 
+if instance_number(btn_card_upgrade)>0 {if store.gems>=btn_card_upgrade.upgradeCost and store.card_mastery>=4{draw_sprite(spr_show_cardup,0,x+26,y-36)}}
+}
 
 }

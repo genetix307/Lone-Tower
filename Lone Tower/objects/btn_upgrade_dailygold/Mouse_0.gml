@@ -10,11 +10,11 @@ else {store.gold -= hud.cost_daily_gold}
 hud.daily_gold +=1
 hud.lvl_daily_gold +=1
 hud.cost_daily_gold += 1
-if hud.lvl_daily_gold > 24 {hud.cost_daily_gold += 1}
-if hud.lvl_daily_gold > 29 {hud.cost_daily_gold += 2}
-if hud.lvl_daily_gold > 39 {hud.cost_daily_gold += 3}
-if hud.lvl_daily_gold > 44 {hud.cost_daily_gold += 4}
-if hud.lvl_daily_gold > 59 {hud.cost_daily_gold += 5}
+if hud.lvl_daily_gold > 99 {hud.cost_daily_gold += 1}
+if hud.lvl_daily_gold > 129 {hud.cost_daily_gold += 2}
+if hud.lvl_daily_gold > 139 {hud.cost_daily_gold += 3}
+if hud.lvl_daily_gold > 144 {hud.cost_daily_gold += 4}
+if hud.lvl_daily_gold > 159 {hud.cost_daily_gold += 5}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Daily Gold Bonus")

@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Fates",
-    "path": "folders/Scripts/Fates.yy",
+    "name": "FatesCards",
+    "path": "folders/Scripts/FatesCards.yy",
   },
 }

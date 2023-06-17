@@ -68,3 +68,8 @@ if my_id = 14 //Evil Creed
 if store.card_evilcreed = 0 {image_index = 1}
 if store.card_evilcreed > 0 {image_index = 3 draw_card()}
 }
+if my_id = 15 //Mastery
+{
+if store.card_mastery = 0 {image_index = 1}
+if store.card_mastery > 0 {image_index = 2 draw_card()}
+}

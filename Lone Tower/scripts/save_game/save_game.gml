@@ -174,6 +174,8 @@
 	ini_write_real( "save1", "card_lvl_axes", store.card_lvl_axes);
 	ini_write_real( "save1", "card_evilcreed", store.card_evilcreed);
 	ini_write_real( "save1", "card_lvl_evilcreed", store.card_lvl_evilcreed);
+	ini_write_real( "save1", "card_mastery", store.card_mastery);
+	ini_write_real( "save1", "card_lvl_mastery", store.card_lvl_mastery);
 	
 	//Bonus Codes
 	ini_write_real( "save1", "code_payday", store.code_payday);

@@ -15,6 +15,7 @@ if show_menu_cards.card_selected = 11 and store.card_shockwave >=4 {image_index 
 if show_menu_cards.card_selected = 12 and store.card_supplydrop >=4 {image_index = 0}
 if show_menu_cards.card_selected = 13 and store.card_axes >=4 {image_index = 0}
 if show_menu_cards.card_selected = 14 and store.card_evilcreed >=4 {image_index = 0}
+if show_menu_cards.card_selected = 15 and store.card_mastery >=4 {image_index = 0}
 }
 	
 
