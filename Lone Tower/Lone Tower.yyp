@@ -243,6 +243,7 @@
     {"id":{"name":"spr_item_orb","path":"sprites/spr_item_orb/spr_item_orb.yy",},"order":0,},
     {"id":{"name":"btn_show_healthbars","path":"objects/btn_show_healthbars/btn_show_healthbars.yy",},"order":13,},
     {"id":{"name":"spr_item_mystery","path":"sprites/spr_item_mystery/spr_item_mystery.yy",},"order":10,},
+    {"id":{"name":"btn_privacypolicy","path":"objects/btn_privacypolicy/btn_privacypolicy.yy",},"order":23,},
     {"id":{"name":"btn_arrow_basic","path":"objects/btn_arrow_basic/btn_arrow_basic.yy",},"order":3,},
     {"id":{"name":"spr_floor_snow","path":"sprites/spr_floor_snow/spr_floor_snow.yy",},"order":4,},
     {"id":{"name":"spr_secret_tails","path":"sprites/spr_secret_tails/spr_secret_tails.yy",},"order":21,},

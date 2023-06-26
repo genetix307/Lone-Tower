@@ -10,7 +10,7 @@ draw_sprite(spr_card_art,0,x,y-28)
 draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_inheritance),15,86)
 draw_set_color(c_white)
-draw_text_ext(x-43,y+8,"Start with "+string((store.card_lvl_inheritance*15)+15)+" gold, and gain "+string(store.card_lvl_inheritance*5)+" each day.",14,88)
+draw_text_ext(x-43,y+8,"Start with "+string((store.card_lvl_inheritance*25)+5)+" gold, and gain "+string(store.card_lvl_inheritance*5)+" each day.",14,88)
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_inheritance)) 
 if instance_number(btn_card_upgrade)>0 {if store.gems>=btn_card_upgrade.upgradeCost and store.card_inheritance>=4{draw_sprite(spr_show_cardup,0,x+26,y-36)}}

@@ -80,5 +80,8 @@ hud.perk_lvl_funguy+=1
 if my_id=20 {
 hud.perk_lvl_bigbombs+=1
 }
+if my_id=21 {
+hud.perk_lvl_flawless+=1
+}
 
 }

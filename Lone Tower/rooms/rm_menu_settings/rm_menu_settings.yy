@@ -33,6 +33,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A824EC0","properties":[],"isDnd":false,"objectId":{"name":"btn_auto_perk","path":"objects/btn_auto_perk/btn_auto_perk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":261.0,"y":419.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_398922F9","properties":[],"isDnd":false,"objectId":{"name":"btn_set_fastmode","path":"objects/btn_set_fastmode/btn_set_fastmode.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":261.0,"y":203.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C6BCF55","properties":[],"isDnd":false,"objectId":{"name":"btn_zombies_ad","path":"objects/btn_zombies_ad/btn_zombies_ad.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":244.0,"y":800.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10E3C407","properties":[],"isDnd":false,"objectId":{"name":"btn_privacypolicy","path":"objects/btn_privacypolicy/btn_privacypolicy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":260.0,"y":492.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":4,"gridY":4,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_1","visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_vignette","properties":[
         {"type":0,"name":"g_VignetteEdges","value":"0.55",},
@@ -62,6 +63,7 @@
     {"name":"inst_6A824EC0","path":"rooms/rm_menu_settings/rm_menu_settings.yy",},
     {"name":"inst_398922F9","path":"rooms/rm_menu_settings/rm_menu_settings.yy",},
     {"name":"inst_C6BCF55","path":"rooms/rm_menu_settings/rm_menu_settings.yy",},
+    {"name":"inst_10E3C407","path":"rooms/rm_menu_settings/rm_menu_settings.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

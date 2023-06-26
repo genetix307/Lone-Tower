@@ -125,5 +125,11 @@ myInfo="Increase Bomb Size & Damage"
 myLevel="Level "+string(hud.perk_lvl_bigbombs)+">"+string(hud.perk_lvl_bigbombs+1)
 if hud.perk_lvl_bigbombs=0 {isNew=1}
 }
+if my_id=21 {
+myHeader="Flawless"
+myInfo="+"+string((hud.perk_lvl_flawless+1)*10)+" Gold Each Day Undamaged"
+myLevel="Level "+string(hud.perk_lvl_flawless)+">"+string(hud.perk_lvl_flawless+1)
+if hud.perk_lvl_flawless=0 {isNew=1}
+}
 
 }
