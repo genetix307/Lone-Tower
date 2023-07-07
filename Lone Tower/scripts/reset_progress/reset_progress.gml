@@ -205,4 +205,8 @@ store.code_jackpot=0
 store.code_gummy=0
 store.code_frozen=0
 store.code_lotto=0
+
+//Regain Ad Gems
+store.gems += store.ad_gems
+store.ad_gems=0
 }

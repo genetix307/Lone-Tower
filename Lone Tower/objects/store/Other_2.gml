@@ -7,7 +7,7 @@ current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.49"
+version = "1.50"
 devMode = 1
 
 //Settings
@@ -50,6 +50,7 @@ target_priority = 0
 fate = 0
 show_secret_tails = 0
 show_snow_tier2=0
+ad_gems=0
 
 //Items
 bomb_arrows = 200

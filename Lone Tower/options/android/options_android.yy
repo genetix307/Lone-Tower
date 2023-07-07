@@ -4,7 +4,7 @@
   "name": "Android",
   "option_android_sync_amazon": false,
   "option_android_display_name": "Lone Tower",
-  "option_android_version": "1.0.49",
+  "option_android_version": "1.0.50",
   "option_android_tools_from_version": false,
   "option_android_build_tools": "",
   "option_android_support_lib": "31.0.0",

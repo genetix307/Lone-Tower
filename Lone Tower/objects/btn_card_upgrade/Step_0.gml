@@ -18,4 +18,4 @@ if show_menu_cards.card_selected = 14 and store.card_evilcreed >=4 {image_index 
 if show_menu_cards.card_selected = 15 and store.card_mastery >=4 {image_index = 0}
 }
 	
-
+if keepSelected>0 {keepSelected-=1}

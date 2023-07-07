@@ -30,4 +30,6 @@ if show_menu_cards.card_selected = 12 and store.card_supplydrop<=0 {store.card_s
 if show_menu_cards.card_selected = 13 and store.card_axes<=0 {store.card_axes = 1}
 if show_menu_cards.card_selected = 14 and store.card_evilcreed<=0 {store.card_evilcreed = 1}
 if show_menu_cards.card_selected = 15 and store.card_mastery<=0 {store.card_mastery = 1}
+
+keepSelected=5
 }
