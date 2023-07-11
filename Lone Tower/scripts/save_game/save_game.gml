@@ -77,6 +77,7 @@
 	ini_write_real( "save1", "mushrooms_harvested", store.mushrooms_harvested);
 	ini_write_real( "save1", "crates_opened", store.crates_opened);
 	ini_write_real( "save1", "gemcatcher_score", store.gemcatcher_score);
+	ini_write_real( "save1", "clovers_harvested", store.clovers_harvested);
 	
 	//Upgrades
 	ini_write_real( "save1", "attack_speed", store.attack_speed);

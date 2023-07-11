@@ -143,7 +143,7 @@ if gameover = 1 {
 	}
 	draw_text(cx+163,cy+260,"Fate: "+string(store.current_fate))
 	draw_text(cx+146,cy+290,"Day: "+string(store.current_wave))
-	draw_text(cx+146,cy+315,"Kills: "+string(enemies_slain))
+	if enemies_slain <100000 {draw_text(cx+146,cy+315,"Kills: "+string(enemies_slain))} else {draw_text(cx+146,cy+315,"Kills: "+string(floor(enemies_slain/1000))+"K")}
 	draw_set_color(c_yellow)
 	draw_text(cx+259,cy+290,"+"+string(store.current_wave*store.tier)+" Gems")
 	draw_text(cx+259,cy+315,"+"+string(round(hud.enemies_slain/100)*store.tier)+" Gems")

@@ -121,7 +121,7 @@ cost_supplydrop = 10
 //Card Checks -----------------------
 if store.card_slot_1 = 2 or store.card_slot_2 = 2 or store.card_slot_3 = 2 or store.card_slot_4 = 2 //Inheritance
 {
-store.gold += 15+(store.card_lvl_inheritance*15)
+store.gold += 5+(store.card_lvl_inheritance*25)
 }
 
 if store.card_slot_1 = 3 or store.card_slot_2 = 3 or store.card_slot_3 = 3 or store.card_slot_4 = 3 //Heartpiece

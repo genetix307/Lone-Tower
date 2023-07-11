@@ -37,6 +37,7 @@ if instance_number(mineshaft) > 0 {mineshaft.dig_gems+=1}
 if instance_number(crop_coin) > 0 {with crop_coin grow_days -=1}
 with mushrooms {if 2>random(15) {instance_destroy()}}
 instance_create_depth(x,y,84,mushrooms)
+if 2>random(100) {instance_create_depth(x,y,84,lucky_clover)}
 
 //Tier Up every 20 days
 if tier < 19 {tier +=1} else {tier = 0 tier_level +=5+creed}

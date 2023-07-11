@@ -78,6 +78,7 @@ function load_game() {
 	store.mushrooms_harvested = ini_read_real( "save1", "mushrooms_harvested",store.mushrooms_harvested);
 	store.crates_opened = ini_read_real( "save1", "crates_opened",store.crates_opened);
 	store.gemcatcher_score = ini_read_real( "save1", "gemcatcher_score",store.gemcatcher_score);
+	store.clovers_harvested = ini_read_real( "save1", "clovers_harvested",store.clovers_harvested);
 	
 	//Upgrades
 	store.attack_speed = ini_read_real( "save1", "attack_speed",store.attack_speed);

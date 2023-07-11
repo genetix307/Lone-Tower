@@ -80,6 +80,7 @@ store.crops_harvested = 0
 store.mushrooms_harvested = 0
 store.crates_opened=0
 store.gemcatcher_score=0
+store.clovers_harvested=0
 
 //Upgrades (ingame bonus)
 store.attack_speed = 0

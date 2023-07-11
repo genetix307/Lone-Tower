@@ -30,7 +30,7 @@ if instance_number(default_enemy) >= day_enemy_count/1.25 {day_cycle = 0}
 if instance_number(default_enemy) < day_enemy_count/2.75 {day_cycle = 2}
 if nightfade = 1 {day_cycle = 3}
 
-//Gamoever
+//Gameover
 if tower_hp <= 0 and gameover = 0 and revive = 0 
 {
 set_gameover()
@@ -39,7 +39,7 @@ set_gameover()
 //Revive Phoenix
 if tower_hp <= 0 and gameover = 0 and revive >0 
 {
-tower_hp = round(tower_maxhp/2) 
+tower_hp = tower_maxhp 
 revive -=1
 instance_create_depth(tower.x,tower.y-120,depth-20000,show_phoenix)	
 }
