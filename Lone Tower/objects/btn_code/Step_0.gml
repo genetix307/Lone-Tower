@@ -160,6 +160,14 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "catchemall" and store.code_catchemall = 0
+{
+reward = 99
+store.code_catchemall = 1
+store.monsterlure += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Monster Lures!"
+save_game()
+}
 
 ///ENDLESS USE CODES
 if myResult = "blood" and store.code_blood =0
@@ -167,3 +175,5 @@ if myResult = "blood" and store.code_blood =0
 store.code_blood = 1
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Blood Mode Active!"
 }
+
+image_index=store.color_scheme

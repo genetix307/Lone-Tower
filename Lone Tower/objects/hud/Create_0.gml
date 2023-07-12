@@ -46,6 +46,7 @@ enemies_slain = 0
 show_msg=""
 show_msg_alpha=0
 day_damage_check=0
+have_clover=0
 
 chest_coin_cooldown = 0
 store.gold = 0

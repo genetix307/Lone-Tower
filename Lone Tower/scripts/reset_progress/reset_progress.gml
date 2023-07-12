@@ -206,6 +206,8 @@ store.code_jackpot=0
 store.code_gummy=0
 store.code_frozen=0
 store.code_lotto=0
+store.code_catchemall=0
+store.color_scheme=1
 
 //Regain Ad Gems
 store.gems += store.ad_gems

@@ -20,6 +20,7 @@ minigames=1
 auto_crate=0
 auto_perk=0
 fast_mode=0
+color_scheme=1
 
 //Challenges
 challenge_a = 1
@@ -242,6 +243,7 @@ code_jackpot=0
 code_gummy=0
 code_frozen=0
 code_lotto=0
+code_catchemall=0
 
 //Endless Use Codes
 code_blood=0

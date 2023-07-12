@@ -1,5 +1,5 @@
 // Genetix Studio
-if image_index = 0 and checking = 0
+if image_index = store.color_scheme and checking = 0
 {
 store.gems+=myReward
 instance_create_depth(x-13,y-16,depth-10,effect_challenge)

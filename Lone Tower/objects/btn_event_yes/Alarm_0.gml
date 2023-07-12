@@ -1,5 +1,5 @@
 // Genetix Studio
-if chosen = 0 and hud.paused = 0
+if chosen = 0 //and hud.paused = 0
 {
 chosen = 1
 

@@ -4,7 +4,7 @@ hold+=1
 if hold<=1 or hold %10==0 {
 if store.gold >= hud.cost_daily_interest and maxxed = 0 and hud.paused = 0
 {
-if hud.free_upgrade_chance >= random(100) 
+if hud.free_upgrade_chance >= random(100) or hud.have_clover>0
 {	instance_create_depth(x,y,depth-10,show_free_upgrade)} 
 else {store.gold -= hud.cost_daily_interest}
 hud.daily_interest +=.1
