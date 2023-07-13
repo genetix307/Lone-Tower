@@ -21,12 +21,15 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_76C1E0B5","properties":[],"isDnd":false,"objectId":{"name":"btn_library","path":"objects/btn_library/btn_library.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":176.0,"y":904.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"Effect_1","visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_vignette","properties":[
-        {"type":0,"name":"g_VignetteEdges","value":"0.55",},
-        {"type":0,"name":"g_VignetteEdges","value":"1.15",},
+        {"type":0,"name":"g_VignetteEdges","value":"0.15",},
+        {"type":0,"name":"g_VignetteEdges","value":"0.8",},
         {"type":0,"name":"g_VignetteSharpness","value":"2",},
         {"type":2,"name":"g_VignetteTexture","value":"_filter_vignette_texture",},
       ],},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"bg_menu","path":"sprites/bg_menu/bg_menu.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"bg_menu","path":"sprites/bg_menu/bg_menu.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":"_filter_colourise","properties":[
+        {"type":0,"name":"g_Intensity","value":"1",},
+        {"type":1,"name":"g_TintCol","value":"#FF193F7F",},
+      ],},
   ],
   "inheritLayers": false,
   "creationCodeFile": "",

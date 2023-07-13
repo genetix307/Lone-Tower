@@ -1,5 +1,5 @@
 // Genetix Studio
-if store.gems >= store.card_cost and image_index=0
+if store.gems >= store.card_cost and image_index=store.color_scheme
 {
 store.gems -= store.card_cost
 store.card_cost +=2

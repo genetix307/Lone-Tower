@@ -1,7 +1,7 @@
 // Genetix Studio
 depth = -10000
 image_speed = 0
-image_index = 1
+image_index = 0
 alarm[1] = 2
 
 my_id = 0

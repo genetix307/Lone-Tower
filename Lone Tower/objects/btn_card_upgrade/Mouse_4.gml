@@ -1,5 +1,5 @@
 // Genetix Studio
-if image_index = 0
+if image_index = store.color_scheme
 {
 if show_menu_cards.card_selected = 2 {store.card_inheritance-=3 store.gems-=upgradeCost store.card_lvl_inheritance+=1 audio_play_sound(sfx_upgrade,1,false)}
 if show_menu_cards.card_selected = 3 {store.card_heartpiece-=3 store.gems-=upgradeCost store.card_lvl_heartpiece+=1 audio_play_sound(sfx_upgrade,1,false)}
