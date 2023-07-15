@@ -64,6 +64,9 @@ if hud.perk_lvl_bigbombs>=5 {return false}
 if slot=21 {
 if hud.perk_lvl_flawless>=50 {return false}
 }
+if slot=22 {
+if hud.perk_lvl_tutor>=10 {return false}
+}
 
 return true
 }

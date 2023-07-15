@@ -131,5 +131,11 @@ myInfo="+"+string((hud.perk_lvl_flawless+1)*10)+" Gold Each Day Undamaged"
 myLevel="Level "+string(hud.perk_lvl_flawless)+">"+string(hud.perk_lvl_flawless+1)
 if hud.perk_lvl_flawless=0 {isNew=1}
 }
+if my_id=22 {
+myHeader="Tutor"
+myInfo="+"+string((hud.perk_lvl_tutor+1)*10)+" XP each day."
+myLevel="Level "+string(hud.perk_lvl_tutor)+">"+string(hud.perk_lvl_tutor+1)
+if hud.perk_lvl_tutor=0 {isNew=1}
+}
 
 }

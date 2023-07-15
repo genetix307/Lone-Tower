@@ -1,3 +1,3 @@
-if store.focuspill > 0 {image_index = 0} else {image_index = 1}
+if store.focuspill > 0 {image_index = store.color_scheme} else {image_index = 0}
 
 

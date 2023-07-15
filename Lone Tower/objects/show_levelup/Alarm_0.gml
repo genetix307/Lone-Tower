@@ -1,7 +1,7 @@
 // Genetix Studio
 if instance_number(btn_lvl_upgrade)>0 {with btn_lvl_upgrade instance_destroy()}
 
-total_choices=20.99 //UPDATE THIS WHEN ADDING NEW CHOICE
+total_choices=21.99 //UPDATE THIS WHEN ADDING NEW CHOICE
 slot_1= ceil(random(total_choices))
 slot_2= ceil(random(total_choices))
 slot_3= ceil(random(total_choices))

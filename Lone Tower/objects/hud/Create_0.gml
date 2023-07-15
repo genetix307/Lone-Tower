@@ -177,6 +177,7 @@ perk_lvl_shiva=0
 perk_lvl_funguy=0
 perk_lvl_bigbombs=0
 perk_lvl_flawless=0
+perk_lvl_tutor=0
 
 //Other
 if store.start_max_speed = 1 {store.game_speed = max_gamespeed} else {store.game_speed = 1}

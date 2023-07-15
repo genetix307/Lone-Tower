@@ -35,13 +35,13 @@ draw_sprite(spr_show_gold,0,cx+284,cy+651)
 if store.gold <10000 {
 draw_set_color(c_black)
 draw_text(cx+297,cy+645,string(store.gold))              
-draw_set_color(c_yellow)
+draw_set_color(c_white)
 draw_text(cx+295,cy+643,string(store.gold)) 
 }
 else {
 draw_set_color(c_black)
 draw_text(cx+297,cy+645,string(floor(store.gold/1000))+"K")              
-draw_set_color(c_yellow)
+draw_set_color(c_white)
 draw_text(cx+295,cy+643,string(floor(store.gold/1000))+"K")    
 }
 
@@ -49,16 +49,16 @@ draw_text(cx+295,cy+643,string(floor(store.gold/1000))+"K")
 draw_set_font(font_stats)
 draw_sprite(spr_show_gem,0,cx+347,cy+651)
 if store.gems <10000 {
-draw_set_color(c_maroon)
-draw_text(cx+365,cy+644,string(store.gems))              
-draw_set_color(c_red)
-draw_text(cx+364,cy+643,string(store.gems))  
+draw_set_color(c_black)
+draw_text(cx+364,cy+644,string(store.gems))              
+draw_set_color(c_white)
+draw_text(cx+363,cy+643,string(store.gems))  
 }
 else {
-draw_set_color(c_maroon)
-draw_text(cx+365,cy+644,string(floor(store.gems/1000))+"K")              
-draw_set_color(c_red)
-draw_text(cx+364,cy+643,string(floor(store.gems/1000))+"K") 
+draw_set_color(c_black)
+draw_text(cx+364,cy+644,string(floor(store.gems/1000))+"K")              
+draw_set_color(c_white)
+draw_text(cx+363,cy+643,string(floor(store.gems/1000))+"K") 
 } 
 
 //Draw Enemy Level

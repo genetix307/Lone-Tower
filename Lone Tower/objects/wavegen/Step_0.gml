@@ -65,6 +65,7 @@ if store.fate = 18 and hud.tower_hp >= hud.tower_maxhp {store.gold +=store.curre
 
 //Perks
 if (hud.perk_lvl_shiva*3)>random(100) {instance_create_depth(tower.x,tower.y+90,depth,guardian_shiva)}
+if hud.perk_lvl_tutor>0 {hud.xp+=hud.perk_lvl_tutor*10}
 
 //Tier 2 Unlock Notify
 if store.best_day_tier1=101 and store.current_wave=101 {instance_create_depth(x,y-8,depth,show_use_item).myMessage = "  Tier 2 Unlocked!"}

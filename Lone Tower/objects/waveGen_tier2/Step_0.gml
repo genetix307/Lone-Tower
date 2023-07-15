@@ -66,6 +66,7 @@ if store.fate = 18 and hud.tower_hp >= hud.tower_maxhp {store.gold +=store.curre
 
 //Perks
 if (hud.perk_lvl_shiva*3)>random(100) {instance_create_depth(tower.x,tower.y+90,depth,guardian_shiva)}
+if hud.perk_lvl_tutor>0 {hud.xp+=hud.perk_lvl_tutor*10}
 
 //Set Wind Speed
 hud.wind_speed=round(3+random(22))

@@ -83,5 +83,8 @@ hud.perk_lvl_bigbombs+=1
 if my_id=21 {
 hud.perk_lvl_flawless+=1
 }
+if my_id=22 {
+hud.perk_lvl_tutor+=1
+}
 
 }
