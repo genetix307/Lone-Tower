@@ -1,7 +1,7 @@
 // Genetix Studio
 hold+=1
 
-if hold<=1 or hold %10==0 {
+if hold<=1 or hold %10==0 or hold>120 {
 if store.gold >= hud.cost_lifesteal_chance and maxxed = 0 and hud.paused = 0
 {
 if hud.free_upgrade_chance >= random(100) or hud.have_clover>0
