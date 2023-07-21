@@ -6,6 +6,7 @@ hud.paused = 1
 gems_earned=0
 game_speed=5
 gameover = 0
+combo=0
 alarm[0]=60
 
 instance_create_depth(cx+240,cy+670,depth,arcade_player)

@@ -7,7 +7,7 @@ if store.gold >= hud.cost_daily_gold and hud.paused = 0
 if hud.free_upgrade_chance >= random(100) or hud.have_clover>0
 {	instance_create_depth(x,y,depth-10,show_free_upgrade)} 
 else {store.gold -= hud.cost_daily_gold}
-hud.daily_gold +=1
+hud.daily_gold +=3
 hud.lvl_daily_gold +=1
 hud.cost_daily_gold += 1
 if hud.lvl_daily_gold > 99 {hud.cost_daily_gold += 1}
