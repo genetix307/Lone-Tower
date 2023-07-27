@@ -37,7 +37,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Settings",
-    "path": "folders/Objects/Menu/InGame/Settings.yy",
+    "name": "Items",
+    "path": "folders/Objects/Menu/InGame/Settings/Items.yy",
   },
 }
