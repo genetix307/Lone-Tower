@@ -5,3 +5,4 @@ image_alpha = .8
 
 myName = "Focus Pill x"+string(store.focuspill)
 myDesc = "+15% Temp Critical"
+hold=0

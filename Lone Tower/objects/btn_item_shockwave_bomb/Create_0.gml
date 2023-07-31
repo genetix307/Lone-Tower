@@ -5,3 +5,4 @@ image_alpha = .8
 
 myName = "Shockwave Bomb x"+string(store.shockwave_bomb)
 myDesc = "Creates Shockwave"
+hold=0

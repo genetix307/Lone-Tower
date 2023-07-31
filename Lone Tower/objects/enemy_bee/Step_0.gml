@@ -1,5 +1,5 @@
 // Genetix Studio
-if distance_to_object(tower) >= 120 and hud.paused = 0  and frozen = 0 {mp_potential_step_object(tower.x,tower.y,mySpeed,default_solid)}
+if distance_to_object(tower) >= 100 and hud.paused = 0  and frozen = 0 {mp_potential_step_object(tower.x,tower.y,mySpeed,default_solid)}
 
 if x < tower.x {image_xscale = 1} 
 if x >= tower.x {image_xscale = -1}

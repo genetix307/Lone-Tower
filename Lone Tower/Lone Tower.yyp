@@ -528,6 +528,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"EventWagon","folderPath":"folders/Objects/Menu/InGame/EventWagon.yy","order":11,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paused","folderPath":"folders/Objects/Menu/InGame/Paused.yy","order":18,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Settings","folderPath":"folders/Objects/Menu/InGame/Settings.yy","order":14,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Items","folderPath":"folders/Objects/Menu/InGame/Settings/Items.yy","order":24,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"utility_upgrades","folderPath":"folders/Objects/Menu/InGame/utility_upgrades.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MenuTabs","folderPath":"folders/Objects/Menu/MenuTabs.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Misc","folderPath":"folders/Objects/Menu/Misc.yy","order":7,},
@@ -563,7 +564,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ally","folderPath":"folders/Sprites/NPC/Ally.yy","order":17,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"DarkWizard","folderPath":"folders/Sprites/NPC/DarkWizard.yy","order":11,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"NPC_EFFECTS","folderPath":"folders/Sprites/NPC/NPC_EFFECTS.yy","order":9,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Items","folderPath":"folders/Objects/Menu/InGame/Settings/Items.yy","order":24,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},

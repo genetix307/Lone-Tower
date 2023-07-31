@@ -5,3 +5,4 @@ image_alpha = .8
 
 myName = "Monster Lure x"+string(store.monsterlure)
 myDesc = "Temp Attract Enemies"
+hold=0

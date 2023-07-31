@@ -5,3 +5,4 @@ image_alpha = .8
 
 myName = "MegaPotion x"+string(store.megapotion)
 myDesc = "Restore All HP"
+hold=0
