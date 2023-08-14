@@ -7,7 +7,7 @@ current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.50"
+version = "1.51"
 devMode = 1
 
 //Settings

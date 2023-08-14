@@ -24,8 +24,9 @@ store.gold_earned += store.card_lvl_inheritance*5
 //Evil Creed Card
 if store.card_slot_1 = 14 or store.card_slot_2 = 14 or store.card_slot_3 = 14 or store.card_slot_4 = 14
 {
-store.gems += store.card_lvl_evilcreed+2
-store.gems_earned += store.card_lvl_evilcreed+2
+store.gems += store.card_lvl_evilcreed+4
+store.gems_earned += store.card_lvl_evilcreed+4
+hud.gems_earned += store.card_lvl_evilcreed+4
 }
 
 store.gems += hud.daily_gem

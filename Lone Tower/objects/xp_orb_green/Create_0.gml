@@ -1,7 +1,8 @@
 // Genetix Studio
 depth =-y+20
 blackhole_used=0
-alarm[0]=60
+alarm[0]=15+random(20)
+if instance_number(xp_orb_green)>50 {alarm[0]=10}
 //alarm[0]=100
 makeSound=0
 speed=1

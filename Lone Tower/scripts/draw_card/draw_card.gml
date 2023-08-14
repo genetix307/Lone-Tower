@@ -85,8 +85,8 @@ draw_sprite(spr_card_art,5,x,y-28)
 draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_orb),15,86)
 draw_set_color(c_white)
-if store.card_lvl_orb < 2 {draw_text_ext(x-43,y+8,"Creates Orb that circles tower dealing "+string(store.card_lvl_orb*16)+" damage.",14,88)}
-if store.card_lvl_orb >= 2 {draw_text_ext(x-43,y+8,"Creates 2 Orbs that circle tower dealing "+string(store.card_lvl_orb*16)+" damage.",14,88)}
+if store.card_lvl_orb < 2 {draw_text_ext(x-43,y+8,"Creates Orb that circles tower dealing "+string(store.card_lvl_orb*25)+" damage.",14,88)}
+if store.card_lvl_orb >= 2 {draw_text_ext(x-43,y+8,"Creates 2 Orbs that circle tower dealing "+string(store.card_lvl_orb*25)+" damage.",14,88)}
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_orb))
 if instance_number(btn_card_upgrade)>0 {if store.gems>=btn_card_upgrade.upgradeCost and store.card_orb>=4{draw_sprite(spr_show_cardup,0,x+26,y-36)}}
@@ -191,7 +191,7 @@ draw_sprite(spr_card_art,12,x,y-28)
 draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Card Level "+string(store.card_lvl_evilcreed),15,86)
 draw_set_color(c_white)
-draw_text_ext(x-43,y+8,"+"+string(store.card_lvl_evilcreed+2)+" Gems daily, +"+string((store.card_lvl_evilcreed*3)+2)+" Enemy Level",11,88)
+draw_text_ext(x-43,y+8,"+"+string(store.card_lvl_evilcreed+4)+" Gems daily, +"+string(store.card_lvl_evilcreed*3)+" Enemy Level",11,88)
 draw_set_font(font_stats)
 draw_set_color(c_yellow)
 draw_text(x+24,y+50,"x"+string(store.card_evilcreed)) 

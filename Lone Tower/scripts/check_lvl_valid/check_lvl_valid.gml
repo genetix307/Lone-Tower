@@ -20,7 +20,7 @@ if slot=6 {
 if hud.perk_lvl_sharpshooter>=3 {return false}
 }
 if slot=7 {
-if hud.perk_lvl_miner>=3 {return false}
+if hud.perk_lvl_miner>=15 {return false}
 }
 if slot=8 {
 if hud.perk_lvl_heavyhitter>=3 {return false}

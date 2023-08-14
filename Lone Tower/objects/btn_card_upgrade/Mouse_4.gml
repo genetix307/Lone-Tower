@@ -32,4 +32,5 @@ if show_menu_cards.card_selected = 14 and store.card_evilcreed<=0 {store.card_ev
 if show_menu_cards.card_selected = 15 and store.card_mastery<=0 {store.card_mastery = 1}
 
 keepSelected=5
+save_game()
 }

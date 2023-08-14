@@ -58,7 +58,7 @@ sprite_index=spr_boss_reaper
 }
 if my_id=9 {
 myName="Name: Carbuncle\nType: Uncommon - Flying"
-myDesc="One eyed fling monster with a sizzling attack."
+myDesc="One eyed flying monster with a sizzling attack."
 mySlain=store.carbuncles_slain
 sprite_index=spr_carbuncle
 }

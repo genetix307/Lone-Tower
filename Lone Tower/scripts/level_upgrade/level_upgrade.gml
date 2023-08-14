@@ -27,7 +27,7 @@ hud.critical_chance+=.5
 }
 if my_id=7 {
 hud.perk_lvl_miner+=1
-store.gems+=25
+store.gems+=20+hud.perk_lvl_miner*5
 }
 if my_id=8 {
 hud.perk_lvl_heavyhitter+=1

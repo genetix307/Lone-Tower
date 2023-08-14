@@ -2,8 +2,8 @@
 if hud.paused = 0 {
 audio_play_sound(sfx_harvest,1,false)
 store.mushrooms_harvested +=1
-store.gold += 5+(hud.perk_lvl_funguy*5)
-store.gold_earned += 5+(hud.perk_lvl_funguy*5)
+store.gold += 10+(hud.perk_lvl_funguy*5)
+store.gold_earned += 10+(hud.perk_lvl_funguy*5)
 if store.card_slot_1 = 5 or store.card_slot_2 = 5 or store.card_slot_3 = 5 or store.card_slot_4 = 5 
 {
 store.gold += (store.card_lvl_farming*3)

@@ -6,8 +6,8 @@ instance_create_depth(x,y,depth-10,blood_splatter)
 audio_play_sound(sfx_enemy_hit,1,false)
 show_damaged = 1
 
-myHP -= store.card_lvl_orb*16
-instance_create_depth(x,y-8,depth,show_damage).myDamage = store.card_lvl_orb*15
+myHP -= store.card_lvl_orb*25
+instance_create_depth(x,y-8,depth,show_damage).myDamage = store.card_lvl_orb*25
 
 //Check Death
 if myHP <= 0 {

@@ -43,7 +43,7 @@ if hud.perk_lvl_sharpshooter=0 {isNew=1}
 }
 if my_id=7 {
 myHeader="Miner"
-myInfo="Gain +25 Gems"
+myInfo="Gain +"+string(hud.perk_lvl_miner*5+20)+" Gems"
 myLevel="Level "+string(hud.perk_lvl_miner)+">"+string(hud.perk_lvl_miner+1)
 if hud.perk_lvl_miner=0 {isNew=1}
 }
