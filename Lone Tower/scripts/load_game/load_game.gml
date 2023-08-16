@@ -200,6 +200,7 @@ function load_game() {
 	store.code_frozen = ini_read_real( "save1", "code_frozen",store.code_frozen);
 	store.code_lotto = ini_read_real( "save1", "code_lotto",store.code_lotto);
 	store.code_catchemall = ini_read_real( "save1", "code_catchemall",store.code_catchemall);
+	store.code_chaching = ini_read_real( "save1", "code_chaching",store.code_chaching);
 	
 	//show_message("Game Loaded")
 	ini_close();

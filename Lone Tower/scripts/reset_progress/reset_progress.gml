@@ -23,6 +23,7 @@ store.minigames=1
 store.auto_crate=0
 store.auto_perk=0
 store.fast_mode=0
+store.color_scheme=1
 
 //Challenges
 store.challenge_a = 1
@@ -207,7 +208,7 @@ store.code_gummy=0
 store.code_frozen=0
 store.code_lotto=0
 store.code_catchemall=0
-store.color_scheme=1
+store.code_chaching=0
 
 //Regain Ad Gems
 store.gems += store.ad_gems

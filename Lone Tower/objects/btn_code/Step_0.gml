@@ -168,6 +168,14 @@ store.monsterlure += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Monster Lures!"
 save_game()
 }
+if myResult = "chaching" and store.code_chaching = 0
+{
+reward = 500
+store.code_chaching = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
 
 ///ENDLESS USE CODES
 if myResult = "blood" and store.code_blood =0

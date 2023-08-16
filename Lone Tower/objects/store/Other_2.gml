@@ -244,6 +244,7 @@ code_gummy=0
 code_frozen=0
 code_lotto=0
 code_catchemall=0
+code_chaching=0
 
 //Endless Use Codes
 code_blood=0
