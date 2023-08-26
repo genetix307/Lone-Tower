@@ -53,7 +53,7 @@ instance_destroy()
 
 //knockback
 if knockback_on = 1 {
-mp_potential_step_object(tower.x,tower.y,-hud.knockback*2,default_solid)
+mp_potential_step_object(tower.x,tower.y,-(hud.knockback*2)+store.game_speed,default_solid)
 if hud.active_arrow = 4 {mp_potential_step_object(tower.x,tower.y,-24,default_solid)}
 }
 
