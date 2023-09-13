@@ -9,6 +9,7 @@
 	ini_write_real( "save1", "tier", store.tier);
 	ini_write_real( "save1", "secrets", store.secrets);
 	ini_write_real( "save1", "show_secret_tails", store.show_secret_tails);
+	ini_write_real( "save1", "ads_watched", store.ads_watched);
 	
 	//Settings
 	ini_write_real( "save1", "audio", store.audio);

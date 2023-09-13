@@ -36,6 +36,7 @@ draw_text(140,460,"Challenges Completed: "+string(store.challenges))
 draw_text(140,490,"Fates Unlocked: "+string(min(22,12+floor(store.best_day_tier1/10)))+" of 22")
 draw_text(140,520,"Secrets Found: "+string(store.secrets))
 draw_text(140,550,"Gem Catcher Hi-Score: "+string(store.gemcatcher_score))
+draw_text(140,580,"Ads Watched: "+string(store.ads_watched))
 
 //draw_set_color(c_orange)
 //draw_text(160,520,"Version "+string(store.version))

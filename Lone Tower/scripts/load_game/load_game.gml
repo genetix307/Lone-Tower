@@ -9,6 +9,7 @@ function load_game() {
 	store.tier = ini_read_real( "save1", "tier",store.tier);
 	store.secrets = ini_read_real( "save1", "secrets",store.secrets);
 	store.show_secret_tails = ini_read_real( "save1", "show_secret_tails",store.show_secret_tails);
+	store.ads_watched = ini_read_real( "save1", "ads_watched",store.ads_watched);
 	
 	//Settings
 	store.audio = ini_read_real( "save1", "audio",store.audio);

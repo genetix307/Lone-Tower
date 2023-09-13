@@ -12,6 +12,7 @@ store.fate = 0
 store.secrets=0
 store.show_secret_tails = 0
 store.show_snow_tier2=0
+//store.ads_watched=0
 
 //Settings
 store.audio = 0

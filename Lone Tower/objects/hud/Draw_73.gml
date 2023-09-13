@@ -165,7 +165,7 @@ if paused = 1 {
 	draw_set_font(font_large_hud)
 	draw_set_color(c_black)
 	draw_text(cx+142,cy+142,"Game Paused")
-	draw_text_color(cx+140,cy+140,"Game Paused",c_lime,c_lime,c_green,c_green,1)
+	draw_text_color(cx+140,cy+140,"Game Paused",c_yellow,c_yellow,c_orange,c_orange,1)
 	draw_set_font(font_upgrades)
 	if store.tier = 1 {
 	draw_text_color(cx+147,cy+200,"Tier 1: Lonely Woods",c_white,c_white,c_silver,c_silver,1)
