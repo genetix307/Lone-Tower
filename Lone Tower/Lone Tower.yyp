@@ -235,6 +235,7 @@
     {"id":{"name":"font_tiny_hud","path":"fonts/font_tiny_hud/font_tiny_hud.yy",},"order":4,},
     {"id":{"name":"show_criticalhit","path":"objects/show_criticalhit/show_criticalhit.yy",},"order":3,},
     {"id":{"name":"spr_menu_ends","path":"sprites/spr_menu_ends/spr_menu_ends.yy",},"order":14,},
+    {"id":{"name":"spr_duck_walk","path":"sprites/spr_duck_walk/spr_duck_walk.yy",},"order":20,},
     {"id":{"name":"btn_rating","path":"objects/btn_rating/btn_rating.yy",},"order":16,},
     {"id":{"name":"btn_item_potion","path":"objects/btn_item_potion/btn_item_potion.yy",},"order":3,},
     {"id":{"name":"show_menu_home","path":"objects/show_menu_home/show_menu_home.yy",},"order":10,},

@@ -7,3 +7,4 @@ upgradeCost = 100
 save_game()
 
 keepSelected=0
+hold=0

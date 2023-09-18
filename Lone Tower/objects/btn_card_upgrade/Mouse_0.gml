@@ -1,4 +1,7 @@
 // Genetix Studio
+hold+=1
+
+if hold<=1 or hold %10==0 or hold>120 {
 if image_index = store.color_scheme
 {
 if show_menu_cards.card_selected = 2 {store.card_inheritance-=3 store.gems-=upgradeCost store.card_lvl_inheritance+=1 audio_play_sound(sfx_upgrade,1,false)}
@@ -32,5 +35,7 @@ if show_menu_cards.card_selected = 14 and store.card_evilcreed<=0 {store.card_ev
 if show_menu_cards.card_selected = 15 and store.card_mastery<=0 {store.card_mastery = 1}
 
 keepSelected=5
-save_game()
 }
+}
+
+save_game()

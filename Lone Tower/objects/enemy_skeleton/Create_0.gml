@@ -20,3 +20,6 @@ show_damaged = 0
 stun = 0
 frozen = 0
 flying = 0
+
+//Transform to duck
+if store.code_ducky=1 {sprite_index=spr_duck_walk}
