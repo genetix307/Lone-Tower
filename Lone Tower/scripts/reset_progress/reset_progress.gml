@@ -25,6 +25,7 @@ store.auto_crate=0
 store.auto_perk=0
 store.fast_mode=0
 store.color_scheme=1
+store.effects=1
 
 //Challenges
 store.challenge_a = 1

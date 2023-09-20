@@ -22,6 +22,7 @@
 	ini_write_real( "save1", "auto_perk", store.auto_perk);
 	ini_write_real( "save1", "fast_mode", store.fast_mode);
 	ini_write_real( "save1", "color_scheme", store.color_scheme);
+	ini_write_real( "save1", "effects", store.effects);
 	
 	//Challenges
 	ini_write_real( "save1", "challenge_a", store.challenge_a);

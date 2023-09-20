@@ -181,6 +181,7 @@
     {"id":{"name":"def_enemy","path":"objects/def_enemy/def_enemy.yy",},"order":5,},
     {"id":{"name":"sfx_explosion","path":"sounds/sfx_explosion/sfx_explosion.yy",},"order":10,},
     {"id":{"name":"enemy_carbuncle_shot","path":"objects/enemy_carbuncle_shot/enemy_carbuncle_shot.yy",},"order":15,},
+    {"id":{"name":"btn_effects","path":"objects/btn_effects/btn_effects.yy",},"order":25,},
     {"id":{"name":"spr_wizard_attack","path":"sprites/spr_wizard_attack/spr_wizard_attack.yy",},"order":3,},
     {"id":{"name":"spr_effect_menu_ray","path":"sprites/spr_effect_menu_ray/spr_effect_menu_ray.yy",},"order":19,},
     {"id":{"name":"perm_upgrade_supplydrop","path":"objects/perm_upgrade_supplydrop/perm_upgrade_supplydrop.yy",},"order":6,},

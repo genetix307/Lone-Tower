@@ -3,3 +3,5 @@
 depth =-10001
 image_alpha = 3.1
 log_rotate(c_white,"Critical Hit!")
+
+if store.effects=0 {instance_destroy()}

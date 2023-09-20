@@ -8,3 +8,5 @@ if (store.challenge_a=7 or store.challenge_b=7 or store.challenge_c=7) and store
 	{
 	store.goal_blood+=1
 	}
+	
+if store.effects=0 {instance_destroy()}

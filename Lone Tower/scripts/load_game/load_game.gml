@@ -22,6 +22,7 @@ function load_game() {
 	store.auto_perk = ini_read_real( "save1", "auto_perk",store.auto_perk);
 	store.fast_mode = ini_read_real( "save1", "fast_mode",store.fast_mode);
 	store.color_scheme = ini_read_real( "save1", "color_scheme",store.color_scheme);
+	store.effects = ini_read_real( "save1", "effects",store.effects);
 	
 	//Challenges
 	store.challenge_a = ini_read_real( "save1", "challenge_a",store.challenge_a);

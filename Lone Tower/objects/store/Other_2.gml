@@ -22,6 +22,7 @@ auto_crate=0
 auto_perk=0
 fast_mode=0
 color_scheme=1
+effects=1
 
 //Challenges
 challenge_a = 1
