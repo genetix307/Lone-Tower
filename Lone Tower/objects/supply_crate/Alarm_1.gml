@@ -20,6 +20,7 @@ if reward_item_name = "Monster Lure" {store.monsterlure += reward_items}
 if reward_item_name = "Shockwave Bomb" {store.shockwave_bomb += reward_items}
 if reward_item_name = "Focus Pill" {store.focuspill += reward_items}
 if reward_item_name = "Heavy Arrows" {store.heavy_arrows += reward_items}
+if reward_item_name = "Chicken" {store.chicken += reward_items}
 }
 
 

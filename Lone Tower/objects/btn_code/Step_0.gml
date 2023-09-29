@@ -176,6 +176,14 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "dud" and store.code_dud = 0
+{
+reward = 1
+store.code_dud= 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gem!" //Alt text here
+save_game()
+}
 
 ///ENDLESS USE CODES
 if myResult = "blood" and store.code_blood =0

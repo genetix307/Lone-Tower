@@ -6,3 +6,4 @@ myName = "Daily Gold\nInterest"
 stat_cap = 3
 maxxed = 0
 
+hold=0

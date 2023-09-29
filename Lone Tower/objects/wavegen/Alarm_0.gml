@@ -106,6 +106,7 @@ repeat(spawnArchers) {
 
 //Gen Event Wagon ----------------------------
 if wagon_buffer = 0 and (4+hud.wagon_boost)>random(30) {instance_create_depth(-200, tower.y+140,-5000,event_wagon) wagon_buffer = 3}
-//instance_create_depth(-200, tower.y+140,-5000,event_wagon)
+//Gen Secret UFO
+if store.secret_ufo=0 and store.current_wave=51 {instance_create_depth(-300,50,-5000,secret_ufo_obj)}
 
 hud.day_enemy_count = instance_number(default_enemy)

@@ -6,3 +6,4 @@ myName = "Free Upgrade\nChance"
 stat_cap = 5
 maxxed = 0
 
+hold=0

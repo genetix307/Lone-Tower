@@ -5,4 +5,4 @@ image_speed = 0
 myName = "Defense"
 stat_cap = 25
 maxxed = 0
-
+hold=0

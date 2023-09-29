@@ -137,5 +137,11 @@ myInfo="+"+string((hud.perk_lvl_tutor+1)*10)+" XP each day."
 myLevel="Level "+string(hud.perk_lvl_tutor)+">"+string(hud.perk_lvl_tutor+1)
 if hud.perk_lvl_tutor=0 {isNew=1}
 }
+if my_id=23 {
+myHeader="Forager"
+myInfo="Ally that harvests crops."
+myLevel="Level "+string(hud.perk_lvl_forager)+">"+string(hud.perk_lvl_forager+1)
+if hud.perk_lvl_forager=0 {isNew=1}
+}
 
 }

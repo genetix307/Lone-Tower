@@ -1,6 +1,7 @@
 // Genetix Studio
 image_speed = 0
 image_index = 0
+alarm[0]=60
 
 //if store.card_slot_1 != 5 and store.card_slot_2 != 5 and store.card_slot_3 != 5 and store.card_slot_4 != 5 
 //{

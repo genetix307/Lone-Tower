@@ -4,4 +4,4 @@ image_speed = 0
 
 myName = "Max\nHealth"
 maxxed = 0
-
+hold=0

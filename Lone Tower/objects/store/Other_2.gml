@@ -7,8 +7,8 @@ current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.52"
-devMode = 1
+version = "1.53"
+devMode = 0
 ads_watched=0
 
 //Settings
@@ -52,6 +52,7 @@ tier = 1
 target_priority = 0
 fate = 0
 show_secret_tails = 0
+secret_ufo=0
 show_snow_tier2=0
 ad_gems=0
 
@@ -65,8 +66,9 @@ potion = 2
 megapotion = 0
 monsterlure = 0
 shockwave_bomb = 0
-focuspill = 0
+focuspill = 1
 heavy_arrows=200
+chicken=2
 
 //Statistics
 best_day = 0 //Legacy var 
@@ -247,6 +249,7 @@ code_frozen=0
 code_lotto=0
 code_catchemall=0
 code_chaching=0
+code_dud=0
 
 //Endless Use Codes
 code_blood=0

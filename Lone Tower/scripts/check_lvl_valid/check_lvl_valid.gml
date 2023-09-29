@@ -67,6 +67,9 @@ if hud.perk_lvl_flawless>=50 {return false}
 if slot=22 {
 if hud.perk_lvl_tutor>=10 {return false}
 }
+if slot=23 {
+if hud.perk_lvl_forager>=1 {return false}
+}
 
 return true
 }

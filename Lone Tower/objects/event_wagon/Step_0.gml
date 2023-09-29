@@ -15,3 +15,4 @@ if x < tower.x and instance_number(default_enemy) <= 0 and hud.paused = 0
 }
 
 if hud.gameover > 0 {instance_destroy()}
+if hud.paused>0 {instance_destroy()}

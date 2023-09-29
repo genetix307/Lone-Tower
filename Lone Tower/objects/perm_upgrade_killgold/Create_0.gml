@@ -4,3 +4,4 @@ image_speed = 0
 
 myName = "Kill Gold\nBonus"
 
+hold=0

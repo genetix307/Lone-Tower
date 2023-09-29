@@ -86,5 +86,9 @@ hud.perk_lvl_flawless+=1
 if my_id=22 {
 hud.perk_lvl_tutor+=1
 }
+if my_id=23 {
+hud.perk_lvl_forager+=1
+instance_create_depth(tower.x,tower.y+88,depth,forager)
+}
 
 }

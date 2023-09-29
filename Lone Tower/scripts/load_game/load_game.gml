@@ -9,6 +9,7 @@ function load_game() {
 	store.tier = ini_read_real( "save1", "tier",store.tier);
 	store.secrets = ini_read_real( "save1", "secrets",store.secrets);
 	store.show_secret_tails = ini_read_real( "save1", "show_secret_tails",store.show_secret_tails);
+	store.secret_ufo = ini_read_real( "save1", "secret_ufo",store.secret_ufo);
 	store.ads_watched = ini_read_real( "save1", "ads_watched",store.ads_watched);
 	
 	//Settings
@@ -54,6 +55,7 @@ function load_game() {
 	store.shockwave_bomb = ini_read_real( "save1", "shockwave_bomb",store.shockwave_bomb);
 	store.focuspill = ini_read_real( "save1", "focuspill",store.focuspill);
 	store.heavy_arrows = ini_read_real( "save1", "heavy_arrows",store.heavy_arrows);
+	store.chicken = ini_read_real( "save1", "chicken",store.chicken);
 	
 	//Stats
 	store.best_day = ini_read_real( "save1", "best_day1",store.best_day);
@@ -203,6 +205,7 @@ function load_game() {
 	store.code_lotto = ini_read_real( "save1", "code_lotto",store.code_lotto);
 	store.code_catchemall = ini_read_real( "save1", "code_catchemall",store.code_catchemall);
 	store.code_chaching = ini_read_real( "save1", "code_chaching",store.code_chaching);
+	store.code_dud= ini_read_real( "save1", "code_dud",store.code_dud);
 	
 	//show_message("Game Loaded")
 	ini_close();

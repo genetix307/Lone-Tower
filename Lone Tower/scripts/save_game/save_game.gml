@@ -8,6 +8,7 @@
 	ini_write_real( "save1", "show_log", store.show_log);
 	ini_write_real( "save1", "tier", store.tier);
 	ini_write_real( "save1", "secrets", store.secrets);
+	ini_write_real( "save1", "secret_ufo", store.secret_ufo);
 	ini_write_real( "save1", "show_secret_tails", store.show_secret_tails);
 	ini_write_real( "save1", "ads_watched", store.ads_watched);
 	
@@ -54,6 +55,7 @@
 	ini_write_real( "save1", "shockwave_bomb", store.shockwave_bomb);
 	ini_write_real( "save1", "focuspill", store.focuspill);
 	ini_write_real( "save1", "heavy_arrows", store.heavy_arrows);
+	ini_write_real( "save1", "chicken", store.chicken);
 
 	//Stats
 	ini_write_real( "save1", "best_day_tier1", store.best_day_tier1);
@@ -202,6 +204,7 @@
 	ini_write_real( "save1", "code_lotto", store.code_lotto);
 	ini_write_real( "save1", "code_catchemall", store.code_catchemall);
 	ini_write_real( "save1", "code_chaching", store.code_chaching);
+	ini_write_real( "save1", "code_dud", store.code_dud);
 	
 	//show_message("Game Saved")
 	ini_close();

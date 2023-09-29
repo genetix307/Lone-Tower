@@ -4,3 +4,4 @@ image_speed = 0
 
 myName = "Lifesteal\nAmount"
 
+hold=0

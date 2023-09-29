@@ -11,6 +11,7 @@ store.target_priority = 0
 store.fate = 0
 store.secrets=0
 store.show_secret_tails = 0
+store.secret_ufo=0
 store.show_snow_tier2=0
 //store.ads_watched=0
 
@@ -57,6 +58,7 @@ store.monsterlure = 0
 store.shockwave_bomb = 0
 store.focuspill = 0
 store.heavy_arrows=200
+store.chicken=0
 
 //Statistics
 store.best_day_tier1 = 0
@@ -211,6 +213,7 @@ store.code_frozen=0
 store.code_lotto=0
 store.code_catchemall=0
 store.code_chaching=0
+store.code_dud=0
 
 //Regain Ad Gems
 store.gems += store.ad_gems
