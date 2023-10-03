@@ -37,7 +37,7 @@ if image_index = 2 { //Gem Crop
 audio_play_sound(sfx_harvest,1,false)
 store.crops_harvested +=1
 store.gems += 10+(hud.perk_lvl_farmer*5)
-store.gems += 10+(hud.perk_lvl_farmer*5)
+store.gems_earned += 10+(hud.perk_lvl_farmer*5)
 if store.card_slot_1 = 5 or store.card_slot_2 = 5 or store.card_slot_3 = 5 or store.card_slot_4 = 5 
 {
 store.gems += (store.card_lvl_farming*5)

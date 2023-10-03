@@ -43,7 +43,7 @@ if 2>random(100) {instance_create_depth(x,y,84,lucky_clover)}
 //Tier Up every 20 days
 if tier < 19 {tier +=2} else {tier = 0 tier_level +=10+creed}
 tier_level+=1
-if store.current_wave>=105 {tier_level+=2}
+if store.current_wave>=101 {tier_level+=floor(store.current_wave/100)}
 hud.enemy_level = store.current_wave+tier_level 
 if wagon_buffer > 0 {wagon_buffer -=1}
 hud.shockwave_used = 0
