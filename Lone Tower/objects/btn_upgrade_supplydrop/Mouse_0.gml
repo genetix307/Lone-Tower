@@ -10,10 +10,10 @@ else {store.gold -= hud.cost_supplydrop}
 hud.supplydrop_chance +=.25
 hud.lvl_supplydrop +=1
 hud.cost_supplydrop += 5
-if hud.lvl_supplydrop > 9 {hud.cost_supplydrop += 5}
-if hud.lvl_supplydrop > 12 {hud.cost_supplydrop += 10}
-if hud.lvl_supplydrop > 15 {hud.cost_supplydrop += 15}
-if hud.lvl_supplydrop > 17 {hud.cost_supplydrop += 20}
+if hud.lvl_supplydrop > 9 {hud.cost_supplydrop += 2}
+if hud.lvl_supplydrop > 12 {hud.cost_supplydrop += 5}
+if hud.lvl_supplydrop > 15 {hud.cost_supplydrop += 10}
+if hud.lvl_supplydrop > 17 {hud.cost_supplydrop += 15}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Daily Supply Drop Chance")

@@ -1,3 +1,3 @@
-myCost = 40
+myCost = 35
 
 

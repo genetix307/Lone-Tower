@@ -6,20 +6,20 @@ shiny = 0
 
 depth = -y
 
-reward_gold = round(10+random(store.current_wave))+1
-reward_gems = round(random(4))+1
+reward_gold = ceil(10+random(store.current_wave/2))
+reward_gems = ceil(random(3))
 
-reward_item_name = choose("Bomb Arrows", "Crop Seeds", "Crop Seeds", "Ice Arrows","Potion","Potion","Smoke Arrows","Monster Lure","Shockwave Bomb","Shockwave Bomb","Focus Pill","Heavy Arrows","Chicken")
+reward_item_name = choose("Bomb Arrows", "Crop Seeds", "Crop Seeds","Crop Seeds", "Ice Arrows","Potion","Potion","Potion","Smoke Arrows","Monster Lure","Shockwave Bomb","Shockwave Bomb","Focus Pill","Heavy Arrows","Chicken")
 
-if reward_item_name = "Bomb Arrows" {reward_items = round(15+random(15))}
-if reward_item_name = "Crop Seeds" {reward_items = round(15+random(15))}
-if reward_item_name = "Ice Arrows" {reward_items = round(15+random(15))}
+if reward_item_name = "Bomb Arrows" {reward_items = round(10+random(15))}
+if reward_item_name = "Crop Seeds" {reward_items = round(10+random(15))}
+if reward_item_name = "Ice Arrows" {reward_items = round(10+random(15))}
 if reward_item_name = "Potion" {reward_items = 1}
-if reward_item_name = "Smoke Arrows" {reward_items = round(15+random(15))}
+if reward_item_name = "Smoke Arrows" {reward_items = round(10+random(15))}
 if reward_item_name = "Monster Lure" {reward_items = 1}
 if reward_item_name = "Shockwave Bomb" {reward_items = 1}
 if reward_item_name = "Focus Pill" {reward_items = 1}
-if reward_item_name = "Heavy Arrows" {reward_items = round(15+random(15))}
+if reward_item_name = "Heavy Arrows" {reward_items = round(10+random(15))}
 if reward_item_name = "Chicken" {reward_items = 1}
 
 //Card multiplier

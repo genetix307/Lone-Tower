@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "btn_pocketdefender",
+  "name": "arcade_skull_fade",
   "spriteId": {
-    "name": "spr_pocketdefender_ad",
-    "path": "sprites/spr_pocketdefender_ad/spr_pocketdefender_ad.yy",
+    "name": "spr_show_skull",
+    "path": "sprites/spr_show_skull/spr_show_skull.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,14 +25,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Misc",
-    "path": "folders/Objects/Menu/Misc.yy",
+    "name": "Arcade",
+    "path": "folders/Objects/Environment/Arcade.yy",
   },
 }

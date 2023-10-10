@@ -15,8 +15,8 @@ image_speed=.5 mp_potential_step_object(instance_nearest(x,y,mushrooms).x,instan
 } 
 
 if instance_number(crop_pointer)>0 {
-speed = .25*store.game_speed
-image_speed=1 mp_potential_step_object(instance_nearest(x,y,crop_pointer).x,instance_nearest(x,y,crop_pointer).y,speed+.1,default_solid)
+speed = .5*store.game_speed
+image_speed=.5 mp_potential_step_object(instance_nearest(x,y,crop_pointer).x,instance_nearest(x,y,crop_pointer).y,speed+.1,default_solid)
 } 
 
 

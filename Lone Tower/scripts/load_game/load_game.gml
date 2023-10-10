@@ -206,6 +206,7 @@ function load_game() {
 	store.code_catchemall = ini_read_real( "save1", "code_catchemall",store.code_catchemall);
 	store.code_chaching = ini_read_real( "save1", "code_chaching",store.code_chaching);
 	store.code_dud= ini_read_real( "save1", "code_dud",store.code_dud);
+	store.code_pollo= ini_read_real( "save1", "code_pollo",store.code_pollo);
 	
 	//show_message("Game Loaded")
 	ini_close();

@@ -7,6 +7,6 @@ x=device_mouse_x(0)
 if x<cx+30{x=cx+30}
 if x>cx+450{x=cx+450}
 
-
+if x>room_width/2 {image_xscale=1}else {image_xscale=-1}
 
 

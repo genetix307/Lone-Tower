@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "arcade_skull",
+  "name": "btn_knightsrun_ad",
   "spriteId": {
-    "name": "spr_show_skull",
-    "path": "sprites/spr_show_skull/spr_show_skull.yy",
+    "name": "spr_knightsrun_ad",
+    "path": "sprites/spr_knightsrun_ad/spr_knightsrun_ad.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,16 +25,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"arcade_gem","path":"objects/arcade_gem/arcade_gem.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Arcade",
-    "path": "folders/Objects/Environment/Arcade.yy",
+    "name": "Misc",
+    "path": "folders/Objects/Menu/Misc.yy",
   },
 }

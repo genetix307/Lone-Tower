@@ -184,6 +184,14 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gem!" //Alt text here
 save_game()
 }
+if myResult = "pollo" and store.code_pollo = 0
+{
+reward = 25
+store.code_pollo = 1
+store.chicken += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Chicken!"
+save_game()
+}
 
 ///ENDLESS USE CODES
 if myResult = "blood" and store.code_blood =0

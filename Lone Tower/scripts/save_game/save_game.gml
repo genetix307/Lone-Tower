@@ -205,6 +205,7 @@
 	ini_write_real( "save1", "code_catchemall", store.code_catchemall);
 	ini_write_real( "save1", "code_chaching", store.code_chaching);
 	ini_write_real( "save1", "code_dud", store.code_dud);
+	ini_write_real( "save1", "code_pollo", store.code_pollo);
 	
 	//show_message("Game Saved")
 	ini_close();

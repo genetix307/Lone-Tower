@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "arcade_player",
   "spriteId": {
-    "name": "spr_item_orb",
-    "path": "sprites/spr_item_orb/spr_item_orb.yy",
+    "name": "spr_forager",
+    "path": "sprites/spr_forager/spr_forager.yy",
   },
   "solid": false,
   "visible": true,
