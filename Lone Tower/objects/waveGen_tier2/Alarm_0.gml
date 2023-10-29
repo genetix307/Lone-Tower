@@ -83,6 +83,7 @@ repeat(spawnRedDragonn) {
 //Gen Bees
 var distanceBees = 1600
 var spawnBees = round(random(4))+round(store.current_wave/6)
+if spawnBees>50 {spawnBees=50}
 repeat(spawnBees) {
     var dir = random_range(0, 359);
     var distance = random_range(400, 300+distanceBees);
@@ -91,6 +92,7 @@ repeat(spawnBees) {
 //Gen Carbuncle
 var distanceCarbuncles = 1650
 var spawnCarbuncles = round(random(1))+round(store.current_wave/33)
+if spawnCarbuncles>50 {spawnCarbuncles=50}
 repeat(spawnCarbuncles) {
     var dir = random_range(0, 359);
     var distance = random_range(400, 300+distanceCarbuncles);
@@ -99,6 +101,7 @@ repeat(spawnCarbuncles) {
 //Gen Archer
 var distanceArchers = 1350
 var spawnArchers = round(random(1))+round(store.current_wave/16)
+if spawnArchers>50{spawnArchers=50}
 repeat(spawnArchers) {
     var dir = random_range(0, 359);
     var distance = random_range(400, 300+distanceArchers);

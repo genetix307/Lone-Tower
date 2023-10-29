@@ -215,6 +215,9 @@ store.code_catchemall=0
 store.code_chaching=0
 store.code_dud=0
 store.code_pollo=0
+store.code_stayinalive=0
+store.code_trickortreat=0
+store.code_trosky=0
 
 //Regain Ad Gems
 store.gems += store.ad_gems

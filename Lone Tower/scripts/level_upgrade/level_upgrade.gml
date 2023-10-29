@@ -3,7 +3,7 @@
 function level_upgrade(){
 if my_id=1 {
 hud.perk_lvl_brawn+=1
-hud.attack_damage+=3
+hud.attack_damage+=2+hud.perk_lvl_brawn
 }
 if my_id=2 {
 hud.perk_lvl_toughskin+=1
@@ -89,6 +89,9 @@ hud.perk_lvl_tutor+=1
 if my_id=23 {
 hud.perk_lvl_forager+=1
 instance_create_depth(tower.x,tower.y+88,depth,forager)
+}
+if my_id=24 {
+hud.perk_lvl_sideweapon+=1
 }
 
 }

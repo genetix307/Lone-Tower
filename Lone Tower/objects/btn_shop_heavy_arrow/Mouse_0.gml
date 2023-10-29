@@ -1,4 +1,7 @@
-if store.gems >= myCost
+hold+=1
+
+if hold<=1 or hold %10==0 or hold>120 {
+	if store.gems >= myCost
 {
 store.gems -= myCost
 store.heavy_arrows +=50
@@ -11,4 +14,4 @@ if (store.challenge_a=9 or store.challenge_b=9 or store.challenge_c=9) and store
 	
 }
 
-
+}

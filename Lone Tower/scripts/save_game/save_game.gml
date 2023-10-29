@@ -17,7 +17,7 @@
 	ini_write_real( "save1", "start_max_speed", store.start_max_speed);
 	ini_write_real( "save1", "wagon_mode", store.wagon_mode);
 	ini_write_real( "save1", "show_healthbars", store.show_healthbars);
-	ini_write_real( "save1", "slow_mode", store.slow_mode);
+	//ini_write_real( "save1", "slow_mode", store.slow_mode);
 	ini_write_real( "save1", "minigames", store.minigames);
 	ini_write_real( "save1", "auto_crate", store.auto_crate);
 	ini_write_real( "save1", "auto_perk", store.auto_perk);
@@ -206,6 +206,9 @@
 	ini_write_real( "save1", "code_chaching", store.code_chaching);
 	ini_write_real( "save1", "code_dud", store.code_dud);
 	ini_write_real( "save1", "code_pollo", store.code_pollo);
+	ini_write_real( "save1", "code_stayinalive", store.code_stayinalive);
+	ini_write_real( "save1", "code_trickortreat", store.code_trickortreat);
+	ini_write_real( "save1", "code_trosky", store.code_trosky);
 	
 	//show_message("Game Saved")
 	ini_close();

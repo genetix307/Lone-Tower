@@ -192,6 +192,30 @@ store.chicken += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Chicken!"
 save_game()
 }
+if myResult = "stayinalive" and store.code_stayinalive = 0
+{
+reward = 25
+store.code_stayinalive = 1
+store.potion += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "+"+string(reward)+" Potions!"
+save_game()
+}
+if myResult = "trickortreat" and store.code_trickortreat = 0
+{
+reward = 666
+store.code_trickortreat = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
+if myResult = "trosky" and store.code_trosky = 0
+{
+reward = 10000000000
+store.code_trosky = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
 
 ///ENDLESS USE CODES
 if myResult = "blood" and store.code_blood =0

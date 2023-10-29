@@ -17,7 +17,7 @@ function load_game() {
 	store.start_max_speed = ini_read_real( "save1", "start_max_speed",store.start_max_speed);
 	store.wagon_mode = ini_read_real( "save1", "wagon_mode",store.wagon_mode);
 	store.show_healthbars = ini_read_real( "save1", "show_healthbars",store.show_healthbars);
-	store.slow_mode = ini_read_real( "save1", "slow_mode",store.slow_mode);
+	//store.slow_mode = ini_read_real( "save1", "slow_mode",store.slow_mode);
 	store.minigames = ini_read_real( "save1", "minigames",store.minigames);
 	store.auto_crate = ini_read_real( "save1", "auto_crate",store.auto_crate);
 	store.auto_perk = ini_read_real( "save1", "auto_perk",store.auto_perk);
@@ -207,6 +207,9 @@ function load_game() {
 	store.code_chaching = ini_read_real( "save1", "code_chaching",store.code_chaching);
 	store.code_dud= ini_read_real( "save1", "code_dud",store.code_dud);
 	store.code_pollo= ini_read_real( "save1", "code_pollo",store.code_pollo);
+	store.code_stayinalive= ini_read_real( "save1", "code_stayinalive",store.code_stayinalive);
+	store.code_trickortreat= ini_read_real( "save1", "code_trickortreat",store.code_trickortreat);
+	store.code_trosky= ini_read_real( "save1", "code_trosky",store.code_trosky);
 	
 	//show_message("Game Loaded")
 	ini_close();

@@ -15,4 +15,6 @@ if my_id =10 and myCur>=myCap {image_index=store.color_scheme}
 if my_id =11 and myCur>=myCap {image_index=store.color_scheme} 
 if my_id =12 and myCur>=myCap {image_index=store.color_scheme} 
 
-
+if instance_number(hud)>0 {
+if hud.paused=0 {instance_destroy()}
+}

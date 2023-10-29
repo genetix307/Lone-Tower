@@ -70,6 +70,9 @@ if hud.perk_lvl_tutor>=10 {return false}
 if slot=23 {
 if hud.perk_lvl_forager>=1 {return false}
 }
+if slot=24 {
+if hud.perk_lvl_sideweapon>=99 {return false}
+}
 
 return true
 }

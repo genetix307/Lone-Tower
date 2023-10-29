@@ -7,8 +7,8 @@ current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.54"
-devMode = 0
+version = "1.58"
+devMode =0
 ads_watched=0
 
 //Settings
@@ -251,6 +251,9 @@ code_catchemall=0
 code_chaching=0
 code_dud=0
 code_pollo=0
+code_stayinalive=0
+code_trickortreat=0
+code_trosky=0
 
 //Endless Use Codes
 code_blood=0

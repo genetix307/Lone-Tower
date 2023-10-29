@@ -7,7 +7,7 @@ myInfo=""
 }
 if my_id=1 {
 myHeader="Brawn"
-myInfo="Gain +3 Attack Damage"
+myInfo="Gain +"+string(3+hud.perk_lvl_brawn)+" Attack Damage"
 myLevel="Level "+string(hud.perk_lvl_brawn)+">"+string(hud.perk_lvl_brawn+1)
 if hud.perk_lvl_brawn=0 {isNew=1}
 }
@@ -142,6 +142,12 @@ myHeader="Forager"
 myInfo="Ally that harvests crops."
 myLevel="Level "+string(hud.perk_lvl_forager)+">"+string(hud.perk_lvl_forager+1)
 if hud.perk_lvl_forager=0 {isNew=1}
+}
+if my_id=24 {
+myHeader="Side Weapon"
+myInfo="Attack Cards deal +"+string(hud.perk_lvl_sideweapon+1)+" damage"
+myLevel="Level "+string(hud.perk_lvl_sideweapon)+">"+string(hud.perk_lvl_sideweapon+1)
+if hud.perk_lvl_sideweapon=0 {isNew=1}
 }
 
 }

@@ -38,11 +38,17 @@ draw_text(cx+297,cy+645,string(store.gold))
 draw_set_color(c_white)
 draw_text(cx+295,cy+643,string(store.gold)) 
 }
-else {
+if store.gold>=10000 and store.gold<1000000 {
 draw_set_color(c_black)
 draw_text(cx+297,cy+645,string(floor(store.gold/1000))+"K")              
 draw_set_color(c_white)
 draw_text(cx+295,cy+643,string(floor(store.gold/1000))+"K")    
+}
+if store.gold>=1000000 {
+draw_set_color(c_black)
+draw_text(cx+297,cy+645,string(floor(store.gold/1000000))+"M")              
+draw_set_color(c_white)
+draw_text(cx+295,cy+643,string(floor(store.gold/1000000))+"M")    
 }
 
 //Draw Gems
@@ -54,20 +60,34 @@ draw_text(cx+364,cy+644,string(store.gems))
 draw_set_color(c_white)
 draw_text(cx+363,cy+643,string(store.gems))  
 }
-else {
+if store.gems>=10000 and store.gems<1000000 {
 draw_set_color(c_black)
 draw_text(cx+364,cy+644,string(floor(store.gems/1000))+"K")              
 draw_set_color(c_white)
 draw_text(cx+363,cy+643,string(floor(store.gems/1000))+"K") 
+} 
+if store.gems>=1000000 {
+draw_set_color(c_black)
+draw_text(cx+364,cy+644,string(floor(store.gems/1000000))+"M")              
+draw_set_color(c_white)
+draw_text(cx+363,cy+643,string(floor(store.gems/1000000))+"M") 
 } 
 
 //Draw Enemy Level
 draw_set_font(font_stats)
 draw_sprite(spr_show_enemylevel,0,cx+412,cy+651)
 draw_set_color(c_black)
+if hud.enemy_level<10000 {
 draw_text(cx+427,cy+645,string(hud.enemy_level))              
 draw_set_color(c_white)
-draw_text(cx+425,cy+643,string(hud.enemy_level))  
+draw_text(cx+425,cy+643,string(hud.enemy_level)) 
+}
+if hud.enemy_level>=10000 {
+draw_text(cx+427,cy+645,string(floor(hud.enemy_level/1000))+"K")              
+draw_set_color(c_white)
+draw_text(cx+425,cy+643,string(floor(hud.enemy_level/1000))+"K")   
+}
+
 
 //Show Detail
 if show_detail > 0 
@@ -164,8 +184,9 @@ if paused = 1 {
 	draw_line_color(135,138,355,138,c_white,c_silver)
 	draw_set_font(font_large_hud)
 	draw_set_color(c_black)
-	draw_text(cx+142,cy+142,"Game Paused")
-	draw_text_color(cx+140,cy+140,"Game Paused",c_yellow,c_yellow,c_orange,c_orange,1)
+	draw_text(cx+142,cy+42,"Game Paused")
+	draw_text_color(cx+140,cy+40,"Game Paused",c_yellow,c_yellow,c_orange,c_orange,1)
+	/*
 	draw_set_font(font_upgrades)
 	if store.tier = 1 {
 	draw_text_color(cx+147,cy+200,"Tier 1: Lonely Woods",c_white,c_white,c_silver,c_silver,1)
@@ -179,5 +200,7 @@ if paused = 1 {
 	draw_text_color(cx+160,cy+300,"Enemies Slain: "+string(enemies_slain),c_white,c_white,c_silver,c_silver,1)
 	draw_text_color(cx+160,cy+325,"Gems Earned: "+string(gems_earned),c_white,c_white,c_silver,c_silver,1)
 	draw_text_color(cx+160,cy+250,"Fate: "+string(store.current_fate),c_white,c_white,c_silver,c_silver,1)
+	*/
 	}
+	
 }
