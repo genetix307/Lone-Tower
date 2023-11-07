@@ -6,7 +6,7 @@ if room = rm_choose_fate
 	if my_slot = 3 {my_id = choose_fate.slot_3}
 }
 
-if my_id = 1 {myName="Brawler" myEffect="Born to deal more damage\nExtra starting Attack Damage" image_index = store.color_scheme}
+if my_id = 1 {myName="Brawler" myEffect="Born to deal more damage\nDamage upgrade gives more points" image_index = store.color_scheme}
 if my_id = 2 {myName="Defender" myEffect="Able to take a hit\nExtra starting Defense" image_index = store.color_scheme}
 if my_id = 3 {myName="Quickshot" myEffect="Fast and Agile\nExtra starting Attack Speed" image_index = store.color_scheme}
 if my_id = 4 {myName="Healer" myEffect="A natural healer\nStart with extra Regen" image_index = store.color_scheme}

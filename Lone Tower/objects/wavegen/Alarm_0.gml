@@ -106,6 +106,15 @@ repeat(spawnArchers) {
     var distance = random_range(400, 300+distanceArchers);
     if store.current_wave >=40 {instance_create_depth(x + lengthdir_x(distance, dir), y + lengthdir_y(distance, dir),0,enemy_archer);}
 }
+//Gen Mushkin
+var distanceMushkins = 1550
+var spawnMushkins = round(random(1))+round(store.current_wave/40)
+if spawnMushkins>40 {spawnMushkins=40}
+repeat(spawnMushkins) {
+    var dir = random_range(0, 359);
+    var distance = random_range(400, 300+distanceMushkins);
+    if store.current_wave >=31 and store.current_wave%2==0 {instance_create_depth(x + lengthdir_x(distance, dir), y + lengthdir_y(distance, dir),0,enemy_mushkin);}
+}
 
 //Gen Event Wagon ----------------------------
 if wagon_buffer = 0 and (4+hud.wagon_boost)>random(30) {instance_create_depth(-200, tower.y+140,-5000,event_wagon) wagon_buffer = 3}

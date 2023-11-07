@@ -64,6 +64,7 @@ function load_game() {
 	store.event_wagons = ini_read_real( "save1", "event_wagons",store.event_wagons);
 	store.total_battles = ini_read_real( "save1", "total_battles",store.total_battles);
 	store.skeletons_slain = ini_read_real( "save1", "skeletons_slain",store.skeletons_slain);
+	store.mushkins_slain = ini_read_real( "save1", "mushkins_slain",store.mushkins_slain);
 	store.armored_skeletons_slain = ini_read_real( "save1", "armored_skeletons_slain",store.armored_skeletons_slain);
 	store.spiders_slain = ini_read_real( "save1", "spiders_slain",store.spiders_slain);
 	store.spiderqueens_slain = ini_read_real( "save1", "spiderqueens_slain",store.spiderqueens_slain);
@@ -209,7 +210,7 @@ function load_game() {
 	store.code_pollo= ini_read_real( "save1", "code_pollo",store.code_pollo);
 	store.code_stayinalive= ini_read_real( "save1", "code_stayinalive",store.code_stayinalive);
 	store.code_trickortreat= ini_read_real( "save1", "code_trickortreat",store.code_trickortreat);
-	store.code_trosky= ini_read_real( "save1", "code_trosky",store.code_trosky);
+	store.code_turkey= ini_read_real( "save1", "code_turkey",store.code_turkey);
 	
 	//show_message("Game Loaded")
 	ini_close();

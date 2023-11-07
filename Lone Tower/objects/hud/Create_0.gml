@@ -136,7 +136,7 @@ hud.critical_chance +=1
 }
 
 //Fate
-if store.fate = 1 {attack_damage +=5}
+//if store.fate = 1 {attack_damage +=5}
 if store.fate = 2 {defense +=2}
 if store.fate = 3 {attack_speed +=.3}
 if store.fate = 4 {regen +=.5}

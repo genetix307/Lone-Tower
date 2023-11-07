@@ -63,6 +63,7 @@
 	ini_write_real( "save1", "event_wagons", store.event_wagons);
 	ini_write_real( "save1", "total_battles", store.total_battles);
 	ini_write_real( "save1", "skeletons_slain", store.skeletons_slain);
+	ini_write_real( "save1", "mushkins_slain", store.mushkins_slain);
 	ini_write_real( "save1", "armored_skeletons_slain", store.armored_skeletons_slain);
 	ini_write_real( "save1", "spiders_slain", store.spiders_slain);
 	ini_write_real( "save1", "spiderqueens_slain", store.spiderqueens_slain);
@@ -208,7 +209,7 @@
 	ini_write_real( "save1", "code_pollo", store.code_pollo);
 	ini_write_real( "save1", "code_stayinalive", store.code_stayinalive);
 	ini_write_real( "save1", "code_trickortreat", store.code_trickortreat);
-	ini_write_real( "save1", "code_trosky", store.code_trosky);
+	ini_write_real( "save1", "code_turkey", store.code_turkey);
 	
 	//show_message("Game Saved")
 	ini_close();

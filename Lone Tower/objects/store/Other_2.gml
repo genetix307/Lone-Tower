@@ -7,8 +7,8 @@ current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.58"
-devMode =0
+version = "1.59"
+devMode =1
 ads_watched=0
 
 //Settings
@@ -76,6 +76,7 @@ best_day_tier1 = 0
 best_day_tier2 = 0
 total_battles = 0
 skeletons_slain = 0
+mushkins_slain=0
 armored_skeletons_slain = 0
 ogres_slain = 0
 bees_slain = 0
@@ -253,7 +254,7 @@ code_dud=0
 code_pollo=0
 code_stayinalive=0
 code_trickortreat=0
-code_trosky=0
+code_turkey=0
 
 //Endless Use Codes
 code_blood=0
