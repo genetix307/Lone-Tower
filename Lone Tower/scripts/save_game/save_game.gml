@@ -56,6 +56,7 @@
 	ini_write_real( "save1", "focuspill", store.focuspill);
 	ini_write_real( "save1", "heavy_arrows", store.heavy_arrows);
 	ini_write_real( "save1", "chicken", store.chicken);
+	ini_write_real( "save1", "vampirefang", store.vampirefang);
 
 	//Stats
 	ini_write_real( "save1", "best_day_tier1", store.best_day_tier1);
@@ -72,6 +73,7 @@
 	ini_write_real( "save1", "dragons_slain", store.dragons_slain);
 	ini_write_real( "save1", "tentacles_slain", store.tentacles_slain);
 	ini_write_real( "save1", "darkones_slain", store.darkones_slain);
+	ini_write_real( "save1", "darkvengeance_slain", store.darkvengeance_slain);
 	ini_write_real( "save1", "reapers_slain", store.reapers_slain);
 	ini_write_real( "save1", "carbuncles_slain", store.carbuncles_slain);
 	ini_write_real( "save1", "archers_slain", store.archers_slain);

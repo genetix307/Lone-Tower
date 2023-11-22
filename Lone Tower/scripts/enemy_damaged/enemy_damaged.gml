@@ -4,7 +4,9 @@ audio_play_sound(sfx_enemy_hit,1,false)
 show_damaged = 1
 
 //Check Critical or Hit
-if hud.critical_chance+(5*hud.focus) >= random(100) and critical_on = 1
+tmp_critical_boost=0
+if hud.focus>0 {tmp_critical_boost=15}
+if hud.critical_chance+tmp_critical_boost>= random(100) and critical_on = 1
 {
 myHP -= round(hud.attack_damage*hud.critical_mult)
 instance_create_depth(x+3,y-13,depth,show_criticalhit)
@@ -21,7 +23,9 @@ instance_create_depth(x,y-8,depth,show_damage).myDamage = hud.attack_damage
 }
 
 //Check Lifesteal
-if hud.lifesteal_chance >= random(100)
+tmp_lifesteal_boost=0
+if hud.bloodthirst>0 {tmp_lifesteal_boost=15}
+if hud.lifesteal_chance+tmp_lifesteal_boost >= random(100)
 {
 hud.tower_hp += round(hud.lifesteal_amount)
 if hud.tower_hp > hud.tower_maxhp {hud.tower_hp = hud.tower_maxhp}

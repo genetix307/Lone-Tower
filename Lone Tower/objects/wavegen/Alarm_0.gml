@@ -67,6 +67,11 @@ var distanceDarkone = 1250
     var dir = 180
     var distance = distanceDarkone
     if store.current_wave%100 == 0 {instance_create_depth(x + lengthdir_x(distance, dir), y + lengthdir_y(distance, dir),0,enemy_wizard);}
+//Gen Dark Vengeance
+var distanceDarkVengeance = 1300
+    var dir = 0
+    var distance = distanceDarkVengeance
+    if store.current_wave%1000 == 0 {instance_create_depth(x + lengthdir_x(distance, dir), y + lengthdir_y(distance, dir),0,enemy_dark_vengeance);}
 
 //Gen Red Dragon
 var distanceRedDragon = 2100

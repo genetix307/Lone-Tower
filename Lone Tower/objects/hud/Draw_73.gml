@@ -136,10 +136,12 @@ if store.show_log = 0
 }
 
 //Show Active Enhancements
-if lure>0 {draw_text_ext_color(24,542,"Lure Active",20,400,c_black,c_black,c_black,c_black,.99)}
-if lure>0 {draw_text_ext_color(22,540,"Lure Active",20,400,c_white,c_white,c_silver,c_silver,.99)}
-if focus>0 {draw_text_ext_color(24,557,"Focus Active",20,400,c_black,c_black,c_black,c_black,.99)}
-if focus>0 {draw_text_ext_color(22,555,"Focus Active",20,400,c_white,c_white,c_silver,c_silver,.99)}
+if lure>0 {draw_text_ext_color(24,527,"Lure Active",20,400,c_black,c_black,c_black,c_black,.99)}
+if lure>0 {draw_text_ext_color(22,525,"Lure Active",20,400,c_white,c_white,c_silver,c_silver,.99)}
+if focus>0 {draw_text_ext_color(24,542,"Focus Active",20,400,c_black,c_black,c_black,c_black,.99)}
+if focus>0 {draw_text_ext_color(22,540,"Focus Active",20,400,c_white,c_white,c_silver,c_silver,.99)}
+if bloodthirst>0 {draw_text_ext_color(24,557,"Vampire Active",20,400,c_black,c_black,c_black,c_black,.99)}
+if bloodthirst>0 {draw_text_ext_color(22,555,"Vampire Active",20,400,c_white,c_white,c_silver,c_silver,.99)}
 
 //gameover
 if gameover = 1 {
@@ -153,20 +155,23 @@ if gameover = 1 {
 	draw_text(cx+163,cy+170,"Game Statistics")
 	draw_set_font(font_upgrades)
 	draw_set_color(c_white)
+	
 	if store.tier = 1 {
 	draw_text(cx+163,cy+210,"Lonely Woods")
 	draw_text(cx+163,cy+235,"Best Day: "+string(store.best_day_tier1))
+	tier_bonus=1
 	}
 	if store.tier = 2 {
 	draw_text(cx+163,cy+210,"Desolate Desert")
 	draw_text(cx+163,cy+235,"Best Day: "+string(store.best_day_tier2))
+	tier_bonus=10
 	}
 	draw_text(cx+163,cy+260,"Fate: "+string(store.current_fate))
 	draw_text(cx+146,cy+290,"Day: "+string(store.current_wave))
 	if enemies_slain <100000 {draw_text(cx+146,cy+315,"Kills: "+string(enemies_slain))} else {draw_text(cx+146,cy+315,"Kills: "+string(floor(enemies_slain/1000))+"K")}
 	draw_set_color(c_yellow)
-	draw_text(cx+259,cy+290,"+"+string(store.current_wave*store.tier)+" Gems")
-	draw_text(cx+259,cy+315,"+"+string(round(hud.enemies_slain/100)*store.tier)+" Gems")
+	draw_text(cx+259,cy+290,"+"+string(store.current_wave*tier_bonus)+" Gems")
+	draw_text(cx+259,cy+315,"+"+string(round(hud.enemies_slain/100)*tier_bonus)+" Gems")
 	draw_text(cx+160,cy+347,"Gems Earned: "+string(gems_earned))
 	draw_set_color(c_lime)
 	draw_text(cx+102,cy+382,"The battle may have been lost,\nbut the war is not yet over!")

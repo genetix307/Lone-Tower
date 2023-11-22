@@ -59,6 +59,7 @@ store.shockwave_bomb = 0
 store.focuspill = 0
 store.heavy_arrows=200
 store.chicken=0
+store.vampirefang=1
 
 //Statistics
 store.best_day_tier1 = 0
@@ -74,6 +75,7 @@ store.spiders_slain = 0
 store.spiderqueens_slain = 0
 store.tentacles_slain = 0
 store.darkones_slain = 0
+store.darkvengeance_slain=0
 store.reapers_slain = 0
 store.carbuncles_slain = 0
 store.archers_slain=0

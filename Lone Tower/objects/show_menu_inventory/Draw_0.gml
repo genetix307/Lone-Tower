@@ -30,6 +30,8 @@ if store.focuspill<1000 {draw_text(150,490,"Focus Pill x"+string(store.focuspill
 draw_sprite(spr_item_focuspill,0,130,505)
 if store.chicken<1000 {draw_text(150,530,"Chicken x"+string(store.chicken))} else {draw_text(150,530,"Chicken x"+string((floor(store.chicken)/1000))+"K")}
 draw_sprite(spr_item_chicken,0,130,545)
+if store.vampirefang<1000 {draw_text(150,570,"Vampire Fang x"+string(store.vampirefang))} else {draw_text(150,530,"Vampire Fang x"+string((floor(store.vampirefang)/1000))+"K")}
+draw_sprite(spr_item_vampirefang,0,130,585)
 
 //Show Inventory Item Descriptions
 draw_set_font(font_stats)
@@ -45,4 +47,5 @@ draw_text(154,430,"Attracts extra Enemies for 3 Days")
 draw_text(154,470,"Send Shockwave to damage/knockback enemies")
 draw_text(154,510,"Increases Critical chance for 3 Days")
 draw_text(154,550,"Gain +3 Attack Damage")
+draw_text(154,590,"Increases Lifesteal chance for 3 Days")
 

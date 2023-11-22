@@ -8,7 +8,7 @@ current_fate = ""
 show_detail = 0
 detail = 0
 version = "1.59"
-devMode =1
+devMode =0
 ads_watched=0
 
 //Settings
@@ -69,6 +69,7 @@ shockwave_bomb = 0
 focuspill = 1
 heavy_arrows=200
 chicken=2
+vampirefang=1
 
 //Statistics
 best_day = 0 //Legacy var 
@@ -85,6 +86,7 @@ spiders_slain = 0
 spiderqueens_slain = 0
 tentacles_slain = 0
 darkones_slain = 0
+darkvengeance_slain=0
 reapers_slain = 0
 carbuncles_slain = 0
 archers_slain=0

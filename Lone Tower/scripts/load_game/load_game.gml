@@ -56,6 +56,7 @@ function load_game() {
 	store.focuspill = ini_read_real( "save1", "focuspill",store.focuspill);
 	store.heavy_arrows = ini_read_real( "save1", "heavy_arrows",store.heavy_arrows);
 	store.chicken = ini_read_real( "save1", "chicken",store.chicken);
+	store.vampirefang = ini_read_real( "save1", "vampirefang",store.vampirefang);
 	
 	//Stats
 	store.best_day = ini_read_real( "save1", "best_day1",store.best_day);
@@ -73,6 +74,7 @@ function load_game() {
 	store.dragons_slain = ini_read_real( "save1", "dragons_slain",store.dragons_slain);
 	store.tentacles_slain = ini_read_real( "save1", "tentacles_slain",store.tentacles_slain);
 	store.darkones_slain = ini_read_real( "save1", "darkones_slain",store.darkones_slain);
+	store.darkvengeance_slain = ini_read_real( "save1", "darkvengeance_slain",store.darkvengeance_slain);
 	store.reapers_slain = ini_read_real( "save1", "reapers_slain",store.reapers_slain);
 	store.carbuncles_slain = ini_read_real( "save1", "carbuncles_slain",store.carbuncles_slain);
 	store.archers_slain = ini_read_real( "save1", "archers_slain",store.archers_slain);

@@ -19,6 +19,7 @@ winter = 0
 wind_speed=round(3+random(7))
 lure = 0
 focus = 0
+bloodthirst=0
 fury_meter = 0
 fury_active = 0
 active_arrow = 0 //0 Basic arrow

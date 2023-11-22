@@ -49,6 +49,7 @@ if wagon_buffer > 0 {wagon_buffer -=1}
 hud.shockwave_used = 0
 if hud.lure > 0 {hud.lure-=1}
 if hud.focus >0 {hud.focus-=1}
+if hud.bloodthirst>0 {hud.bloodthirst-=1}
 season_change()
 repeat 5 instance_create_depth(random_range(-800,-360),random(560),hud.depth,bird) //Create some birds
 if 3>random(8) {instance_create_depth(-2000,y,depth,effect_cloud_shadow)}

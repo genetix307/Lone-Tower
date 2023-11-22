@@ -13,7 +13,9 @@ draw_text(182,291,"Best Day: "+string(store.best_day_tier2))
 }
 draw_text(160,480,"Quick Challenges") 
 draw_set_color(c_white)
-draw_text(176,317,"Gem Bonus x"+string(store.tier))
+if store.tier=1 {tier_bonus=1}
+if store.tier=2 {tier_bonus=10}
+draw_text(176,317,"Gem Bonus x"+string(tier_bonus))
 
 draw_set_font(font_stats)
 draw_set_color(c_silver)
