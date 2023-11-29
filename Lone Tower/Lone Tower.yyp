@@ -509,6 +509,7 @@
     {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+    {"name":"HTML5","path":"options/html5/options_html5.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,

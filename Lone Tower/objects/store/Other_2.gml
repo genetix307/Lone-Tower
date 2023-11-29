@@ -7,8 +7,9 @@ current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.59"
+version = "1.60"
 devMode =0
+devMode_held=0
 ads_watched=0
 
 //Settings
