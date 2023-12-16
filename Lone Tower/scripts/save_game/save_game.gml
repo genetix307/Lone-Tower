@@ -42,6 +42,19 @@
 	ini_write_real( "save1", "goal_mushroom", store.goal_mushroom);
 	ini_write_real( "save1", "goal_baiter", store.goal_baiter);
 	ini_write_real( "save1", "goal_pest", store.goal_pest);
+	ini_write_real( "save1", "lvl_dragon", store.lvl_dragon);
+	ini_write_real( "save1", "lvl_skeleton", store.lvl_skeleton);
+	ini_write_real( "save1", "lvl_collector", store.lvl_collector);
+	ini_write_real( "save1", "lvl_survivor", store.lvl_survivor);
+	ini_write_real( "save1", "lvl_headshot", store.lvl_headshot);
+	ini_write_real( "save1", "lvl_icecold", store.lvl_icecold);
+	ini_write_real( "save1", "lvl_farmer", store.lvl_farmer);
+	ini_write_real( "save1", "lvl_blood", store.lvl_blood);
+	ini_write_real( "save1", "lvl_heal", store.lvl_heal);
+	ini_write_real( "save1", "lvl_shopper", store.lvl_shopper);
+	ini_write_real( "save1", "lvl_mushroom", store.lvl_mushroom);
+	ini_write_real( "save1", "lvl_baiter", store.lvl_baiter);
+	ini_write_real( "save1", "lvl_pest", store.lvl_pest);
 	
 	//Items
 	ini_write_real( "save1", "bomb_arrows", store.bomb_arrows);
@@ -61,6 +74,7 @@
 	//Stats
 	ini_write_real( "save1", "best_day_tier1", store.best_day_tier1);
 	ini_write_real( "save1", "best_day_tier2", store.best_day_tier2);
+	ini_write_real( "save1", "best_day_tier3", store.best_day_tier3);
 	ini_write_real( "save1", "event_wagons", store.event_wagons);
 	ini_write_real( "save1", "total_battles", store.total_battles);
 	ini_write_real( "save1", "skeletons_slain", store.skeletons_slain);
@@ -212,6 +226,7 @@
 	ini_write_real( "save1", "code_stayinalive", store.code_stayinalive);
 	ini_write_real( "save1", "code_trickortreat", store.code_trickortreat);
 	ini_write_real( "save1", "code_turkey", store.code_turkey);
+	ini_write_real( "save1", "code_lunarys", store.code_lunarys);
 	
 	//show_message("Game Saved")
 	ini_close();

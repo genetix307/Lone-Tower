@@ -42,6 +42,19 @@ goal_shopper = 0
 goal_mushroom = 0
 goal_baiter = 0
 goal_pest = 0
+lvl_dragon = 1
+lvl_skeleton = 1
+lvl_collector = 1
+lvl_survivor = 1
+lvl_headshot = 1
+lvl_icecold = 1
+lvl_farmer = 1
+lvl_blood = 1
+lvl_heal = 1
+lvl_shopper = 1
+lvl_mushroom = 1
+lvl_baiter = 1
+lvl_pest = 1
 
 //Misc
 gold = 0
@@ -76,6 +89,7 @@ vampirefang=1
 best_day = 0 //Legacy var 
 best_day_tier1 = 0
 best_day_tier2 = 0
+best_day_tier3=0
 total_battles = 0
 skeletons_slain = 0
 mushkins_slain=0
@@ -258,6 +272,7 @@ code_pollo=0
 code_stayinalive=0
 code_trickortreat=0
 code_turkey=0
+code_lunarys=0
 
 //Endless Use Codes
 code_blood=0

@@ -166,6 +166,11 @@ if gameover = 1 {
 	draw_text(cx+163,cy+235,"Best Day: "+string(store.best_day_tier2))
 	tier_bonus=10
 	}
+	if store.tier = 3 {
+	draw_text(cx+163,cy+210,"Dark Dominion")
+	draw_text(cx+163,cy+235,"Best Day: "+string(store.best_day_tier3))
+	tier_bonus=10
+	}
 	draw_text(cx+163,cy+260,"Fate: "+string(store.current_fate))
 	draw_text(cx+146,cy+290,"Day: "+string(store.current_wave))
 	if enemies_slain <100000 {draw_text(cx+146,cy+315,"Kills: "+string(enemies_slain))} else {draw_text(cx+146,cy+315,"Kills: "+string(floor(enemies_slain/1000))+"K")}

@@ -58,7 +58,7 @@ if 3>random(8) {instance_create_depth(-2000,y,depth,effect_cloud_shadow)}
 if instance_number(supply_crate) = 0 and hud.supplydrop_chance>random(100) {instance_create_depth(-100,tower.y,depth,supply_balloon)}
 
 //Survivor Quick Challenge
-if (store.challenge_a=3 or store.challenge_b=3 or store.challenge_c=3) and store.goal_survivor <50
+if (store.challenge_a=3 or store.challenge_b=3 or store.challenge_c=3) and store.goal_survivor <40+(10*store.lvl_survivor)
 		{
 		store.goal_survivor+=1
 		}

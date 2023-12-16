@@ -1,4 +1,6 @@
 // Genetix Studio
+consent_request_async()
+
 // Early exit if there is no 'type' key defined
 //if (!ds_map_exists(async_load, "type")) exit;
 // All the events triggered by the AdMob extension have a “type” key

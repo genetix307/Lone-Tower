@@ -7,6 +7,7 @@ hud.gameover = 1
 
 tier_bonus=1
 if store.tier=2 {tier_bonus=10}
+if store.tier=3 {tier_bonus=100}
 if store.current_wave>1 {
 store.gems+= store.current_wave*tier_bonus
 store.gems_earned+= store.current_wave*tier_bonus

@@ -10,7 +10,7 @@ function check_critgold(){
 		}
 	}
 	
-	if myHP <= 0 and (store.challenge_a=4 or store.challenge_b=4 or store.challenge_c=4) and store.goal_headshot < 50
+	if myHP <= 0 and (store.challenge_a=4 or store.challenge_b=4 or store.challenge_c=4) and store.goal_headshot <40+(10*store.lvl_headshot)
 		{
 		store.goal_headshot+=1
 		}

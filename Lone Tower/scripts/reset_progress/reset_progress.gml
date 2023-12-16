@@ -64,6 +64,7 @@ store.vampirefang=1
 //Statistics
 store.best_day_tier1 = 0
 store.best_day_tier2 = 0
+store.best_day_tier3 = 0
 store.total_battles = 0
 store.skeletons_slain = 0
 store.mushkins_slain=0
@@ -221,6 +222,7 @@ store.code_pollo=0
 store.code_stayinalive=0
 store.code_trickortreat=0
 store.code_turkey=0
+store.code_lunarys=0
 
 //Regain Ad Gems
 store.gems += store.ad_gems

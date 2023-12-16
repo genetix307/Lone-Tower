@@ -5,5 +5,5 @@ function ads_init(){
 //banner_id = "ca-app-pub-5768283405667895/8685354436";
 //interstitial_id = "ca-app-pub-5768283405667895/1619141411";
 AdMob_Initialize();
-
+consent_set_mode()
 }

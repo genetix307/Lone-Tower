@@ -1,6 +1,7 @@
 enemy_level = 1
 if store.tier=1 {instance_create_depth(x,y,100,waveGen)}
 if store.tier=2 {enemy_level=10 instance_create_depth(x,y,100,waveGen_tier2)}
+if store.tier=3 {instance_create_depth(x,y,100,waveGen_tier3)}
 instance_create_depth(room_width/2,room_height/2,depth-1000,transistion_keyhole)
 ad_load_interstitial()
 repeat 150 instance_create_depth(x,y,85,grass)
@@ -145,7 +146,7 @@ if store.fate = 5 {tower_maxhp +=30 tower_hp = tower_maxhp}
 if store.fate = 6 {critical_chance +=2}
 if store.fate = 7 {lifesteal_chance +=2}
 if store.fate = 10 {knockback +=2}
-if store.fate = 11 {store.gold+=50}
+if store.fate = 11 {store.gold+=100}
 if store.fate = 12 {attack_range +=20}
 if store.fate = 13 {multishot_chance +=2}
 if store.fate = 14 {free_upgrade_chance +=1}

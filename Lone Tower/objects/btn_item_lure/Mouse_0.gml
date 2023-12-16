@@ -7,7 +7,7 @@ store.monsterlure-=1
 hud.lure +=3
 instance_create_depth(x,y-8,depth,show_use_item).myMessage = "Used Monster Lure"
 
-if (store.challenge_a=11 or store.challenge_b=11 or store.challenge_c=11) and store.goal_baiter < 3
+if (store.challenge_a=11 or store.challenge_b=11 or store.challenge_c=11) and store.goal_baiter <2+(store.lvl_baiter)
 		{
 		store.goal_baiter+=1
 		}

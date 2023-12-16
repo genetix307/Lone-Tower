@@ -8,6 +8,7 @@ myAttack = round(20+(store.current_wave/3))
 myDrop = 50 + hud.drop_bonus
 if store.tier=1 {myHP = store.current_wave*1200+(250*waveGen.tier_level)}
 if store.tier=2 {myHP = store.current_wave*1400+(250*waveGen_tier2.tier_level)}
+if store.tier=3 {myHP = (store.current_wave*25000)+(300*waveGen_tier3.tier_level) myAttack+=store.current_wave*50}
 maxHP = myHP
 atk_speed = 160
 attacking = 0

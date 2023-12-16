@@ -40,17 +40,17 @@ store.gold_earned += myDrop +hud.kill_gold
 hud.enemies_slain +=1
 log_rotate(c_yellow,"Killed "+string(log_name))
 audio_play_sound(sfx_enemy_die,1,false)
-if log_name = "Skeleton" {instance_create_depth(x,y,depth-1,skeleton_death) store.skeletons_slain +=1 if (store.challenge_a=1 or store.challenge_b=1 or store.challenge_c=1) and store.goal_skeleton<300 {store.goal_skeleton+=1}}
+if log_name = "Skeleton" {instance_create_depth(x,y,depth-1,skeleton_death) store.skeletons_slain +=1 if (store.challenge_a=1 or store.challenge_b=1 or store.challenge_c=1) and store.goal_skeleton<75+(25*store.lvl_skeleton) {store.goal_skeleton+=1}}
 if log_name = "Armored Skeleton" {instance_create_depth(x,y,depth-1,armored_skeleton_death) store.armored_skeletons_slain +=1}
 if log_name = "Ogre" {instance_create_depth(x,y,depth-1,ogre_death) store.ogres_slain +=1}
 if log_name = "Mushkin" {instance_create_depth(x,y,depth-1,mushkin_death) store.mushkins_slain +=1}
-if log_name = "Dragon" {instance_create_depth(x,y,depth-1,dragon_death) store.dragons_slain +=1 if (store.challenge_a=0 or store.challenge_b=0 or store.challenge_c=0) and store.goal_dragon<3 {store.goal_dragon+=1}}
+if log_name = "Dragon" {instance_create_depth(x,y,depth-1,dragon_death) store.dragons_slain +=1 if (store.challenge_a=0 or store.challenge_b=0 or store.challenge_c=0) and store.goal_dragon<1+(store.lvl_dragon) {store.goal_dragon+=1}}
 if log_name = "Spider" {instance_create_depth(x,y,depth-1,spider_death) store.spiders_slain +=1}
 if log_name = "SpiderQueen" {instance_create_depth(x,y,depth-1,spiderboss_death) store.spiderqueens_slain +=1;}
 if log_name = "Tentacles" {instance_create_depth(x,y,depth-1,tentacles_death) store.tentacles_slain +=1 make_arcade()}
 if log_name = "DarkOne" {instance_create_depth(x,y,depth-1,darkone_death) store.darkones_slain +=1 make_arcade()}
 if log_name = "Reaper" {instance_create_depth(x,y,depth-1,reaper_death) store.reapers_slain +=1 make_arcade()}
-if log_name = "Bee" {instance_create_depth(x,y,depth-1,bee_death) store.bees_slain +=1 if (store.challenge_a=12 or store.challenge_b=12 or store.challenge_c=12) and store.goal_pest<25 {store.goal_pest+=1}}
+if log_name = "Bee" {instance_create_depth(x,y,depth-1,bee_death) store.bees_slain +=1 if (store.challenge_a=12 or store.challenge_b=12 or store.challenge_c=12) and store.goal_pest<20+(5*store.lvl_pest) {store.goal_pest+=1}}
 if log_name = "Carbuncle" {instance_create_depth(x,y,depth-1,carbuncle_death) store.carbuncles_slain +=1}
 if log_name = "Archer" {instance_create_depth(x,y,depth-1,archer_death) store.archers_slain +=1}
 instance_destroy()

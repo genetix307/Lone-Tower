@@ -13,6 +13,10 @@ if store.tier=2 {
 myAttack = round(2+(store.current_wave/4)) +tower.difficulty_boost +waveGen_tier2.tier_level
 myHP = store.current_wave+waveGen_tier2.tier_level
 }
+if store.tier=3 {
+myAttack = round(2+(store.current_wave/4)) +tower.difficulty_boost +waveGen_tier3.tier_level/1000
+myHP = store.current_wave+waveGen_tier3.tier_level/1000
+}
 maxHP = myHP
 
 alarm[0] = 30
