@@ -26,7 +26,7 @@ if my_id = 17 and store.best_day_tier1 >=50 {myName="Time Hopper" myEffect="Time
 if my_id = 18 and store.best_day_tier1 >=60 {myName="Upholder" myEffect="Keep things tidy\nExtra Gold each day if Health at Max" image_index = store.color_scheme}
 if my_id = 19 and store.best_day_tier1 >=70 {myName="Insured" myEffect="No pain, no gain\nEarn Gold when Tower Damaged" image_index = store.color_scheme}
 if my_id = 20 and store.best_day_tier1 >=80 {myName="Skyshot" myEffect="Fall down Foul Beasts\nExtra Damage to Flying Enemies" image_index = store.color_scheme}
-if my_id = 21 and store.best_day_tier1 >=90 {myName="Well Rounded" myEffect="Balanced Diety boosts\nAttack Damage, Speed, Knockback" image_index = store.color_scheme}
+if my_id = 21 and store.best_day_tier1 >=90 {myName="Well Rounded" myEffect="Balanced Diet boosts\nAttack Damage, Speed, Knockback" image_index = store.color_scheme}
 if my_id = 22 and store.best_day_tier1 >=100 {myName="Prepper" myEffect="Prepared for the worst\nExtra starting Supply Drop Chance" image_index = store.color_scheme}
 
 if my_id > 12 and my_id <23 and store.best_day_tier1 <((my_id-12)*10) {myEffect="This fate is unlocks at Day "+string(((my_id-12)*10))}

@@ -142,7 +142,7 @@ hud.critical_chance +=1
 if store.fate = 2 {defense +=2}
 if store.fate = 3 {attack_speed +=.3}
 if store.fate = 4 {regen +=.5}
-if store.fate = 5 {tower_maxhp +=30 tower_hp = tower_maxhp}
+if store.fate = 5 {tower_maxhp +=round(tower_maxhp*.15) tower_hp = tower_maxhp}
 if store.fate = 6 {critical_chance +=2}
 if store.fate = 7 {lifesteal_chance +=2}
 if store.fate = 10 {knockback +=2}

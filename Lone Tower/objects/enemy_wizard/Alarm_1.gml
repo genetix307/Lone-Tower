@@ -1,5 +1,5 @@
 // Genetix Studio
-alarm[1] = atk_speed
+alarm[1] = round(atk_speed/store.game_speed)
 
 if distance_to_object(tower) <= 132 and hud.paused = 0
 {

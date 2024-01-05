@@ -13,6 +13,7 @@ maxHP = myHP
 atk_speed = 160
 attacking = 0
 shots = 0
+shield=30+round(store.current_wave/50)
 
 alarm[0] = 30
 alarm[1] = atk_speed

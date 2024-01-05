@@ -1,5 +1,5 @@
 // Genetix Studio
-if stun = 0 {
+if stun = 0 and shield<=0 {
 stun = 5
 instance_create_depth(x,y,depth-10,blood_splatter)
 audio_play_sound(sfx_enemy_hit,1,false)

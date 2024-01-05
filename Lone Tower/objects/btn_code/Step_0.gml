@@ -224,6 +224,14 @@ store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()
 }
+if myResult = "2024" and store.code_2024 = 0
+{
+reward = 2024
+store.code_2024 = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
 
 ///ENDLESS USE CODES
 if myResult = "blood" and store.code_blood =0

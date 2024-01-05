@@ -1,13 +1,14 @@
 // Genetix Studio
 randomize();
 ads_init()
+os_powersave_enable(false);
 
 game_speed = 1.0
 current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.60"
+version = "1.61"
 devMode =0
 devMode_held=0
 ads_watched=0
@@ -273,6 +274,7 @@ code_stayinalive=0
 code_trickortreat=0
 code_turkey=0
 code_lunarys=0
+code_2024=0
 
 //Endless Use Codes
 code_blood=0
