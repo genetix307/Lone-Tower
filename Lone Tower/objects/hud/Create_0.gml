@@ -11,6 +11,7 @@ alarm[0] = 60 //Regen
 audio_stop_all()
 currentBGM=choose(bgm_maingame,bgm_maingame_2)
 audio_play_sound(currentBGM,1,true)
+revive_buffer=0
 
 level=1
 xp=0

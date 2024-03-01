@@ -8,7 +8,7 @@ current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.61"
+version = "1.62"
 devMode =0
 devMode_held=0
 ads_watched=0
@@ -275,6 +275,7 @@ code_trickortreat=0
 code_turkey=0
 code_lunarys=0
 code_2024=0
+code_fivestars=0
 
 //Endless Use Codes
 code_blood=0

@@ -229,6 +229,7 @@ function load_game() {
 	store.code_turkey= ini_read_real( "save1", "code_turkey",store.code_turkey);
 	store.code_lunarys= ini_read_real( "save1", "code_lunarys",store.code_lunarys);
 	store.code_2024= ini_read_real( "save1", "code_2024",store.code_2024);
+	store.code_fivestars= ini_read_real( "save1", "code_fivestars",store.code_fivestars);
 	
 	//show_message("Game Loaded")
 	ini_close();

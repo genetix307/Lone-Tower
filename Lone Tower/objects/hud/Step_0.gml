@@ -23,6 +23,7 @@ if fury_meter > 20 {fury_meter = 20}
 if fury_active > 0 {fury_active -=round(1*store.game_speed) fury_meter = 0}
 if show_msg_alpha>0 {show_msg_alpha-=.01*store.game_speed}
 if shockwave_used>0 {shockwave_used-=1*store.game_speed}
+if revive_buffer>0 {revive_buffer-=1}
 
 //Day Cycle
 if instance_number(default_enemy) >= day_enemy_count/2.75 {day_cycle = 1}
@@ -30,8 +31,10 @@ if instance_number(default_enemy) >= day_enemy_count/1.25 {day_cycle = 0}
 if instance_number(default_enemy) < day_enemy_count/2.75 {day_cycle = 2}
 if nightfade = 1 {day_cycle = 3}
 
+if revive_buffer>0 {tower_hp=tower_maxhp}
+
 //Gameover
-if tower_hp <= 0 and gameover = 0 and revive = 0 
+if tower_hp <= 0 and gameover = 0 and revive = 0 and revive_buffer=0
 {
 set_gameover()
 }
@@ -41,5 +44,6 @@ if tower_hp <= 0 and gameover = 0 and revive >0
 {
 tower_hp = tower_maxhp 
 revive -=1
+revive_buffer=180
 instance_create_depth(tower.x,tower.y-120,depth-20000,show_phoenix)	
 }
