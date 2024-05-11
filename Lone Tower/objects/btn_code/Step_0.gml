@@ -252,5 +252,13 @@ if myResult = "ducky" and store.code_ducky =0
 store.code_ducky = 1
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Duck Mode Active!"
 }
+if myResult = "happyday" and store.code_happyday = 0
+{
+reward = 500
+store.code_happyday = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
 
 image_index=store.color_scheme

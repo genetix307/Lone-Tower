@@ -17,5 +17,5 @@ draw_text(158,238,"(Tap a card to Select it)")
 
 draw_set_color(c_white)
 draw_set_font(font_med_hud)
-draw_text(222,926,string(store.gems))
+draw_text(222,926,calc_number(store.gems))
 draw_sprite(spr_show_gem,0,207,937)

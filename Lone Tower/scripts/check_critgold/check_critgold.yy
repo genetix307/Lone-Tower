@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "check_critgold",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "FatesCards",
-    "path": "folders/Scripts/FatesCards.yy",
+  "$GMScript":"",
+  "%Name":"check_critgold",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_critgold",
+  "parent":{
+    "name":"FatesCards",
+    "path":"folders/Scripts/FatesCards.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

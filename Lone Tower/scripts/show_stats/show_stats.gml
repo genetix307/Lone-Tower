@@ -17,10 +17,10 @@ draw_rectangle_colour(cx+24,cy+651,cx+((hud.tower_hp/hud.tower_maxhp)*150)+24,cy
 draw_set_alpha(1)
 draw_set_color(c_black)
 draw_text(cx+30,cy+651,"Health")
-draw_text(cx+121,cy+651,string(round(hud.tower_hp))+"/"+string(round(hud.tower_maxhp)))               
+draw_text(cx+121,cy+651,calc_number(round(hud.tower_hp))+"/"+calc_number(round(hud.tower_maxhp)))               
 draw_set_color(c_white)
 draw_text(cx+27,cy+650,"Health")
-draw_text(cx+119,cy+650,string(round(hud.tower_hp))+"/"+string(round(hud.tower_maxhp)))       
+draw_text(cx+119,cy+650,calc_number(round(hud.tower_hp))+"/"+calc_number(round(hud.tower_maxhp)))       
 draw_sprite(spr_stat_cap,0,cx+22,cy+656)
 
 //Draw XP Level bar
@@ -34,10 +34,10 @@ draw_rectangle_colour(cx+24,cy+636,cx+((hud.xp/hud.next_level)*150)+24,cy+647,c_
 draw_set_alpha(1)
 draw_set_color(c_black)
 draw_text(cx+30,cy+636,"Level")
-draw_text(cx+66,cy+636,string(hud.level)+"                "+string(floor(hud.xp))+"/"+string(ceil(hud.next_level)))               
+draw_text(cx+66,cy+636,calc_number(hud.level)+"                "+calc_number(floor(hud.xp))+"/"+calc_number(ceil(hud.next_level)))               
 draw_set_color(c_white)
 draw_text(cx+27,cy+635,"Level") 
-draw_text(cx+64,cy+635,string(hud.level)+"                "+string(floor(hud.xp))+"/"+string(ceil(hud.next_level)))          
+draw_text(cx+64,cy+635,calc_number(hud.level)+"                "+calc_number(floor(hud.xp))+"/"+calc_number(ceil(hud.next_level)))          
 draw_sprite(spr_stat_cap,1,cx+22,cy+641)
 
 }

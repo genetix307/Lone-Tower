@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "level_set_slot",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Perks",
-    "path": "folders/Scripts/Perks.yy",
+  "$GMScript":"",
+  "%Name":"level_set_slot",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"level_set_slot",
+  "parent":{
+    "name":"Perks",
+    "path":"folders/Scripts/Perks.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

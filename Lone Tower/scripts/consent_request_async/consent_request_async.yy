@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "consent_request_async",
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "ads",
-    "path": "folders/Scripts/ads.yy",
+  "$GMScript":"",
+  "%Name":"consent_request_async",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"consent_request_async",
+  "parent":{
+    "name":"ads",
+    "path":"folders/Scripts/ads.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -6,7 +6,7 @@ draw_set_color(c_white)
 draw_text(x+14,y+8,myName)
 draw_set_font(font_stats)
 draw_set_color(c_yellow)
-draw_text(x+56,y+30,"x"+string(store.ice_arrows))
+draw_text(x+56,y+30,"x"+calc_number(store.ice_arrows))
 
 if hud.active_arrow = 2
 {
