@@ -1,8 +1,7 @@
 // Genetix Studio
-if chosen = 0 //and hud.paused = 0
+if chosen = 0 and instance_number(event_wagon)>0
 {
 chosen = 1
-
 if event_wagon.event_id = 0 {hud.tower_hp = hud.tower_maxhp event_wagon.event_message = "You accept the potion from the elderly man and drink it down quickly. You feel warmth and strength.\n\nTower Health fully restored."}
 if event_wagon.event_id = 1 {hud.critical_mult +=1 event_wagon.event_message = "You accept the potion from the elderly man and drink it down quickly. You feel sharp and focused.\n\nCritical Multiplier +1."}
 if event_wagon.event_id = 2 {hud.lifesteal_amount +=1 event_wagon.event_message = "You accept the potion from the elderly man and drink it down quickly. You feel healthy and energetic.\n\nLifesteal Amount +1."}
@@ -24,7 +23,6 @@ if event_wagon.event_id = 17 {store.smoke_arrows+=50 event_wagon.event_message =
 if event_wagon.event_id = 18 {store.monsterlure+=1 event_wagon.event_message = "You extend the space and he comes back shortly handing you a shiny item.\n\nMonster Lure +1"}
 if event_wagon.event_id = 19 {store.focuspill+=1 event_wagon.event_message = "You agree to let him stay, to thank you he hands you a small capsule.\n\nFocus Pill +1"}
 
-
-instance_create_depth(event_wagon.x,y,depth-10000,btn_event_continue)
+instance_create_depth(tower.x,y,depth-10000,btn_event_continue)
 audio_play_sound(sfx_click,1,false)
 }

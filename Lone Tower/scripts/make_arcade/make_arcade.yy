@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"make_arcade",
   "isCompatibility":false,
   "isDnD":false,

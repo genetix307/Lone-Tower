@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"flawless_day",
   "isCompatibility":false,
   "isDnD":false,

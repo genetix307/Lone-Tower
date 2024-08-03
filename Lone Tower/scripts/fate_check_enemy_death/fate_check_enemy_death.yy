@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"fate_check_enemy_death",
   "isCompatibility":false,
   "isDnD":false,

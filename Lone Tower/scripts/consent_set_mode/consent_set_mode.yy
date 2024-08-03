@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"consent_set_mode",
   "isCompatibility":false,
   "isDnD":false,

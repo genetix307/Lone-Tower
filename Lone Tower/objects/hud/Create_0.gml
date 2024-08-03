@@ -183,6 +183,7 @@ perk_lvl_flawless=0
 perk_lvl_tutor=0
 perk_lvl_forager=0
 perk_lvl_sideweapon=0
+perk_lvl_bossslayer=0
 
 //Other
 if store.start_max_speed = 1 {store.game_speed = max_gamespeed} else {store.game_speed = 1}

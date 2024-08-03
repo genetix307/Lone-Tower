@@ -3,6 +3,10 @@ instance_create_depth(x,y,depth-10,blood_splatter)
 audio_play_sound(sfx_enemy_hit,1,false)
 show_damaged = 1
 
+//Boss Slayer
+tmp_boss_damage=0
+if log_name="Reaper" or log_name="DarkOne" or log_name="Tentacles" or log_name="DarkVengeance" {tmp_boss_damage=hud.perk_lvl_bossslayer*5}
+
 //Check Critical or Hit
 tmp_critical_boost=0
 if hud.focus>0 {tmp_critical_boost=15}
@@ -15,10 +19,10 @@ check_critgold()
 }
 else 
 {
-if store.fate = 20 and flying =1 {myHP -= hud.attack_damage*1.5; instance_create_depth(x,y-16,depth,show_damage).myDamage = hud.attack_damage*1.5}
+if store.fate = 20 and flying =1 {myHP -= (hud.attack_damage+tmp_boss_damage)*1.5; instance_create_depth(x,y-16,depth,show_damage).myDamage = (hud.attack_damage+tmp_boss_damage)*1.5}
 else {
-myHP -= hud.attack_damage
-instance_create_depth(x,y-8,depth,show_damage).myDamage = hud.attack_damage
+myHP -= hud.attack_damage+tmp_boss_damage
+instance_create_depth(x,y-8,depth,show_damage).myDamage = hud.attack_damage+tmp_boss_damage
 }
 }
 

@@ -149,5 +149,11 @@ myInfo="Attack Cards deal +"+string(hud.perk_lvl_sideweapon+1)+" damage"
 myLevel="Level "+string(hud.perk_lvl_sideweapon)+">"+string(hud.perk_lvl_sideweapon+1)
 if hud.perk_lvl_sideweapon=0 {isNew=1}
 }
+if my_id=25 {
+myHeader="Boss Slayer"
+myInfo="Deal +"+string((hud.perk_lvl_bossslayer+1)*5)+" damage to Bosses"
+myLevel="Level "+string(hud.perk_lvl_bossslayer)+">"+string(hud.perk_lvl_bossslayer+1)
+if hud.perk_lvl_bossslayer=0 {isNew=1}
+}
 
 }

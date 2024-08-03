@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"level_set_slot",
   "isCompatibility":false,
   "isDnD":false,

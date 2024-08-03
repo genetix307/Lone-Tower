@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"season_change",
   "isCompatibility":false,
   "isDnD":false,

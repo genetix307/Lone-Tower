@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"fate_insured",
   "isCompatibility":false,
   "isDnD":false,

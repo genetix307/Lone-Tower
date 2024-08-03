@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"check_winds",
   "isCompatibility":false,
   "isDnD":false,

@@ -73,6 +73,9 @@ if hud.perk_lvl_forager>=1 {return false}
 if slot=24 {
 if hud.perk_lvl_sideweapon>=99 {return false}
 }
+if slot=25 {
+if hud.perk_lvl_bossslayer>=50 {return false}
+}
 
 return true
 }

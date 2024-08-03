@@ -93,5 +93,8 @@ instance_create_depth(tower.x,tower.y+88,depth,forager)
 if my_id=24 {
 hud.perk_lvl_sideweapon+=1
 }
+if my_id=25 {
+hud.perk_lvl_bossslayer+=1
+}
 
 }

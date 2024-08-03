@@ -1,7 +1,13 @@
 {
   "FolderOrderSettings":[
+    {"name":"Fonts","order":1,"path":"folders/Fonts.yy",},
+    {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":3,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Draw","order":27,"path":"folders/Scripts/Draw.yy",},
     {"name":"Init","order":26,"path":"folders/Scripts/Init.yy",},
+    {"name":"Sounds","order":5,"path":"folders/Sounds.yy",},
+    {"name":"Sprites","order":6,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"font_large_hud","order":3,"path":"fonts/font_large_hud/font_large_hud.yy",},

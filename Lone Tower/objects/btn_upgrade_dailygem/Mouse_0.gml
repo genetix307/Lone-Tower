@@ -24,13 +24,13 @@ if hud.lvl_daily_gem > 19 {hud.cost_daily_gem += 1600}
 if hud.lvl_daily_gem > 20 {hud.cost_daily_gem += 1700}
 if hud.lvl_daily_gem > 25 {hud.cost_daily_gem += 2000}
 if hud.lvl_daily_gem > 30 {hud.cost_daily_gem += 2500}
-if hud.lvl_daily_gem > 40 {hud.cost_daily_gem += 2500}
-if hud.lvl_daily_gem > 50 {hud.cost_daily_gem += 2500}
-if hud.lvl_daily_gem > 60 {hud.cost_daily_gem += 2500}
-if hud.lvl_daily_gem > 70 {hud.cost_daily_gem += 2500}
-if hud.lvl_daily_gem > 80 {hud.cost_daily_gem += 2500}
-if hud.lvl_daily_gem > 90 {hud.cost_daily_gem += 2500}
-if hud.lvl_daily_gem > 120 {hud.cost_daily_gem += 2500}
+if hud.lvl_daily_gem > 40 {hud.cost_daily_gem += 3500}
+if hud.lvl_daily_gem > 50 {hud.cost_daily_gem += 4500}
+if hud.lvl_daily_gem > 60 {hud.cost_daily_gem += 4500}
+if hud.lvl_daily_gem > 70 {hud.cost_daily_gem += 5500}
+if hud.lvl_daily_gem > 80 {hud.cost_daily_gem += 7500}
+if hud.lvl_daily_gem > 90 {hud.cost_daily_gem += 7500}
+if hud.lvl_daily_gem > 120 {hud.cost_daily_gem += 7500}
 store.total_upgrades +=1
 instance_create_depth(x-4,y-4,depth-1000,effect_upgrade)
 log_rotate(c_lime,"Upgraded Daily Gem Bonus")

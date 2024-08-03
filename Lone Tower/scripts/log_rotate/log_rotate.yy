@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"log_rotate",
   "isCompatibility":false,
   "isDnD":false,

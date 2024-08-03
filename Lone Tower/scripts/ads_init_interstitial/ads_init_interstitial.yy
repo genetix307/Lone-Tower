@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"ads_init_interstitial",
   "isCompatibility":false,
   "isDnD":false,

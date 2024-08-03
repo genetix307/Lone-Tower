@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"reset_progress",
   "isCompatibility":false,
   "isDnD":false,

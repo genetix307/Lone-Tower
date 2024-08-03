@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"find_strongest_enemy",
   "isCompatibility":false,
   "isDnD":false,
