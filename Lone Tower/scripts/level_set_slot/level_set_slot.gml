@@ -155,5 +155,11 @@ myInfo="Deal +"+string((hud.perk_lvl_bossslayer+1)*5)+" damage to Bosses"
 myLevel="Level "+string(hud.perk_lvl_bossslayer)+">"+string(hud.perk_lvl_bossslayer+1)
 if hud.perk_lvl_bossslayer=0 {isNew=1}
 }
+if my_id=26 {
+myHeader="Limit Break"
+myInfo="Every 10th Arrow +"+string((hud.perk_lvl_sideweapon+1)*25)+" damage"
+myLevel="Level "+string(hud.perk_lvl_limitbreak)+">"+string(hud.perk_lvl_limitbreak+1)
+if hud.perk_lvl_limitbreak=0 {isNew=1}
+}
 
 }

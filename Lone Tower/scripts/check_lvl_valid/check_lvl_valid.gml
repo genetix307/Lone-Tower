@@ -76,6 +76,9 @@ if hud.perk_lvl_sideweapon>=99 {return false}
 if slot=25 {
 if hud.perk_lvl_bossslayer>=50 {return false}
 }
+if slot=26 {
+if hud.perk_lvl_limitbreak>=999 {return false}
+}
 
 return true
 }

@@ -50,6 +50,7 @@ show_msg=""
 show_msg_alpha=0
 day_damage_check=0
 have_clover=0
+limitbreak=0
 
 chest_coin_cooldown = 0
 store.gold = 0
@@ -184,6 +185,7 @@ perk_lvl_tutor=0
 perk_lvl_forager=0
 perk_lvl_sideweapon=0
 perk_lvl_bossslayer=0
+perk_lvl_limitbreak=0
 
 //Other
 if store.start_max_speed = 1 {store.game_speed = max_gamespeed} else {store.game_speed = 1}

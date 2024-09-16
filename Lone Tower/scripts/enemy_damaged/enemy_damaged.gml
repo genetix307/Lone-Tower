@@ -2,6 +2,12 @@ function enemy_damaged(log_name, knockback_on, critical_on){
 instance_create_depth(x,y,depth-10,blood_splatter)
 audio_play_sound(sfx_enemy_hit,1,false)
 show_damaged = 1
+var tmpDamage=0
+
+//Limit Break
+if hud.perk_lvl_limitbreak>0 and hud.limitbreak=10 {
+tmpDamage+=hud.perk_lvl_limitbreak*25
+}
 
 //Boss Slayer
 tmp_boss_damage=0
@@ -19,10 +25,10 @@ check_critgold()
 }
 else 
 {
-if store.fate = 20 and flying =1 {myHP -= (hud.attack_damage+tmp_boss_damage)*1.5; instance_create_depth(x,y-16,depth,show_damage).myDamage = (hud.attack_damage+tmp_boss_damage)*1.5}
+if store.fate = 20 and flying =1 {myHP -= (hud.attack_damage+tmp_boss_damage+tmpDamage)*1.5; instance_create_depth(x,y-16,depth,show_damage).myDamage = (hud.attack_damage+tmp_boss_damage+tmpDamage)*1.5}
 else {
-myHP -= hud.attack_damage+tmp_boss_damage
-instance_create_depth(x,y-8,depth,show_damage).myDamage = hud.attack_damage+tmp_boss_damage
+myHP -= hud.attack_damage+tmp_boss_damage+tmpDamage
+instance_create_depth(x,y-8,depth,show_damage).myDamage = hud.attack_damage+tmp_boss_damage+tmpDamage
 }
 }
 

@@ -96,5 +96,8 @@ hud.perk_lvl_sideweapon+=1
 if my_id=25 {
 hud.perk_lvl_bossslayer+=1
 }
+if my_id=26 {
+hud.perk_lvl_limitbreak+=1
+}
 
 }
