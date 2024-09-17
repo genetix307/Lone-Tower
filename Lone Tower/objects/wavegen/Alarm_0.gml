@@ -20,7 +20,7 @@ var spawnArmorSkeleton = 1 + round(tier/8) +(7*hud.lure)
 repeat(spawnArmorSkeleton) {
     var dir = random_range(0, 359);
     var distance = random_range(300, 300+distanceArmorSkeleton);
-    if store.current_wave > 20 or hud.lure > 0 {instance_create_depth(x + lengthdir_x(distance, dir), y + lengthdir_y(distance, dir),0,enemy_armored_skeleton);}
+    if store.current_wave > 20 or hud.lure > 0 or store.best_day_tier1>100 {instance_create_depth(x + lengthdir_x(distance, dir), y + lengthdir_y(distance, dir),0,enemy_armored_skeleton);}
 }
 
 //Gen Spiders

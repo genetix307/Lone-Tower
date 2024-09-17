@@ -131,7 +131,7 @@ store.gold += 5+(store.card_lvl_inheritance*25)
 
 if store.card_slot_1 = 3 or store.card_slot_2 = 3 or store.card_slot_3 = 3 or store.card_slot_4 = 3 //Heartpiece
 {
-hud.tower_maxhp += round(((store.card_lvl_heartpiece*5+20)/100)*hud.tower_maxhp) hud.tower_hp = hud.tower_maxhp hud.regen +=store.card_lvl_heartpiece*.1
+hud.tower_maxhp += round(store.card_lvl_heartpiece*25) hud.tower_hp = hud.tower_maxhp hud.regen +=store.card_lvl_heartpiece*.1
 }
 
 if store.card_slot_1 = 8 or store.card_slot_2 = 8 or store.card_slot_3 = 8 or store.card_slot_4 = 8 //Critical Gold

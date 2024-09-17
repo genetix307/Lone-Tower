@@ -9,6 +9,7 @@ myDrop = 1 + hud.drop_bonus
 if store.tier=1 {
 myAttack = round(1+(store.current_wave/4)) +tower.difficulty_boost +waveGen.tier_level
 myHP = store.current_wave*3+waveGen.tier_level
+if store.best_day_tier1>100 {myAttack+=5}
 }
 if store.tier=2 {
 myAttack = round(2+(store.current_wave/4)) +tower.difficulty_boost +waveGen_tier2.tier_level

@@ -230,6 +230,7 @@
 	ini_write_real( "save1", "code_2024", store.code_2024);
 	ini_write_real( "save1", "code_fivestars", store.code_fivestars);
 	ini_write_real( "save1", "code_happyday", store.code_happyday);
+	ini_write_real( "save1", "code_falltime", store.code_falltime);
 	
 	//show_message("Game Saved")
 	ini_close();

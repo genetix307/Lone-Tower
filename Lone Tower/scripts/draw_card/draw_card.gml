@@ -25,7 +25,7 @@ draw_sprite(spr_card_art,1,x,y-28)
 draw_set_color(c_yellow)
 draw_text_ext(x-43,y-4,"Level "+calc_number(store.card_lvl_heartpiece),15,86)
 draw_set_color(c_white)
-draw_text_ext(x-43,y+8,"Increases Max Health by "+calc_number((store.card_lvl_heartpiece*5)+20)+"%. Regen +"+calc_number(store.card_lvl_heartpiece*.1),14,88)
+draw_text_ext(x-43,y+8,"Increases Max Health by "+calc_number(store.card_lvl_heartpiece*25)+". Regen +"+calc_number(store.card_lvl_heartpiece*.1),14,88)
 draw_set_color(c_yellow)
 draw_text(x+18,y+50,"x"+calc_number(store.card_heartpiece)) 
 if instance_number(btn_card_upgrade)>0 {if store.gems>=btn_card_upgrade.upgradeCost and store.card_heartpiece>=4{draw_sprite(spr_show_cardup,0,x+26,y-36)}}
