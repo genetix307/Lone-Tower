@@ -12,9 +12,9 @@ if store.current_wave>1 {
 store.gems+= store.current_wave*tier_bonus
 store.gems_earned+= store.current_wave*tier_bonus
 hud.gems_earned+= store.current_wave*tier_bonus
-store.gems+= round(hud.enemies_slain/100)*tier_bonus
-store.gems_earned+= round(hud.enemies_slain/100)*tier_bonus
-hud.gems_earned+= round(hud.enemies_slain/100)*tier_bonus
+store.gems+= round(hud.enemies_slain/50)*tier_bonus
+store.gems_earned+= round(hud.enemies_slain/50)*tier_bonus
+hud.gems_earned+= round(hud.enemies_slain/50)*tier_bonus
 }
 instance_create_depth(172,438,depth-20000,btn_home)	
 instance_create_depth(397,474,depth-20000,chest_endgame)	

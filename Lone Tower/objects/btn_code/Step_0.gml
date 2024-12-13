@@ -269,4 +269,13 @@ instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+strin
 save_game()
 }
 
+if myResult = "ratedfive" and store.code_ratedfive = 0
+{
+reward = 1000
+store.code_ratedfive = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
+
 image_index=store.color_scheme

@@ -157,7 +157,7 @@ if hud.perk_lvl_bossslayer=0 {isNew=1}
 }
 if my_id=26 {
 myHeader="Limit Break"
-myInfo="Every 10th Arrow +"+string((hud.perk_lvl_sideweapon+1)*25)+" damage"
+myInfo="Every 10th Arrow +"+string((hud.perk_lvl_limitbreak+1)*25)+" damage"
 myLevel="Level "+string(hud.perk_lvl_limitbreak)+">"+string(hud.perk_lvl_limitbreak+1)
 if hud.perk_lvl_limitbreak=0 {isNew=1}
 }

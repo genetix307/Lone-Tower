@@ -176,7 +176,7 @@ if gameover = 1 {
 	if enemies_slain <100000 {draw_text(cx+146,cy+315,"Kills: "+calc_number(enemies_slain))} else {draw_text(cx+146,cy+315,"Kills: "+calc_number(floor(enemies_slain/1000))+"K")}
 	draw_set_color(c_yellow)
 	draw_text(cx+259,cy+290,"+"+calc_number(store.current_wave*tier_bonus)+" Gems")
-	draw_text(cx+259,cy+315,"+"+calc_number(round(hud.enemies_slain/100)*tier_bonus)+" Gems")
+	draw_text(cx+259,cy+315,"+"+calc_number(round(hud.enemies_slain/50)*tier_bonus)+" Gems")
 	draw_text(cx+160,cy+347,"Gems Earned: "+calc_number(gems_earned))
 	draw_set_color(c_lime)
 	draw_text(cx+102,cy+382,"The battle may have been lost,\nbut the war is not yet over!")

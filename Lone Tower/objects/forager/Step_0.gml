@@ -9,7 +9,7 @@ speed = .25*store.game_speed+.5
 image_speed=.5 mp_potential_step_object(tower.x,tower.y,speed,default_solid)
 } 
 
-if instance_number(mushrooms)>0 {
+if instance_number(mushrooms)>0 and instance_number(crop_pointer)=0 {
 speed = .25*store.game_speed
 image_speed=.5 mp_potential_step_object(instance_nearest(x,y,mushrooms).x,instance_nearest(x,y,mushrooms).y,speed+.35,default_solid)
 } 
