@@ -21,6 +21,12 @@ store.gold += store.card_lvl_inheritance*5
 store.gold_earned += store.card_lvl_inheritance*5
 }
 
+//Spawn Chicken
+if 5>random(100) {instance_create_depth(-32,444,depth,chicken_bird)}
+
+//Spawn Wisdom Mushroom
+if 5>random(100) {instance_create_depth(-32,444,depth,mushroom_wisdom)}
+
 //Evil Creed Card
 if store.card_slot_1 = 14 or store.card_slot_2 = 14 or store.card_slot_3 = 14 or store.card_slot_4 = 14
 {

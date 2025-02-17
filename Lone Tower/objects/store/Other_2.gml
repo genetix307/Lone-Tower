@@ -9,7 +9,7 @@ current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.66"
+version = "1.67"
 devMode =0
 devMode_held=0
 ads_watched=0
@@ -280,6 +280,7 @@ code_fivestars=0
 code_happyday=0
 code_falltime=0
 code_ratedfive=0
+code_allstar=0
 
 //Endless Use Codes
 code_blood=0

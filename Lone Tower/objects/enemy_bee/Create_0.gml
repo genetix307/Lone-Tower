@@ -2,7 +2,7 @@
 image_speed = 1
 
 //Base Stats
-baseSpeed = 1.1
+baseSpeed = 1.2
 mySpeed = 0
 myAttack = round(2+(store.current_wave/5))
 myDrop = 1 + hud.drop_bonus

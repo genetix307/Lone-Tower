@@ -233,6 +233,7 @@ function load_game() {
 	store.code_happyday= ini_read_real( "save1", "code_happyday",store.code_happyday);
 	store.code_falltime= ini_read_real( "save1", "code_falltime",store.code_falltime);
 	store.code_ratedfive= ini_read_real( "save1", "code_ratedfive",store.code_ratedfive);
+	store.code_allstar= ini_read_real( "save1", "code_allstar",store.code_allstar);
 	
 	//show_message("Game Loaded")
 	ini_close();

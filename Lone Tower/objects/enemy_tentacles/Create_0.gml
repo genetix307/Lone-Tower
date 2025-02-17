@@ -2,7 +2,7 @@
 image_speed = 1
 
 //Base Stats
-baseSpeed = .3
+baseSpeed = .28
 mySpeed = 0
 myAttack = round(94+(store.current_wave/4))+tower.difficulty_boost
 myDrop = 25 + hud.drop_bonus
