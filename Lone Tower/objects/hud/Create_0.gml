@@ -8,14 +8,18 @@ repeat 150 instance_create_depth(x,y,85,grass)
 repeat 4 instance_create_depth(x,y,84,mushrooms)
 depth = -2000
 alarm[0] = 60 //Regen
+alarm[1]=180 //First tutorial
 audio_stop_all()
 currentBGM=choose(bgm_maingame,bgm_maingame_2)
 audio_play_sound(currentBGM,1,true)
 revive_buffer=0
+tutorial=""
+current_tutorial=0
+show_tutorial=0
 
 level=1
 xp=0
-next_level=100
+next_level=35
 paused = 0
 winter = 0
 wind_speed=round(3+random(7))

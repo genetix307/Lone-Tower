@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_spiderboss_death",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ab80dc3a-d436-4cf8-a37d-865833341924","name":"ab80dc3a-d436-4cf8-a37d-865833341924","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"829092b1-9423-4e9a-9850-0b1df1a77392","name":"829092b1-9423-4e9a-9850-0b1df1a77392","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"79c72d45-f353-4f77-92d9-0e40fd520344","name":"79c72d45-f353-4f77-92d9-0e40fd520344","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a24f18de-fb24-441a-b42b-ddd88a58eb4b","name":"a24f18de-fb24-441a-b42b-ddd88a58eb4b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d949b543-7b5f-4415-ae46-2da4441d1ed1","name":"d949b543-7b5f-4415-ae46-2da4441d1ed1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ab80dc3a-d436-4cf8-a37d-865833341924","name":"ab80dc3a-d436-4cf8-a37d-865833341924","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"829092b1-9423-4e9a-9850-0b1df1a77392","name":"829092b1-9423-4e9a-9850-0b1df1a77392","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"79c72d45-f353-4f77-92d9-0e40fd520344","name":"79c72d45-f353-4f77-92d9-0e40fd520344","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a24f18de-fb24-441a-b42b-ddd88a58eb4b","name":"a24f18de-fb24-441a-b42b-ddd88a58eb4b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d949b543-7b5f-4415-ae46-2da4441d1ed1","name":"d949b543-7b5f-4415-ae46-2da4441d1ed1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -36,7 +36,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_spiderboss_death",
     "autoRecord":true,
     "backdropHeight":768,
@@ -72,21 +72,11 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab80dc3a-d436-4cf8-a37d-865833341924","path":"sprites/spr_spiderboss_death/spr_spiderboss_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"35c32031-a915-417e-a5a0-74d27f48e40c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"829092b1-9423-4e9a-9850-0b1df1a77392","path":"sprites/spr_spiderboss_death/spr_spiderboss_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2e926954-bcb0-47fd-8f2f-ad588670e0ad","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"79c72d45-f353-4f77-92d9-0e40fd520344","path":"sprites/spr_spiderboss_death/spr_spiderboss_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"48846625-7f26-4c84-ad71-291c19a22486","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a24f18de-fb24-441a-b42b-ddd88a58eb4b","path":"sprites/spr_spiderboss_death/spr_spiderboss_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4aa6b723-aed7-4146-a91b-a9a1c40f32ac","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d949b543-7b5f-4415-ae46-2da4441d1ed1","path":"sprites/spr_spiderboss_death/spr_spiderboss_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"24941857-5bc1-4849-89a0-e81d851814a8","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab80dc3a-d436-4cf8-a37d-865833341924","path":"sprites/spr_spiderboss_death/spr_spiderboss_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"35c32031-a915-417e-a5a0-74d27f48e40c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"829092b1-9423-4e9a-9850-0b1df1a77392","path":"sprites/spr_spiderboss_death/spr_spiderboss_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2e926954-bcb0-47fd-8f2f-ad588670e0ad","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"79c72d45-f353-4f77-92d9-0e40fd520344","path":"sprites/spr_spiderboss_death/spr_spiderboss_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"48846625-7f26-4c84-ad71-291c19a22486","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a24f18de-fb24-441a-b42b-ddd88a58eb4b","path":"sprites/spr_spiderboss_death/spr_spiderboss_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4aa6b723-aed7-4146-a91b-a9a1c40f32ac","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d949b543-7b5f-4415-ae46-2da4441d1ed1","path":"sprites/spr_spiderboss_death/spr_spiderboss_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"24941857-5bc1-4849-89a0-e81d851814a8","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

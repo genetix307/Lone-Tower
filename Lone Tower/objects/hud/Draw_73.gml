@@ -119,6 +119,16 @@ draw_text_ext(90,190,show_msg,20,320)
 draw_set_alpha(1)
 }
 
+//Show Tutorial
+if show_tutorial>0 {
+draw_set_alpha(show_tutorial)
+draw_rectangle_color(30,100,450,190,c_blue,c_blue,c_navy,c_navy,false)
+draw_rectangle_color(30,100,450,190,c_white,c_white,c_silver,c_silver,true)
+draw_set_font(font_upgrades)
+draw_text_ext_color(36,106,tutorial,26,404,c_white,c_white,c_silver,c_silver,show_tutorial)
+draw_set_alpha(1)
+}
+
 //Show Logs
 if store.show_log = 0 
 {

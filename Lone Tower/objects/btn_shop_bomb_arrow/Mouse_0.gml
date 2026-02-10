@@ -10,6 +10,7 @@ instance_create_depth(x-12,y-12,depth-1000,effect_upgrade)
 if (store.challenge_a=9 or store.challenge_b=9 or store.challenge_c=9) and store.goal_shopper <2+(store.lvl_shopper)
 		{
 		store.goal_shopper+=1
+		if store.goal_shopper>=2+(store.lvl_shopper) {store.challenge_flag=1}
 		}
 		
 }

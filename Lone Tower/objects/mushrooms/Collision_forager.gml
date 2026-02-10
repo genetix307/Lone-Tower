@@ -17,6 +17,7 @@ instance_create_depth(x,y,depth,xp_orb_green)
 if (store.challenge_a=10 or store.challenge_b=10 or store.challenge_c=10) and store.goal_mushroom <15+(5*store.lvl_mushroom)
 		{
 		store.goal_mushroom+=1
+		if store.goal_mushroom>=15+(5*store.lvl_mushroom) {store.challenge_flag=1}
 		}
 
 instance_destroy()

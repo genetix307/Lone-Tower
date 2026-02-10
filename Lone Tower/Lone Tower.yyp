@@ -1,8 +1,8 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Lone Tower",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -42,6 +42,7 @@
     {"$GMFolder":"","%Name":"NPC","folderPath":"folders/Objects/NPC.yy","name":"NPC","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ally","folderPath":"folders/Objects/NPC/Ally.yy","name":"Ally","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"NPC_EFFECTS","folderPath":"folders/Objects/NPC/NPC_EFFECTS.yy","name":"NPC_EFFECTS","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Story","folderPath":"folders/Objects/Story.yy","name":"Story","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"System","folderPath":"folders/Objects/System.yy","name":"System","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Defaults","folderPath":"folders/Objects/System/Defaults.yy","name":"Defaults","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -67,6 +68,16 @@
     {"$GMFolder":"","%Name":"DarkWizard","folderPath":"folders/Sprites/NPC/DarkWizard.yy","name":"DarkWizard","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"NPC_EFFECTS","folderPath":"folders/Sprites/NPC/NPC_EFFECTS.yy","name":"NPC_EFFECTS","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_effect_windblown_particles-1.0.0","name":"io.gamemaker.gm_effect_windblown_particles-1.0.0","path":"io.gamemaker.gm_effect_windblown_particles-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_vignette-1.0.0","name":"io.gamemaker.gm_filter_vignette-1.0.0","path":"io.gamemaker.gm_filter_vignette-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_colourise-1.0.0","name":"io.gamemaker.gm_filter_colourise-1.0.0","path":"io.gamemaker.gm_filter_colourise-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_tintfilter-1.0.0","name":"io.gamemaker.gm_filter_tintfilter-1.0.0","path":"io.gamemaker.gm_filter_tintfilter-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_heathaze-1.0.0","name":"io.gamemaker.gm_filter_heathaze-1.0.0","path":"io.gamemaker.gm_filter_heathaze-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_underwater-1.0.0","name":"io.gamemaker.gm_filter_underwater-1.0.0","path":"io.gamemaker.gm_filter_underwater-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_fractal_noise-1.0.0","name":"io.gamemaker.gm_filter_fractal_noise-1.0.0","path":"io.gamemaker.gm_filter_fractal_noise-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_colour_balance-1.0.0","name":"io.gamemaker.gm_filter_colour_balance-1.0.0","path":"io.gamemaker.gm_filter_colour_balance-1.0.0.yyp",},
+  ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"AdMob Extension.docx","CopyToMask":-1,"filePath":"datafiles","name":"AdMob Extension.docx","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"AdMob Extension.pdf","CopyToMask":-1,"filePath":"datafiles","name":"AdMob Extension.pdf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -74,7 +85,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"Lone Tower",
   "resources":[

@@ -60,12 +60,13 @@ if instance_number(supply_crate) = 0 and hud.supplydrop_chance>random(100) {inst
 if 5>random(100) {instance_create_depth(-32,444,depth,chicken_bird)}
 
 //Spawn Wisdom Mushroom
-if 5>random(100) {instance_create_depth(-32,444,depth,mushroom_wisdom)}
+if 5>random(100) and store.current_wave>15 {instance_create_depth(-32,444,depth,mushroom_wisdom)}
 
 //Survivor Quick Challenge
 if (store.challenge_a=3 or store.challenge_b=3 or store.challenge_c=3) and store.goal_survivor <40+(10*store.lvl_survivor)
 		{
 		store.goal_survivor+=1
+		if store.goal_survivor>=40+(10*store.lvl_survivor) {store.challenge_flag=1}
 		}
 
 //Fates

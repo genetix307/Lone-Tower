@@ -29,6 +29,7 @@ function load_game() {
 	store.challenge_a = ini_read_real( "save1", "challenge_a",store.challenge_a);
 	store.challenge_b = ini_read_real( "save1", "challenge_b",store.challenge_b);
 	store.challenge_c = ini_read_real( "save1", "challenge_c",store.challenge_c);
+	store.challenge_flag=ini_read_real( "save1", "challenge_flag",store.challenge_flag);
 	store.goal_dragon = ini_read_real( "save1", "goal_dragon",store.goal_dragon);
 	store.goal_skeleton = ini_read_real( "save1", "goal_skeleton",store.goal_skeleton);
 	store.goal_collector = ini_read_real( "save1", "goal_collector",store.goal_collector);

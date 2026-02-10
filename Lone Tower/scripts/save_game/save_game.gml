@@ -95,6 +95,7 @@
 	ini_write_real( "save1", "gold_earned", store.gold_earned);
 	ini_write_real( "save1", "total_upgrades", store.total_upgrades);
 	ini_write_real( "save1", "challenges", store.challenges);
+	ini_write_real( "save1", "challenge_flag", store.challenge_flag);
 	ini_write_real( "save1", "crops_harvested", store.crops_harvested);
 	ini_write_real( "save1", "mushrooms_harvested", store.mushrooms_harvested);
 	ini_write_real( "save1", "crates_opened", store.crates_opened);

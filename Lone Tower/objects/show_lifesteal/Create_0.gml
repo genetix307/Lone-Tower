@@ -7,6 +7,7 @@ log_rotate(c_white,"Lifesteal!")
 if (store.challenge_a=7 or store.challenge_b=7 or store.challenge_c=7) and store.goal_blood <15+(5*store.lvl_blood)
 	{
 	store.goal_blood+=1
+	if store.goal_blood>=15+(5*store.lvl_blood) {store.challenge_flag=1}
 	}
 	
 if store.effects=0 {instance_destroy()}

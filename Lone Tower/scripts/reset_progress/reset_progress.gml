@@ -45,20 +45,33 @@ store.goal_shopper = 0
 store.goal_mushroom = 0
 store.goal_baiter = 0
 store.goal_pest = 0
+store.lvl_dragon = 1
+store.lvl_skeleton = 1
+store.lvl_collector = 1
+store.lvl_survivor = 1
+store.lvl_headshot = 1
+store.lvl_icecold = 1
+store.lvl_farmer = 1
+store.lvl_blood = 1
+store.lvl_heal = 1
+store.lvl_shopper = 1
+store.lvl_mushroom = 1
+store.lvl_baiter = 1
+store.lvl_pest = 1
 
 //Items
 store.bomb_arrows = 200
 store.ice_arrows = 200
 store.smoke_arrows = 200
-store.crop_seeds = 200
+store.crop_seeds = 500
 store.poison_arrows = 0
-store.potion = 2
-store.megapotion = 0
+store.potion = 3
+store.megapotion = 1
 store.monsterlure = 0
-store.shockwave_bomb = 0
-store.focuspill = 0
+store.shockwave_bomb = 3
+store.focuspill = 1
 store.heavy_arrows=200
-store.chicken=0
+store.chicken=1
 store.vampirefang=1
 
 //Statistics
@@ -85,6 +98,7 @@ store.gold_earned = 0
 store.total_upgrades = 0
 store.event_wagons = 0
 store.challenges = 0
+store.challenge_flag=0
 store.crops_harvested = 0
 store.mushrooms_harvested = 0
 store.crates_opened=0

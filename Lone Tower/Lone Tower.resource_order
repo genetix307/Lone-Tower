@@ -2,6 +2,7 @@
   "FolderOrderSettings":[
     {"name":"Fonts","order":1,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Story","order":1,"path":"folders/Objects/Story.yy",},
     {"name":"Rooms","order":3,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Draw","order":27,"path":"folders/Scripts/Draw.yy",},

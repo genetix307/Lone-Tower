@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_darkvengeance_death",
   "bboxMode":0,
   "bbox_bottom":120,
@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"612d6fe9-bbde-44e6-8079-40837133f311","name":"612d6fe9-bbde-44e6-8079-40837133f311","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6a31d198-e712-497c-b512-1a75533eda65","name":"6a31d198-e712-497c-b512-1a75533eda65","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"59da37f3-fe3d-40e2-a6c5-e45565e3bd75","name":"59da37f3-fe3d-40e2-a6c5-e45565e3bd75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6b36345b-0e50-4c79-acdd-0809a9fbcd6a","name":"6b36345b-0e50-4c79-acdd-0809a9fbcd6a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"76c33dcb-32f5-41ff-aabe-7e1d7063d609","name":"76c33dcb-32f5-41ff-aabe-7e1d7063d609","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"57dfb165-1e68-4352-b4fc-2c60277cf38d","name":"57dfb165-1e68-4352-b4fc-2c60277cf38d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"40d5dedf-8963-4c7d-9f32-74d8cd3dc3f0","name":"40d5dedf-8963-4c7d-9f32-74d8cd3dc3f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"03900584-429e-4c22-a0ba-63ff3d710a22","name":"03900584-429e-4c22-a0ba-63ff3d710a22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"405ab700-80ae-421f-9fdd-fa648847f870","name":"405ab700-80ae-421f-9fdd-fa648847f870","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bac7c591-6cb7-4286-8bbd-6ca8b459fcfa","name":"bac7c591-6cb7-4286-8bbd-6ca8b459fcfa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9d4b3e34-9d74-4309-8b3c-0555f9b6c22c","name":"9d4b3e34-9d74-4309-8b3c-0555f9b6c22c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"16478a1a-a3b5-4832-88af-1483f69004f7","name":"16478a1a-a3b5-4832-88af-1483f69004f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"612d6fe9-bbde-44e6-8079-40837133f311","name":"612d6fe9-bbde-44e6-8079-40837133f311","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6a31d198-e712-497c-b512-1a75533eda65","name":"6a31d198-e712-497c-b512-1a75533eda65","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59da37f3-fe3d-40e2-a6c5-e45565e3bd75","name":"59da37f3-fe3d-40e2-a6c5-e45565e3bd75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6b36345b-0e50-4c79-acdd-0809a9fbcd6a","name":"6b36345b-0e50-4c79-acdd-0809a9fbcd6a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"76c33dcb-32f5-41ff-aabe-7e1d7063d609","name":"76c33dcb-32f5-41ff-aabe-7e1d7063d609","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"57dfb165-1e68-4352-b4fc-2c60277cf38d","name":"57dfb165-1e68-4352-b4fc-2c60277cf38d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"40d5dedf-8963-4c7d-9f32-74d8cd3dc3f0","name":"40d5dedf-8963-4c7d-9f32-74d8cd3dc3f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"03900584-429e-4c22-a0ba-63ff3d710a22","name":"03900584-429e-4c22-a0ba-63ff3d710a22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"405ab700-80ae-421f-9fdd-fa648847f870","name":"405ab700-80ae-421f-9fdd-fa648847f870","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bac7c591-6cb7-4286-8bbd-6ca8b459fcfa","name":"bac7c591-6cb7-4286-8bbd-6ca8b459fcfa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9d4b3e34-9d74-4309-8b3c-0555f9b6c22c","name":"9d4b3e34-9d74-4309-8b3c-0555f9b6c22c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"16478a1a-a3b5-4832-88af-1483f69004f7","name":"16478a1a-a3b5-4832-88af-1483f69004f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -43,7 +43,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_darkvengeance_death",
     "autoRecord":true,
     "backdropHeight":768,
@@ -79,42 +79,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"612d6fe9-bbde-44e6-8079-40837133f311","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"03d0071d-3072-4aa2-8b7f-674ef580ae2e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a31d198-e712-497c-b512-1a75533eda65","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e8cb6c2b-a65f-4c71-a29b-f614c702418c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59da37f3-fe3d-40e2-a6c5-e45565e3bd75","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7c8353ab-8fd2-4153-b80e-2d127ab00973","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6b36345b-0e50-4c79-acdd-0809a9fbcd6a","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"52656eb1-99d9-4d04-9b83-9c9e59227430","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"76c33dcb-32f5-41ff-aabe-7e1d7063d609","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4ba40eca-7499-4a09-a7dc-cd51d60574a5","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"57dfb165-1e68-4352-b4fc-2c60277cf38d","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d87db396-0d05-4a52-b6a1-469093ff1e6e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40d5dedf-8963-4c7d-9f32-74d8cd3dc3f0","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a30a0400-7a24-4880-a1a5-2478727dbcec","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"03900584-429e-4c22-a0ba-63ff3d710a22","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"52079549-7982-4c46-a8b8-70e34d76399f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"405ab700-80ae-421f-9fdd-fa648847f870","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fadc3227-0b63-4b80-9da2-2b0b393de16b","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bac7c591-6cb7-4286-8bbd-6ca8b459fcfa","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b2f03e98-737f-414f-921d-aa0d80e63e10","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d4b3e34-9d74-4309-8b3c-0555f9b6c22c","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e647717d-a50b-4d74-bae7-a942f33fb325","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"16478a1a-a3b5-4832-88af-1483f69004f7","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"738376f2-9149-4427-bdb6-e4374384a470","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"612d6fe9-bbde-44e6-8079-40837133f311","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"03d0071d-3072-4aa2-8b7f-674ef580ae2e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6a31d198-e712-497c-b512-1a75533eda65","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e8cb6c2b-a65f-4c71-a29b-f614c702418c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"59da37f3-fe3d-40e2-a6c5-e45565e3bd75","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7c8353ab-8fd2-4153-b80e-2d127ab00973","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6b36345b-0e50-4c79-acdd-0809a9fbcd6a","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"52656eb1-99d9-4d04-9b83-9c9e59227430","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"76c33dcb-32f5-41ff-aabe-7e1d7063d609","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4ba40eca-7499-4a09-a7dc-cd51d60574a5","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"57dfb165-1e68-4352-b4fc-2c60277cf38d","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d87db396-0d05-4a52-b6a1-469093ff1e6e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"40d5dedf-8963-4c7d-9f32-74d8cd3dc3f0","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a30a0400-7a24-4880-a1a5-2478727dbcec","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"03900584-429e-4c22-a0ba-63ff3d710a22","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"52079549-7982-4c46-a8b8-70e34d76399f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"405ab700-80ae-421f-9fdd-fa648847f870","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fadc3227-0b63-4b80-9da2-2b0b393de16b","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bac7c591-6cb7-4286-8bbd-6ca8b459fcfa","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b2f03e98-737f-414f-921d-aa0d80e63e10","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d4b3e34-9d74-4309-8b3c-0555f9b6c22c","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e647717d-a50b-4d74-bae7-a942f33fb325","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"16478a1a-a3b5-4832-88af-1483f69004f7","path":"sprites/spr_darkvengeance_death/spr_darkvengeance_death.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"738376f2-9149-4427-bdb6-e4374384a470","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -28,6 +28,7 @@ if store.fate = 9 {grow_days-=3}
 if (store.challenge_a=6 or store.challenge_b=6 or store.challenge_c=6) and store.goal_farmer <45+(5*store.lvl_farmer)
 		{
 		store.goal_farmer+=1
+		if store.goal_farmer>=45+(5*store.lvl_farmer) {store.challenge_flag=1}
 		}
 		
 exit
@@ -62,6 +63,7 @@ if store.fate = 9 {grow_days-=3}
 if (store.challenge_a=6 or store.challenge_b=6 or store.challenge_c=6) and store.goal_farmer <60
 		{
 		store.goal_farmer+=1
+		if store.goal_farmer>=60+(store.lvl_farmer) {store.challenge_flag=1}
 		}
 		
 exit

@@ -24,6 +24,7 @@ if fury_active > 0 {fury_active -=round(1*store.game_speed) fury_meter = 0}
 if show_msg_alpha>0 {show_msg_alpha-=.01*store.game_speed}
 if shockwave_used>0 {shockwave_used-=1*store.game_speed}
 if revive_buffer>0 {revive_buffer-=1}
+if show_tutorial>0 {show_tutorial-=.005}
 
 //Day Cycle
 if instance_number(default_enemy) >= day_enemy_count/2.75 {day_cycle = 1}
