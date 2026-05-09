@@ -226,7 +226,7 @@ save_game()
 }
 if myResult = "2024" and store.code_2024 = 0
 {
-reward = 2024
+reward = 240
 store.code_2024 = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
@@ -254,7 +254,7 @@ instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Duck Mode Active
 }
 if myResult = "happyday" and store.code_happyday = 0
 {
-reward = 500
+reward = 400
 store.code_happyday = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
@@ -262,7 +262,7 @@ save_game()
 }
 if myResult = "falltime" and store.code_falltime = 0
 {
-reward = 500
+reward = 200
 store.code_falltime = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
@@ -271,7 +271,7 @@ save_game()
 
 if myResult = "ratedfive" and store.code_ratedfive = 0
 {
-reward = 1000
+reward = 500
 store.code_ratedfive = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
@@ -282,6 +282,15 @@ if myResult = "allstar" and store.code_allstar = 0
 {
 reward = 777
 store.code_allstar = 1
+store.gems += reward
+instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
+save_game()
+}
+
+if myResult = "simple" and store.code_simple = 0
+{
+reward = 300
+store.code_simple = 1
 store.gems += reward
 instance_create_depth(x,y-8,depth-1000,show_reward).myReward = "Rewarded "+string(reward)+" Gems!"
 save_game()

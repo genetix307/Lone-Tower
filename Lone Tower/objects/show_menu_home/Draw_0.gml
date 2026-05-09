@@ -2,18 +2,25 @@
 
 draw_sprite(spr_battle_menu_backdrop,0,94,218)
 
+//Steam banner
+if store.best_day_tier1>33 {
+draw_set_color(c_red)
+draw_text(102,88,"Lone Tower is coming to Steam!")
+}
+
+
 draw_set_font(font_med_hud)
 if store.tier=1 {
 draw_set_color(c_white)
-draw_text(182,291,"Best Day: "+calc_number(store.best_day_tier1))
+draw_text(182,305,"Best Day: "+calc_number(store.best_day_tier1))
 }
 if store.tier=2 {
 draw_set_color(c_white)
-draw_text(182,291,"Best Day: "+calc_number(store.best_day_tier2))
+draw_text(182,305,"Best Day: "+calc_number(store.best_day_tier2))
 }
 if store.tier=3 {
 draw_set_color(c_white)
-draw_text(182,291,"Best Day: "+calc_number(store.best_day_tier3))
+draw_text(182,305,"Best Day: "+calc_number(store.best_day_tier3))
 }
 
 draw_text(160,480,"Quick Challenges") 
@@ -21,7 +28,7 @@ draw_set_color(c_white)
 if store.tier=1 {tier_bonus=1}
 if store.tier=2 {tier_bonus=10}
 if store.tier=3 {tier_bonus=100}
-draw_text(176,317,"Gem Bonus x"+calc_number(tier_bonus))
+draw_text(176,328,"Gem Bonus x"+calc_number(tier_bonus))
 
 draw_set_font(font_stats)
 draw_set_color(c_silver)

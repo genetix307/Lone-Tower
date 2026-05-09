@@ -5,6 +5,7 @@ function load_game() {
 	//Misc
 	store.gems = ini_read_real( "save1", "gems",store.gems);
 	store.bonus_discord = ini_read_real( "save1", "bonus_discord",store.bonus_discord);
+	store.button_reddit = ini_read_real( "save1", "button_reddit",store.button_reddit);
 	store.show_log = ini_read_real( "save1", "show_log",store.show_log);
 	store.tier = ini_read_real( "save1", "tier",store.tier);
 	store.secrets = ini_read_real( "save1", "secrets",store.secrets);
@@ -235,6 +236,7 @@ function load_game() {
 	store.code_falltime= ini_read_real( "save1", "code_falltime",store.code_falltime);
 	store.code_ratedfive= ini_read_real( "save1", "code_ratedfive",store.code_ratedfive);
 	store.code_allstar= ini_read_real( "save1", "code_allstar",store.code_allstar);
+	store.code_simple= ini_read_real( "save1", "code_simple",store.code_simple);
 	
 	//show_message("Game Loaded")
 	ini_close();

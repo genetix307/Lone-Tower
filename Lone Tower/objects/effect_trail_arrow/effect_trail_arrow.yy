@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"btn_tier",
+  "%Name":"effect_trail_arrow",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"btn_tier",
+  "name":"effect_trail_arrow",
   "overriddenProperties":[],
   "parent":{
-    "name":"MenuTabs",
-    "path":"folders/Objects/Menu/MenuTabs.yy",
+    "name":"Effects",
+    "path":"folders/Objects/Effects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"btn_small_tab",
-    "path":"sprites/btn_small_tab/btn_small_tab.yy",
+    "name":"spr_effect_whoosh",
+    "path":"sprites/spr_effect_whoosh/spr_effect_whoosh.yy",
   },
   "spriteMaskId":null,
   "visible":true,

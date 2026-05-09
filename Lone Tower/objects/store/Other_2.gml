@@ -9,7 +9,7 @@ current_wave = 1
 current_fate = ""
 show_detail = 0
 detail = 0
-version = "1.70"
+version = "1.71"
 devMode =0
 devMode_held=0
 ads_watched=0
@@ -26,6 +26,7 @@ auto_perk=0
 fast_mode=0
 color_scheme=1
 effects=1
+button_reddit=0
 
 //Challenges
 challenge_a = 1
@@ -282,6 +283,7 @@ code_happyday=0
 code_falltime=0
 code_ratedfive=0
 code_allstar=0
+code_simple=0
 
 //Endless Use Codes
 code_blood=0

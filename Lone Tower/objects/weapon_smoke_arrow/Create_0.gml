@@ -4,6 +4,7 @@ image_angle = direction
 multishot = 0
 alarm[1] = 3
 alarm[2]=5
+alarm[0]=3
 image_alpha = 0
 store.smoke_arrows -= 1
 

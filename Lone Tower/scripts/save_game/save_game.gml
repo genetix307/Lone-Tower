@@ -5,6 +5,7 @@
 	//Misc
 	ini_write_real( "save1", "gems", store.gems);
 	ini_write_real( "save1", "bonus_discord", store.bonus_discord);
+	ini_write_real( "save1", "button_reddit", store.button_reddit);
 	ini_write_real( "save1", "show_log", store.show_log);
 	ini_write_real( "save1", "tier", store.tier);
 	ini_write_real( "save1", "secrets", store.secrets);
@@ -234,6 +235,7 @@
 	ini_write_real( "save1", "code_falltime", store.code_falltime);
 	ini_write_real( "save1", "code_ratedfive", store.code_ratedfive);
 	ini_write_real( "save1", "code_allstar", store.code_allstar);
+	ini_write_real( "save1", "code_simple", store.code_simple);
 	
 	//show_message("Game Saved")
 	ini_close();

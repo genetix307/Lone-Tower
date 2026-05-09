@@ -8,3 +8,7 @@ draw_text(x+26,y+6,myName)
 draw_set_font(font_small_med)
 draw_set_color(c_white)
 draw_text(x+9,y+28,myStage)
+
+if store.tier=1 {
+draw_text_color(x-9,y+51,"World Rank: "+string(showRank),c_fuchsia,c_fuchsia,c_purple,c_purple,1)
+}

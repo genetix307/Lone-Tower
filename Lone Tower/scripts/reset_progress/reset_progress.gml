@@ -4,6 +4,7 @@ function reset_progress(){
 //Misc
 store.gold = 0
 store.gems = 0
+store.button_reddit=0
 store.bonus_discord = 0
 store.show_log = 0
 store.tier = 1
@@ -243,6 +244,7 @@ store.code_happyday=0
 store.code_falltime=0
 store.code_ratedfive=0
 store.code_allstar=0
+store.code_simple=0
 
 //Regain Ad Gems
 store.gems += store.ad_gems
